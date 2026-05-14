@@ -1,5 +1,5 @@
 ---
-title: "Roadmap Kesin Plan Olarak Görülür"
+title: "Yol Haritası Kesin Plan Olarak Görülür"
 sidebar:
   hidden: true
 ---

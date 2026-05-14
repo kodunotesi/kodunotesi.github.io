@@ -1,5 +1,5 @@
 ---
-title: "3.4 “Yazılım Ekibi Direnç Gösteriyor”"
+title: "3.4 \"Yazılım Ekibi Direnç Gösteriyor\""
 ---
 
 Yazılım ekiplerinin değişiklik taleplerine temkinli yaklaşması organizasyon içinde çoğu zaman "direnç" olarak yorumlanır. Özellikle teslim baskısının yüksek olduğu ortamlarda, ek doğrulama süresi isteyen, risk vurgulayan veya kontrollü geçiş öneren ekipler; işi yavaşlatan taraf gibi görünmeye başlayabilir.
@@ -8,7 +8,7 @@ Ancak burada çoğu zaman önemli bir yorum hatası vardır: yazılım ekiplerin
 
 Bu fark görünür olmadığında teknik temkin davranışı kolayca isteksizlik, bürokrasi veya değişime kapalılık şeklinde yorumlanır. Böylece teknik risk yönetimi davranışı zamanla kişisel niyet tartışmasına dönüşür.
 
-"Direnç" etiketi bu nedenle organizasyon içinde güçlü etkiye sahiptir. Çünkü teknik tartışmayı davranış tartışmasına çevirir. Problem artık "risk nedir?"" sorusundan uzaklaşır ve "kim neden yavaşlatıyor?"" sorusuna dönüşür.
+"Direnç" etiketi bu nedenle organizasyon içinde güçlü etkiye sahiptir. Çünkü teknik tartışmayı davranış tartışmasına çevirir. Problem artık "risk nedir?" sorusundan uzaklaşır ve "kim neden yavaşlatıyor?" sorusuna dönüşür.
 
 Bu dönüşüm gerçekleştiğinde güven hızla aşınmaya başlar.
 
@@ -24,7 +24,7 @@ Oysa teknik ekip için aynı süre tamamen farklı bir anlama sahiptir. Bu süre
 
 Buradaki temel problem niyet farkı değil, görünürlük farkıdır.
 
-İş tarafı bugünkü gecikmeyi görür.Teknik ekip yarın yaşanabilecek arızayı görür. Bu iki maliyet aynı anda görünür hale getirilmediğinde, taraflar birbirinin davranışını irrasyonel yorumlamaya başlar.
+İş tarafı bugünkü gecikmeyi görür. Teknik ekip yarın yaşanabilecek arızayı görür. Bu iki maliyet aynı anda görünür hale getirilmediğinde, taraflar birbirinin davranışını irrasyonel yorumlamaya başlar.
 
 İnsanlar çoğu zaman karşı tarafın davranışını sistem koşullarıyla değil, kişisel niyetlerle açıklama eğilimindedir. Bu nedenle teknik bir temkin davranışı kolayca isteksizlik, sorumluluk almaktan kaçınma veya değişime kapalılık şeklinde yorumlanabilir.
 
@@ -133,7 +133,7 @@ Teknik ekip ise farklı bir risk görüyordu. Daha önce benzer bir acil değiş
 
 Toplantının ilerleyen bölümünde tartışma teknik içerikten uzaklaşmaya başladı.
 
-Operasyon tarafı: "Her değişiklikte neden bu kadar bekliyoruz?"" sorusunu sormaya başladı.
+Operasyon tarafı: "Her değişiklikte neden bu kadar bekliyoruz?" sorusunu sormaya başladı.
 
 Teknik ekip ise: "Geçmişte yaşanan kesintiyi tekrar etmek istemiyoruz." cevabını veriyordu.
 

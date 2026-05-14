@@ -2,13 +2,13 @@
 title: "Sonuç"
 ---
 
-Bu bölümün temel iddiası nettir: yazılım geliştirme, çizgisel bir üretim hattı değil; belirsizlik, bağımlılık ve sürekli değişim altında yürütülen bir karar verme disiplinidir. Bu nedenle yazılım ekiplerinin temkinli davranması çoğu durumda isteksizlikten değil, sistemin doğasına uyum sağlama çabasından kaynaklanır.
+Bu bölümün temel iddiası şudur: yazılım ekiplerine yönelik "yavaş", "zorlaştıran" veya "dirençli" algısı çoğu zaman bireysel tutumlardan değil, organizasyonun yazılım geliştirmeyi nasıl okuduğundan doğar.
 
-2.1'de belirsizliğin istisna değil norm olduğunu gördük. 2.2'de bağımlılıkların ve karmaşıklığın değişiklik maliyetini nasıl katmanlı biçimde büyüttüğünü inceledik. 2.3'te kalite ile hızın gerçek bir karşıtlık değil, aynı kapasitenin iki yüzü olduğunu ortaya koyduk. 2.4'te teknik borcun kısa vadeli kararların uzun vadeli teslim ritmini nasıl aşındırdığını; 2.5'te ise performans, güvenlik ve ölçeklenebilirlik gibi görünmeyen risklerin neden çoğu zaman geç fark edildiğini ele aldık.
+1.1'de yazılım ekiplerine yönelik klişelerin hangi gözlemlerden beslendiğini gördük. 1.2'de ürün, proje, implementasyon ve yazılım ekiplerinin farklı başarı tanımlarıyla hareket ettiğini; 1.3'te görünmeyen iş yükünün kapasite algısını nasıl bozduğunu; 1.4'te aynı cümlelerin farklı ekipler tarafından nasıl farklı duyulduğunu; 1.5'te ise bu boşlukların ilk çatışma noktalarına nasıl dönüştüğünü inceledik.
 
-Bu çerçevede "neden daha hızlı değiliz?" sorusu tek başına açıklayıcı değildir. Daha doğru soru, sistemin hangi varsayımlar altında çalıştığı ve bu varsayımların zaman içinde nasıl maliyet ürettiğidir. Yazılım geliştirme gerçekliği doğru okunmadığında gecikmeler bireysel performans sorunu gibi görünür; doğru okunduğunda ise bunun yapısal bir sonuç olduğu anlaşılır.
+Bu çerçevede "yazılım ekibi neden böyle?" sorusu tek başına açıklayıcı değildir. Daha doğru soru, organizasyonun hangi başarı kriterleri, hangi görünürlük eksikleri ve hangi iletişim boşlukları altında bu algıyı ürettiğidir. Algı doğru okunmadığında gerilim kişilere bağlanır; doğru okunduğunda ise bunun sistemsel bir sonuç olduğu anlaşılır.
 
-Böylece Part-2, Part-3 için kritik bir eşik kurar: teknik gerçeklik ile organizasyonel beklenti arasındaki mesafe büyüdüğünde, gerilim kaçınılmaz hale gelir. Bir sonraki bölümde bu mesafenin ekipler arası ilişkilere, karar süreçlerine ve kurumsal çatışma dinamiklerine nasıl yansıdığını inceleyeceğiz.
+Böylece Bölüm 1, kitabın geri kalanı için temel bir eşik kurar: algının kökenini anlamadan teknik gerçekliği ve çatışma dinamiklerini doğru okumak mümkün değildir. Bir sonraki bölümde bu algının teknik zeminini, yani yazılım geliştirmenin doğasını inceleyeceğiz.
 
 ---
 

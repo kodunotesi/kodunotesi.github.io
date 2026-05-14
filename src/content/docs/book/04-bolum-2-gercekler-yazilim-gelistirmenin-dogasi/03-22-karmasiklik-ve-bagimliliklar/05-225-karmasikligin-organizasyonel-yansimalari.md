@@ -6,7 +6,7 @@ sidebar:
 
 Karmaşıklık yalnızca teknik bir olgu değildir; organizasyonel bir gerçektir. Sistem karmaşıklaştıkça, sistemi anlayan kişi sayısı azalır. Belirli bir bileşeni gerçekten derinlemesine bilen geliştirici sayısı zaman içinde bire, hatta sıfıra düşebilir. Bu durum hem bir devam riski hem de bir karar alma sorunudur: o bileşenle ilgili her değişiklik kararı, eksik bilgiyle ya da tek bir kişinin varlığına bağımlı biçimde verilmek zorunda kalır.
 
-Bunun yanı sıra, karmaşıklık ekipler arası iletişimi de ağırlaştırır. Değişiklik talep eden ekip, değişikliğin teknik bağlamını bilmeden bu değişikliği önemsiz görebilir. Değişikliği yapacak ekip ise o bağlamı her seferinde karşı tarafa ve hatta kendi içinde ilgili kişilere yeniden yeniden aktarmak zorunda kalır. Bu döngü, zamanla her iki tarafta da yorgunlğun ve yanlış anlamanın birikmesine neden olur.
+Bunun yanı sıra, karmaşıklık ekipler arası iletişimi de ağırlaştırır. Değişiklik talep eden ekip, değişikliğin teknik bağlamını bilmeden bu değişikliği önemsiz görebilir. Değişikliği yapacak ekip ise o bağlamı her seferinde karşı tarafa ve hatta kendi içinde ilgili kişilere yeniden yeniden aktarmak zorunda kalır. Bu döngü, zamanla her iki tarafta da yorgunluğun ve yanlış anlamanın birikmesine neden olur.
 
 Fowler'ın dile getirdiği gibi, karmaşıklığı azaltmak teknik bir tercih değil, organizasyonel bir zorunluluktur. Karmaşıklık yönetilmediğinde, ekiplerin değil sistemin kararları verdiği bir ortam oluşur <span class="bkz-ref" title="4. Hofstadter, D. R. (1979). Gödel, Escher, Bach.">(Bkz: 4)</span>.
 

@@ -15,7 +15,7 @@ Kullanıcı arayüzünde küçük görünen değişiklikler, sistemin iç katman
 
 Ancak yazılım sistemi bu görünür yüzeyin arkasında veri akışı, iş kuralları, entegrasyon sözleşmeleri ve doğrulama süreçleriyle çalışır. Görsel küçüklük, teknik küçüklük anlamına gelmez.
 
-Bu yanılgı açıkça konuşulmadığında, teslimat süresi uzadıkça teknik ekip "aşırı detaycı" olarak etketlenir.
+Bu yanılgı açıkça konuşulmadığında, teslimat süresi uzadıkça teknik ekip "aşırı detaycı" olarak etiketlenir.
 
 ---
 

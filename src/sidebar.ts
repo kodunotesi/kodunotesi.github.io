@@ -39,14 +39,14 @@ export const bookSidebar: StarlightUserConfig['sidebar'] = [
           { label: '3.1 "Neden Bu Kadar Uzun Sürüyor?"', slug: 'book/05-bolum-3-catismanin-anatomisi/02-31-neden-bu-kadar-uzun-suruyor' },
           { label: '3.2 "Bu Küçük Bir İşti"', slug: 'book/05-bolum-3-catismanin-anatomisi/03-32-bu-kucuk-bir-isti' },
           { label: '3.3 "Neden Değişiklik Yapamıyoruz?"', slug: 'book/05-bolum-3-catismanin-anatomisi/04-33-neden-degisiklik-yapamiyoruz' },
-          { label: '3.4 “Yazılım Ekibi Direnç Gösteriyor”', slug: 'book/05-bolum-3-catismanin-anatomisi/05-34-yazilim-ekibi-direnc-gosteriyor' },
+          { label: '3.4 "Yazılım Ekibi Direnç Gösteriyor"', slug: 'book/05-bolum-3-catismanin-anatomisi/05-34-yazilim-ekibi-direnc-gosteriyor' },
           { label: '3.5 Suçlama Döngüsü', slug: 'book/05-bolum-3-catismanin-anatomisi/06-35-suclama-dongusu' },
           { label: 'Sonuç', slug: 'book/05-bolum-3-catismanin-anatomisi/07-sonuc' },
           { label: 'Referanslar', slug: 'book/05-bolum-3-catismanin-anatomisi/08-referanslar' },
         ],
       },
       {
-        label: 'BÖLÜM 4: Çözüm - Daha Sağlıklı Organizasyonlar Nasıl Kurulur?',
+        label: 'BÖLÜM 4: Çözüm – Daha Sağlıklı Organizasyonlar Nasıl Kurulur?',
         items: [
           { label: 'Giriş', slug: 'book/06-bolum-4-cozum-daha-saglikli-organizasyonlar-nasil-kurulur/01-giris' },
           { label: '4.1 Çözümün Temel İlkesi: İnsanları Değil Sistemi Tasarlamak', slug: 'book/06-bolum-4-cozum-daha-saglikli-organizasyonlar-nasil-kurulur/02-41-cozumun-temel-ilkesi-insanlari-degil-sistemi-tasarlamak' },

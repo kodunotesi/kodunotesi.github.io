@@ -1,5 +1,5 @@
 ---
-title: "BÖLÜM 4: Çözüm - Daha Sağlıklı Organizasyonlar Nasıl Kurulur?"
+title: "BÖLÜM 4: Çözüm – Daha Sağlıklı Organizasyonlar Nasıl Kurulur?"
 ---
 
 ## Giriş

@@ -144,7 +144,7 @@ Her anti-pattern için üç soru sorulabilir:
 
 **Daha sağlıklı soru:** Bu iş tahmin ettiğimizden neden farklı çıktı?
 
-### Scope Sabit Varsayılır
+### Kapsam Sabit Varsayılır
 
 **Belirti:** Yeni talepler veya değişiklikler eklenirken teslim tarihi ve kapasite beklentisi aynı kalır.
 
@@ -238,7 +238,7 @@ Her anti-pattern için üç soru sorulabilir:
 
 **Daha sağlıklı soru:** Bu ürün alanının uçtan uca sağlığını kim izliyor ve iyileştiriyor?
 
-### Roadmap Kesin Plan Olarak Görülür
+### Yol Haritası Kesin Plan Olarak Görülür
 
 **Belirti:** Roadmap değişmeyen bir söz gibi ele alınır.
 

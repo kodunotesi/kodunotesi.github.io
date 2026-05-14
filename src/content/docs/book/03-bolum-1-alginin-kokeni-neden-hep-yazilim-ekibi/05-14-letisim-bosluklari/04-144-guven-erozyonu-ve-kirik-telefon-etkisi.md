@@ -6,7 +6,7 @@ sidebar:
 
 İletişim boşlukları tek seferlik olsaydı, kolayca düzeltilebilirdi. Asıl sorun, bu boşlukların tekrarlanması ve zamanla güven erozyonuna dönüşmesidir.
 
-Yazılım ekibinin her uyarısı yanlış yorumlandığında, ekip uyarılarını daha üstü kapalı yapmaya başlar. “Söyledik ama dinlemediler” deneyimi biriktikçe iletişim giderek daha savunmacı bir hal alır. Öte yandan diğer ekipler, yazılım ekibinin her “bu karmaşık” ifadesini bir bahane olarak görmeye alışır. İki taraf arasındaki iletişim, bilgi aktarımı olmaktan çıkıp birer pozisyon savunmasına dönüşür.
+Yazılım ekibinin her uyarısı yanlış yorumlandığında, ekip uyarılarını daha üstü kapalı yapmaya başlar. "Söyledik ama dinlemediler" deneyimi biriktikçe iletişim giderek daha savunmacı bir hal alır. Öte yandan diğer ekipler, yazılım ekibinin her "bu karmaşık" ifadesini bir bahane olarak görmeye alışır. İki taraf arasındaki iletişim, bilgi aktarımı olmaktan çıkıp birer pozisyon savunmasına dönüşür.
 
 Bu noktada bir başka sorun devreye girer: kırık telefon etkisi. Bir gereksinim organizasyon içinde el değiştirdikçe yalnızca bilgi kaybına uğramaz; aynı zamanda yeniden yorumlanır. Her ekip problemi kendi uzmanlık alanının diliyle yeniden ifade eder. Operasyon ekibi iş akışını düşünür, proje yöneticisi planlama açısından yaklaşır, ürün yöneticisi kapsam ve öncelik perspektifiyle değerlendirir, yazılım ekibi ise teknik risk ve mimari etkileri görür. Bu yeniden yorumlama zinciri ilerledikçe, başlangıçtaki ihtiyaç zaman zaman tamamen farklı bir probleme dönüşebilir.
 

@@ -12,7 +12,7 @@ Oysa teknik ekip için aynı süre tamamen farklı bir anlama sahiptir. Bu süre
 
 Buradaki temel problem niyet farkı değil, görünürlük farkıdır.
 
-İş tarafı bugünkü gecikmeyi görür.Teknik ekip yarın yaşanabilecek arızayı görür. Bu iki maliyet aynı anda görünür hale getirilmediğinde, taraflar birbirinin davranışını irrasyonel yorumlamaya başlar.
+İş tarafı bugünkü gecikmeyi görür. Teknik ekip yarın yaşanabilecek arızayı görür. Bu iki maliyet aynı anda görünür hale getirilmediğinde, taraflar birbirinin davranışını irrasyonel yorumlamaya başlar.
 
 İnsanlar çoğu zaman karşı tarafın davranışını sistem koşullarıyla değil, kişisel niyetlerle açıklama eğilimindedir. Bu nedenle teknik bir temkin davranışı kolayca isteksizlik, sorumluluk almaktan kaçınma veya değişime kapalılık şeklinde yorumlanabilir.
 

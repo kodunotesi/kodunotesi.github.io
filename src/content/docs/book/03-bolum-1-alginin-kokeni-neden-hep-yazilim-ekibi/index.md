@@ -78,9 +78,9 @@ En sık karşılaşılan klişelerden biridir ve çoğu zaman yazılım ekipleri
 
 Yazılım geliştirmede tahmin, diğer mesleklere kıyasla çok daha zor bir eylemdir. Belirsizliğin kendisi bir girdi olduğunda çıktıyı kesin olarak planlamak mümkün değildir. Ürün yol haritasındaki belirsizlikler, "definition of done" kavramının ekipler arasında farklı yorumlanması, çok paydaşlı implementasyon projelerinin karmaşıklığı, kaynak eksikliği ve yıllara yayılmış kod tabanlarının getirdiği teknik borç, teslim tarihi vermeyi yapısal olarak güçleştiren faktörler arasındadır.
 
-**`Hofstadter Yasası`** bu durumu öz bir biçimde ifade eder: "Her şey tahmin edilenden daha uzun sürer; Hofstadter Yasası'nı hesaba katsanız bile." Öte yandan verilen bir teslim tarihi organizasyonda hemen taahhüt olarak kodlanır. Yazılım ekibi bunu bilir ve belirsiz koşullarda kesin tarih vermekten çekinir. Dışarıdan bu çekimserlik sorumluluk almaktan kaçınmak olarak okunur.
+**Hofstadter Yasası** bu durumu öz bir biçimde ifade eder: "Her şey tahmin edilenden daha uzun sürer; Hofstadter Yasası'nı hesaba katsanız bile." Öte yandan verilen bir teslim tarihi organizasyonda hemen taahhüt olarak kodlanır. Yazılım ekibi bunu bilir ve belirsiz koşullarda kesin tarih vermekten çekinir. Dışarıdan bu çekimserlik sorumluluk almaktan kaçınmak olarak okunur.
 
-**Örnek:** Hastane otomasyon yazılımı üreten bir yazılım şirketinde ürün yöneticisi, bir sprint planlamasında yeni bir kamu  entegrasyon modülü için teslim tarihi istedi. Yazılım ekibi lideri "iki ila dört hafta" aralığını verdi. Ürün yöneticisi bunu "iki hafta" olarak proje planına işledi. İki hafta sonra modül teslim edilemedi. Yazılım ekibi "tarih vermediklerini" söyledi; ürün yöneticisi ise "iki hafta dediler" dedi. İkisi de haklıydı, ama aynı konuşmayı farklı duymuştu.
+**Örnek:** Hastane otomasyon yazılımı üreten bir yazılım şirketinde ürün yöneticisi, bir sprint planlamasında yeni bir kamu entegrasyon modülü için teslim tarihi istedi. Yazılım ekibi lideri "iki ila dört hafta" aralığını verdi. Ürün yöneticisi bunu "iki hafta" olarak proje planına işledi. İki hafta sonra modül teslim edilemedi. Yazılım ekibi "tarih vermediklerini" söyledi; ürün yöneticisi ise "iki hafta dediler" dedi. İkisi de haklıydı, ama aynı konuşmayı farklı duymuştu.
 
 ---
 
@@ -268,7 +268,7 @@ Bu fark, özellikle risk iletişiminde ciddi sorunlara yol açar. Yazılım ekib
 
 İletişim boşlukları tek seferlik olsaydı, kolayca düzeltilebilirdi. Asıl sorun, bu boşlukların tekrarlanması ve zamanla güven erozyonuna dönüşmesidir.
 
-Yazılım ekibinin her uyarısı yanlış yorumlandığında, ekip uyarılarını daha üstü kapalı yapmaya başlar. “Söyledik ama dinlemediler” deneyimi biriktikçe iletişim giderek daha savunmacı bir hal alır. Öte yandan diğer ekipler, yazılım ekibinin her “bu karmaşık” ifadesini bir bahane olarak görmeye alışır. İki taraf arasındaki iletişim, bilgi aktarımı olmaktan çıkıp birer pozisyon savunmasına dönüşür.
+Yazılım ekibinin her uyarısı yanlış yorumlandığında, ekip uyarılarını daha üstü kapalı yapmaya başlar. "Söyledik ama dinlemediler" deneyimi biriktikçe iletişim giderek daha savunmacı bir hal alır. Öte yandan diğer ekipler, yazılım ekibinin her "bu karmaşık" ifadesini bir bahane olarak görmeye alışır. İki taraf arasındaki iletişim, bilgi aktarımı olmaktan çıkıp birer pozisyon savunmasına dönüşür.
 
 Bu noktada bir başka sorun devreye girer: kırık telefon etkisi. Bir gereksinim organizasyon içinde el değiştirdikçe yalnızca bilgi kaybına uğramaz; aynı zamanda yeniden yorumlanır. Her ekip problemi kendi uzmanlık alanının diliyle yeniden ifade eder. Operasyon ekibi iş akışını düşünür, proje yöneticisi planlama açısından yaklaşır, ürün yöneticisi kapsam ve öncelik perspektifiyle değerlendirir, yazılım ekibi ise teknik risk ve mimari etkileri görür. Bu yeniden yorumlama zinciri ilerledikçe, başlangıçtaki ihtiyaç zaman zaman tamamen farklı bir probleme dönüşebilir.
 
@@ -350,20 +350,20 @@ Bu tür çatışmaların kökeni bireylerde değil, sistemdedir.
 
 ## Sonuç
 
-Bu bölümün temel iddiası nettir: yazılım geliştirme, çizgisel bir üretim hattı değil; belirsizlik, bağımlılık ve sürekli değişim altında yürütülen bir karar verme disiplinidir. Bu nedenle yazılım ekiplerinin temkinli davranması çoğu durumda isteksizlikten değil, sistemin doğasına uyum sağlama çabasından kaynaklanır.
+Bu bölümün temel iddiası şudur: yazılım ekiplerine yönelik "yavaş", "zorlaştıran" veya "dirençli" algısı çoğu zaman bireysel tutumlardan değil, organizasyonun yazılım geliştirmeyi nasıl okuduğundan doğar.
 
-2.1'de belirsizliğin istisna değil norm olduğunu gördük. 2.2'de bağımlılıkların ve karmaşıklığın değişiklik maliyetini nasıl katmanlı biçimde büyüttüğünü inceledik. 2.3'te kalite ile hızın gerçek bir karşıtlık değil, aynı kapasitenin iki yüzü olduğunu ortaya koyduk. 2.4'te teknik borcun kısa vadeli kararların uzun vadeli teslim ritmini nasıl aşındırdığını; 2.5'te ise performans, güvenlik ve ölçeklenebilirlik gibi görünmeyen risklerin neden çoğu zaman geç fark edildiğini ele aldık.
+1.1'de yazılım ekiplerine yönelik klişelerin hangi gözlemlerden beslendiğini gördük. 1.2'de ürün, proje, implementasyon ve yazılım ekiplerinin farklı başarı tanımlarıyla hareket ettiğini; 1.3'te görünmeyen iş yükünün kapasite algısını nasıl bozduğunu; 1.4'te aynı cümlelerin farklı ekipler tarafından nasıl farklı duyulduğunu; 1.5'te ise bu boşlukların ilk çatışma noktalarına nasıl dönüştüğünü inceledik.
 
-Bu çerçevede "neden daha hızlı değiliz?" sorusu tek başına açıklayıcı değildir. Daha doğru soru, sistemin hangi varsayımlar altında çalıştığı ve bu varsayımların zaman içinde nasıl maliyet ürettiğidir. Yazılım geliştirme gerçekliği doğru okunmadığında gecikmeler bireysel performans sorunu gibi görünür; doğru okunduğunda ise bunun yapısal bir sonuç olduğu anlaşılır.
+Bu çerçevede "yazılım ekibi neden böyle?" sorusu tek başına açıklayıcı değildir. Daha doğru soru, organizasyonun hangi başarı kriterleri, hangi görünürlük eksikleri ve hangi iletişim boşlukları altında bu algıyı ürettiğidir. Algı doğru okunmadığında gerilim kişilere bağlanır; doğru okunduğunda ise bunun sistemsel bir sonuç olduğu anlaşılır.
 
-Böylece Part-2, Part-3 için kritik bir eşik kurar: teknik gerçeklik ile organizasyonel beklenti arasındaki mesafe büyüdüğünde, gerilim kaçınılmaz hale gelir. Bir sonraki bölümde bu mesafenin ekipler arası ilişkilere, karar süreçlerine ve kurumsal çatışma dinamiklerine nasıl yansıdığını inceleyeceğiz.
+Böylece Bölüm 1, kitabın geri kalanı için temel bir eşik kurar: algının kökenini anlamadan teknik gerçekliği ve çatışma dinamiklerini doğru okumak mümkün değildir. Bir sonraki bölümde bu algının teknik zeminini, yani yazılım geliştirmenin doğasını inceleyeceğiz.
 
 ---
 ## Referanslar
 
 1. Brooks, F. P. (1995). The Mythical Man-Month.
 2. Forsgren, N., Humble, J., Kim, G. (2018). Accelerate.
-3. McConnell, S. (2004). Code Complete.
+3. Cunningham, W. (1992). The WyCash Portfolio Management System.
 4. DeMarco, T., Lister, T. (2013). Peopleware.
 5. Conway, M. E. (1968). How Do Committees Invent? Datamation.
 

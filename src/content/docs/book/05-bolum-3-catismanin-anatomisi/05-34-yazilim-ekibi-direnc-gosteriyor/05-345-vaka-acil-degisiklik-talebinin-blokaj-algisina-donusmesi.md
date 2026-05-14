@@ -16,7 +16,7 @@ Teknik ekip ise farklı bir risk görüyordu. Daha önce benzer bir acil değiş
 
 Toplantının ilerleyen bölümünde tartışma teknik içerikten uzaklaşmaya başladı.
 
-Operasyon tarafı: "Her değişiklikte neden bu kadar bekliyoruz?"" sorusunu sormaya başladı.
+Operasyon tarafı: "Her değişiklikte neden bu kadar bekliyoruz?" sorusunu sormaya başladı.
 
 Teknik ekip ise: "Geçmişte yaşanan kesintiyi tekrar etmek istemiyoruz." cevabını veriyordu.
 

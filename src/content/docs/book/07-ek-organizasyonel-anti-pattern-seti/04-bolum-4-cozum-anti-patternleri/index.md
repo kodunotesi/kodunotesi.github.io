@@ -42,7 +42,7 @@ title: "Bölüm 4: Çözüm Anti-Pattern'leri"
 
 **Daha sağlıklı soru:** Bu ürün alanının uçtan uca sağlığını kim izliyor ve iyileştiriyor?
 
-### Roadmap Kesin Plan Olarak Görülür
+### Yol Haritası Kesin Plan Olarak Görülür
 
 **Belirti:** Roadmap değişmeyen bir söz gibi ele alınır.
 

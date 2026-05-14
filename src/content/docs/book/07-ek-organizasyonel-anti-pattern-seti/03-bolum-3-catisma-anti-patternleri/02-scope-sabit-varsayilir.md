@@ -1,5 +1,5 @@
 ---
-title: "Scope Sabit Varsayılır"
+title: "Kapsam Sabit Varsayılır"
 sidebar:
   hidden: true
 ---

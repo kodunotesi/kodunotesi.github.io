@@ -6,7 +6,7 @@ title: "BÖLÜM 3: Çatışmanın Anatomisi"
 
 İlk iki bölümde yazılım ekiplerine yönelik algının nasıl üretildiğini ve yazılım geliştirme gerçekliğinin neden doğrusal yönetilemediğini ele aldık. Bu bölümde odağımızı, teknik gerçekliğin kendisinden çok bu gerçekliğin organizasyon içinde nasıl çatışma ürettiğine çeviriyoruz.
 
-Bu nedenle Bölüm-3, bir "teknik açıklama" bölümü değil, bir "süreç anatomisi" bölümüdür. Burada amacımız, çatışmayı tekil bir olay olarak değil; tetikleyici, yorum farkı, davranış kırılması ve güven kaybı adımlarından oluşan tekrar eden bir döngü olarak incelemektir.
+Bu nedenle Bölüm 3, bir "teknik açıklama" bölümü değil, bir "süreç anatomisi" bölümüdür. Burada amacımız, çatışmayı tekil bir olay olarak değil; tetikleyici, yorum farkı, davranış kırılması ve güven kaybı adımlarından oluşan tekrar eden bir döngü olarak incelemektir.
 
 Bu çerçeve önemlidir. Çünkü aynı cümlelerin farklı şirketlerde tekrar etmesi, problemin bireysel karakterlerden çok sistem davranışından kaynaklandığını gösterir.
 
@@ -86,7 +86,7 @@ Kullanıcı arayüzünde küçük görünen değişiklikler, sistemin iç katman
 
 Ancak yazılım sistemi bu görünür yüzeyin arkasında veri akışı, iş kuralları, entegrasyon sözleşmeleri ve doğrulama süreçleriyle çalışır. Görsel küçüklük, teknik küçüklük anlamına gelmez.
 
-Bu yanılgı açıkça konuşulmadığında, teslimat süresi uzadıkça teknik ekip "aşırı detaycı" olarak etketlenir.
+Bu yanılgı açıkça konuşulmadığında, teslimat süresi uzadıkça teknik ekip "aşırı detaycı" olarak etiketlenir.
 
 ---
 
@@ -186,7 +186,7 @@ Bu vaka, değişiklik türünün erken sınıflandırılamamasının çatışmay
 
 ---
 
-## 3.4 “Yazılım Ekibi Direnç Gösteriyor”
+## 3.4 "Yazılım Ekibi Direnç Gösteriyor"
 
 Yazılım ekiplerinin değişiklik taleplerine temkinli yaklaşması organizasyon içinde çoğu zaman "direnç" olarak yorumlanır. Özellikle teslim baskısının yüksek olduğu ortamlarda, ek doğrulama süresi isteyen, risk vurgulayan veya kontrollü geçiş öneren ekipler; işi yavaşlatan taraf gibi görünmeye başlayabilir.
 
@@ -194,7 +194,7 @@ Ancak burada çoğu zaman önemli bir yorum hatası vardır: yazılım ekiplerin
 
 Bu fark görünür olmadığında teknik temkin davranışı kolayca isteksizlik, bürokrasi veya değişime kapalılık şeklinde yorumlanır. Böylece teknik risk yönetimi davranışı zamanla kişisel niyet tartışmasına dönüşür.
 
-"Direnç" etiketi bu nedenle organizasyon içinde güçlü etkiye sahiptir. Çünkü teknik tartışmayı davranış tartışmasına çevirir. Problem artık "risk nedir?"" sorusundan uzaklaşır ve "kim neden yavaşlatıyor?"" sorusuna dönüşür.
+"Direnç" etiketi bu nedenle organizasyon içinde güçlü etkiye sahiptir. Çünkü teknik tartışmayı davranış tartışmasına çevirir. Problem artık "risk nedir?" sorusundan uzaklaşır ve "kim neden yavaşlatıyor?" sorusuna dönüşür.
 
 Bu dönüşüm gerçekleştiğinde güven hızla aşınmaya başlar.
 
@@ -210,7 +210,7 @@ Oysa teknik ekip için aynı süre tamamen farklı bir anlama sahiptir. Bu süre
 
 Buradaki temel problem niyet farkı değil, görünürlük farkıdır.
 
-İş tarafı bugünkü gecikmeyi görür.Teknik ekip yarın yaşanabilecek arızayı görür. Bu iki maliyet aynı anda görünür hale getirilmediğinde, taraflar birbirinin davranışını irrasyonel yorumlamaya başlar.
+İş tarafı bugünkü gecikmeyi görür. Teknik ekip yarın yaşanabilecek arızayı görür. Bu iki maliyet aynı anda görünür hale getirilmediğinde, taraflar birbirinin davranışını irrasyonel yorumlamaya başlar.
 
 İnsanlar çoğu zaman karşı tarafın davranışını sistem koşullarıyla değil, kişisel niyetlerle açıklama eğilimindedir. Bu nedenle teknik bir temkin davranışı kolayca isteksizlik, sorumluluk almaktan kaçınma veya değişime kapalılık şeklinde yorumlanabilir.
 
@@ -319,7 +319,7 @@ Teknik ekip ise farklı bir risk görüyordu. Daha önce benzer bir acil değiş
 
 Toplantının ilerleyen bölümünde tartışma teknik içerikten uzaklaşmaya başladı.
 
-Operasyon tarafı: "Her değişiklikte neden bu kadar bekliyoruz?"" sorusunu sormaya başladı.
+Operasyon tarafı: "Her değişiklikte neden bu kadar bekliyoruz?" sorusunu sormaya başladı.
 
 Teknik ekip ise: "Geçmişte yaşanan kesintiyi tekrar etmek istemiyoruz." cevabını veriyordu.
 
@@ -496,7 +496,7 @@ Bu vaka, suçlama kültürünün yalnızca mevcut gecikmeyi açıklamakla kalmad
 
 ## Sonuç
 
-Bölüm-3'ün ortaya koyduğu ana gerçek şudur: yazılım organizasyonlarında çatışma çoğu zaman tek bir hatadan değil, tekrar eden yorum farklarından üretilir. "Neden bu kadar uzun sürüyor?", "Bu küçük bir işti", "Neden değişiklik yapamıyoruz?", "Yazılım ekibi direnç gösteriyor" ve "Suçlu kim?" cümleleri ayrı problemler gibi görünür; fakat aynı yapısal gerilimin farklı yüzleridir.
+Bölüm 3'ün ortaya koyduğu ana gerçek şudur: yazılım organizasyonlarında çatışma çoğu zaman tek bir hatadan değil, tekrar eden yorum farklarından üretilir. "Neden bu kadar uzun sürüyor?", "Bu küçük bir işti", "Neden değişiklik yapamıyoruz?", "Yazılım ekibi direnç gösteriyor" ve "Suçlu kim?" cümleleri ayrı problemler gibi görünür; fakat aynı yapısal gerilimin farklı yüzleridir.
 
 Bu bölümde önce zaman algısının nasıl bozulduğunu gördük. Yazılım işinin görünmeyen kapsamı, eksik bilgiyle yapılan tahminler ve keşif ihtiyacı dışarıdan yavaşlık gibi okunabilir. Ardından "küçük iş" algısının neden yanıltıcı olduğunu ele aldık: yazılım sistemlerinde lokal görünen değişiklikler bağımlılıklar, veri modelleri, entegrasyonlar ve test yüzeyleri nedeniyle geniş etkiler üretebilir.
 
@@ -506,7 +506,7 @@ Devamında, yazılım ekiplerinin temkinli davranışının nasıl "blokaj" olar
 
 Son olarak suçlama döngüsünü ele aldık. Çatışma sürekli tekrarlandığında organizasyon problemi anlamak yerine sorumluluk dağıtmaya başlar. Bilgi ortak çözüm üretmek için değil, pozisyon korumak için kullanılır. Riskler geç görünür, öğrenme azalır ve aynı problemler farklı biçimlerde yeniden üretilir.
 
-Bu nedenle Bölüm-3'ün ana mesajı şudur: her ekip kendi perspektifinden rasyonel davranır; çatışmayı kalıcılaştıran unsur çoğu zaman kötü niyet değil, gerçekliklerin birbirine çevrilememesidir. Teknik kapsam iş diline, iş baskısı risk diline, risk maliyeti karar diline ve olay sonrası öğrenme sistemsel iyileştirme diline çevrilemediğinde gerilim kurumsal davranış haline gelir.
+Bu nedenle Bölüm 3'ün ana mesajı şudur: her ekip kendi perspektifinden rasyonel davranır; çatışmayı kalıcılaştıran unsur çoğu zaman kötü niyet değil, gerçekliklerin birbirine çevrilememesidir. Teknik kapsam iş diline, iş baskısı risk diline, risk maliyeti karar diline ve olay sonrası öğrenme sistemsel iyileştirme diline çevrilemediğinde gerilim kurumsal davranış haline gelir.
 
 Bu nedenle çözüm tartışmasına geçmeden önce çatışmanın üretim mekanizmasını doğru teşhis etmek gerekir. Bir sonraki bölümde odak, bu teşhisten hareketle daha sağlıklı organizasyonların hangi müdahale alanlarıyla kurulabileceğine kayacaktır.
 

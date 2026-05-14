@@ -59,7 +59,7 @@ Bu belirtiler tipik olarak şu şekilde ortaya çıkar:
 * Yeni özellik kapasitesinin bakım ve devamlılık ile ilgili işlere kayması.
 * Geliştiricilerin zamanının giderek daha büyük kısmını etki analizi ve doğrulama faaliyetlerine ayırması.
 
-Buradaki kritik ayrım şudur: bu tablo çoğu zaman ekip disiplininin zayıflığından değil, sistemin değişime verdiği direncin artmasından kaynaklanır. Dışarıdan “yavaşlama” gibi görünen şey, içeride risk birikimine karşı gelişen savunmacı davranıştır <span class="bkz-ref" title="11. McConnell, S. (2004). Code Complete (2nd ed.).">(Bkz: 11)</span>.
+Buradaki kritik ayrım şudur: bu tablo çoğu zaman ekip disiplininin zayıflığından değil, sistemin değişime verdiği direncin artmasından kaynaklanır. Dışarıdan "yavaşlama" gibi görünen şey, içeride risk birikimine karşı gelişen savunmacı davranıştır <span class="bkz-ref" title="11. McConnell, S. (2004). Code Complete (2nd ed.).">(Bkz: 11)</span>.
 
 Teknik borç yalnızca sistemi değil, ekiplerin zihinsel çalışma biçimini de etkiler. Her değişiklik öncesinde büyüyen etki analizi ihtiyacı, geliştiricilerin dikkat kapasitesini rutin bakım faaliyetlerine tüketmeye başlar. Zamanla ekipler yeni özellik geliştirmekten çok, mevcut davranışı güvenli biçimde korumaya odaklanır.
 

@@ -13,6 +13,7 @@ title: "Referanslar"
 9. Forsgren, N., Humble, J., & Kim, G. (2018). Accelerate.
 10. Lehman, M. M. (1980). Programs, Life Cycles, and Laws of Software Evolution.
 11. McConnell, S. (2004). Code Complete (2nd ed.).
+12. Conway, M. E. (1968). How Do Committees Invent? Datamation.
 
 ---
 

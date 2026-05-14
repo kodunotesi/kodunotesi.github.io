@@ -68,9 +68,9 @@ En sık karşılaşılan klişelerden biridir ve çoğu zaman yazılım ekipleri
 
 Yazılım geliştirmede tahmin, diğer mesleklere kıyasla çok daha zor bir eylemdir. Belirsizliğin kendisi bir girdi olduğunda çıktıyı kesin olarak planlamak mümkün değildir. Ürün yol haritasındaki belirsizlikler, "definition of done" kavramının ekipler arasında farklı yorumlanması, çok paydaşlı implementasyon projelerinin karmaşıklığı, kaynak eksikliği ve yıllara yayılmış kod tabanlarının getirdiği teknik borç, teslim tarihi vermeyi yapısal olarak güçleştiren faktörler arasındadır.
 
-**`Hofstadter Yasası`** bu durumu öz bir biçimde ifade eder: "Her şey tahmin edilenden daha uzun sürer; Hofstadter Yasası'nı hesaba katsanız bile." Öte yandan verilen bir teslim tarihi organizasyonda hemen taahhüt olarak kodlanır. Yazılım ekibi bunu bilir ve belirsiz koşullarda kesin tarih vermekten çekinir. Dışarıdan bu çekimserlik sorumluluk almaktan kaçınmak olarak okunur.
+**Hofstadter Yasası** bu durumu öz bir biçimde ifade eder: "Her şey tahmin edilenden daha uzun sürer; Hofstadter Yasası'nı hesaba katsanız bile." Öte yandan verilen bir teslim tarihi organizasyonda hemen taahhüt olarak kodlanır. Yazılım ekibi bunu bilir ve belirsiz koşullarda kesin tarih vermekten çekinir. Dışarıdan bu çekimserlik sorumluluk almaktan kaçınmak olarak okunur.
 
-**Örnek:** Hastane otomasyon yazılımı üreten bir yazılım şirketinde ürün yöneticisi, bir sprint planlamasında yeni bir kamu  entegrasyon modülü için teslim tarihi istedi. Yazılım ekibi lideri "iki ila dört hafta" aralığını verdi. Ürün yöneticisi bunu "iki hafta" olarak proje planına işledi. İki hafta sonra modül teslim edilemedi. Yazılım ekibi "tarih vermediklerini" söyledi; ürün yöneticisi ise "iki hafta dediler" dedi. İkisi de haklıydı, ama aynı konuşmayı farklı duymuştu.
+**Örnek:** Hastane otomasyon yazılımı üreten bir yazılım şirketinde ürün yöneticisi, bir sprint planlamasında yeni bir kamu entegrasyon modülü için teslim tarihi istedi. Yazılım ekibi lideri "iki ila dört hafta" aralığını verdi. Ürün yöneticisi bunu "iki hafta" olarak proje planına işledi. İki hafta sonra modül teslim edilemedi. Yazılım ekibi "tarih vermediklerini" söyledi; ürün yöneticisi ise "iki hafta dediler" dedi. İkisi de haklıydı, ama aynı konuşmayı farklı duymuştu.
 
 ---
 

@@ -12,7 +12,7 @@ title: "Bölüm 3: Çatışma Anti-Pattern'leri"
 
 **Daha sağlıklı soru:** Bu iş tahmin ettiğimizden neden farklı çıktı?
 
-### Scope Sabit Varsayılır
+### Kapsam Sabit Varsayılır
 
 **Belirti:** Yeni talepler veya değişiklikler eklenirken teslim tarihi ve kapasite beklentisi aynı kalır.
 
