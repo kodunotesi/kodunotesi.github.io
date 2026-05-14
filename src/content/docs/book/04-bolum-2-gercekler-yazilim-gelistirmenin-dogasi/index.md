@@ -179,9 +179,9 @@ Kalite ile hız arasında seçim yapılabileceği inancı, yazılım geliştirme
 
 Bu varsayım kısa vadede doğru gibi görünür. Testler atlanırsa teslim tarihi öne çekilebilir. Kod incelemesi yapılmadan da geliştirme tamamlandı sayılabilir. Hata yönetimi ertelenirse özellik daha hızlı yayına girer. Ancak bu kazanımlar gerçek değil, borçlanmadır. Elde edilen hız, geri ödenecek bir kredi gibi birikmektedir; ve yazılım geliştirmede bu kredinin faizi son derece yüksektir.
 
-Sorunun temelinde, kalite ile hızın birbirinin alternatifi olduğuna dair yanlış kabul vardır. Oysa yazılım geliştirmede kalite çoğu zaman hızın karşıtı değil, ön koşuludur. Temiz mimari, anlaşılır kod, güvenilir testler ve öngörülebilir sistem davranışı; ekiplerin değişiklikleri daha hızlı ve daha güvenli yapabilmesini sağlar. Düşük kaliteli sistemlerde ise her değişiklik daha fazla risk, daha fazla koordinasyon ihtiyacı ve daha fazla doğrulama maliyeti doğurur. Zamanla ekiplerin enerjisi yeni özellik geliştirmeye değil, mevcut sistemi ayakta tutmak için harcanmaya başlar.
+Sorunun temelinde, kalite ile hızın birbirinin alternatifi olduğuna dair yanlış kabul vardır. Oysa yazılım geliştirmede kalite çoğu zaman hızın karşıtı değil, ön koşuludur. Temiz mimari, anlaşılır kod, güvenilir testler ve öngörülebilir sistem davranışı; ekiplerin değişiklikleri daha hızlı ve güvenli yapabilmesini sağlar. Düşük kaliteli sistemlerde ise her değişiklik daha fazla risk, koordinasyon ve doğrulama maliyeti doğurur.
 
-Bu nedenle kaliteyi azaltmak çoğu zaman hızlanmak anlamına gelmez; gelecekteki geliştirme kapasitesini tüketmek anlamına gelir. İlk teslim tarihi öne çekilmiş olabilir, ancak sonraki her değişiklik daha pahalı, daha riskli ve daha yavaş hale gelir. Sistem karmaşıklaştıkça ekiplerin öngörü kapasitesi azalır; teslim süreleri uzar ve acil durum müdahaleleri normal çalışma biçimine dönüşür.
+Bu nedenle kaliteyi azaltmak çoğu zaman hızlanmak değil, gelecekteki geliştirme kapasitesini tüketmek anlamına gelir. İlk teslim tarihi öne çekilebilir; ancak sonraki her değişiklik daha pahalı, daha riskli ve daha yavaş hale gelir.
 
 DeMarco ve Lister bu dinamiği çalışmalarında ayrıntılı biçimde inceler: kaliteyi düşürmek kısa vadede hız kazandırır gibi görünse de orta vadede ekipleri daha yavaş, daha kırılgan ve daha az öngörülebilir hale getirir <span class="bkz-ref" title="3. Taleb, N. N. (2007). The Black Swan.">(Bkz: 3)</span>. Öte yandan yüksek kaliteli yazılım geliştiren ekiplerin uzun vadede daha hızlı teslimat yaptığı; çünkü değişiklik maliyetlerinin, hata düzeltme sürelerinin ve koordinasyon yükünün düşük kaldığı görülmektedir.
 
@@ -221,7 +221,7 @@ Bu ayrım kritik öneme sahiptir çünkü kısa vadede hız kazandıran kararlar
 
 Birikmiş hatalar sürekli müdahale gerektiren operasyonel sorunlara dönüşür. Bakımı güç kod her değişikliği daha uzun ve daha riskli hale getirir. Test edilmemiş sistemlerde ekipler her yayında yeni bir problemi tetiklemekten çekinir. Sonuçta ekip zamanı yeni değer üretmek yerine mevcut sistemi ayakta tutmaya harcanmaya başlar.
 
-Bu dinamiğin önemli bir yönü de görünürlük problemidir. Kısa vadeli hız artışları hemen fark edilir; teslim tarihi öne çekilir, özellik daha erken yayına alınır ve organizasyon bunu başarı olarak görür. Buna karşılık sürdürülebilirlik kaybı genellikle aylar içinde ortaya çıkar. Teslim sürelerinin yavaş yavaş uzaması, artan koordinasyon ihtiyacı, onboarding süreçlerinin zorlaşması veya ekiplerin değişiklik yapmaktan çekinmeye başlaması; anlık değil, kademeli biçimde görünür hale gelir. Bu nedenle organizasyonlar çoğu zaman gelecekteki kapasite kaybını fark etmeden kısa vadeli hız kazanımlarını ödüllendirir.
+Bu dinamiğin önemli bir yönü de görünürlük problemidir. Kısa vadeli hız artışları hemen fark edilir; teslim tarihi öne çekilir, özellik daha erken yayına alınır ve organizasyon bunu başarı olarak görür. Buna karşılık sürdürülebilirlik kaybı genellikle aylar içinde belirginleşir. Teslim sürelerinin uzaması, koordinasyon ihtiyacının artması, onboarding süreçlerinin zorlaşması veya ekiplerin değişiklik yapmaktan çekinmeye başlaması kademeli olarak görünür hale gelir. Bu nedenle organizasyonlar çoğu zaman gelecekteki kapasite kaybını fark etmeden kısa vadeli hız kazanımlarını ödüllendirir.
 
 Forsgren, Humble ve Kim'in "Accelerate" araştırması bu dinamiği ampirik verilerle ortaya koyar: yüksek performanslı geliştirme ekipleri hem daha hızlı hem de daha kaliteli yazılım teslim etmektedir <span class="bkz-ref" title="5. Simon, H. A. (1996). The Sciences of the Artificial.">(Bkz: 5)</span>. Bu bulgu ilk bakışta sezgiye aykırı görünür; ancak yapısal olarak açıklanabilirdir. Otomatik testler, güvenilir deployment süreçleri, düzenli code review pratikleri ve sürdürülebilir mimari kararlar; ekiplerin değişiklikleri daha güvenli yapabilmesini sağlar. Böylece ekip zamanı sürekli onarım faaliyetlerine değil, yeni geliştirmelere ayrılabilir.
 
@@ -236,7 +236,7 @@ On ikinci ayın sonunda ikinci ekip zamanının büyük bölümünü hata düzel
 
 ### 2.3.4 Test Süreci: Görünmez Güvence
 
-Test yazımı, yazılım geliştirmede en sık "zaman kaybı" olarak nitelendirilen ve en sık terk edilen pratiklerden biridir. Bu algı bir yönü ile anlaşılabilirdir: test yazmak zaman alır, başlangıçta doğrudan görünür bir çıktı üretmez ve teslimat takvimini uzatan ek bir iş gibi görünür. Ancak bu algı, testlerin yazılım geliştirme sürecindeki gerçek rolünü eksik değerlendirmektedir.
+Test yazımı, yazılım geliştirmede en sık "zaman kaybı" olarak nitelendirilen ve en sık terk edilen pratiklerden biridir. Bu algı bir yönüyle anlaşılabilirdir: test yazmak zaman alır, başlangıçta doğrudan görünür bir çıktı üretmez ve teslimat takvimini uzatan ek bir iş gibi görünür. Ancak bu bakış, testlerin gerçek rolünü eksik değerlendirir.
 
 Testler yalnızca hata bulma araçları değildir; aynı zamanda sistemin beklenen davranışını tanımlayan ve değişiklikler sırasında bu davranışın korunup korunmadığını doğrulayan çalıştırılabilir güvence mekanizmalarıdır. Bir test geçtiğinde, ilgili davranışın test edilen senaryolar altında hâlâ beklendiği gibi çalıştığı doğrulanmış olur. Bir değişiklik yapıldığında testlerin yeniden çalıştırılması, beklenmeyen yan etkilerin erken aşamada görünür hale gelmesini sağlar.
 
@@ -390,7 +390,7 @@ Performans sorunlarının karakteristik özelliği, doğrusal olmayan biçimde o
 
 McConnell, bu bağlamda savunmacı programlama pratiğinin (defensive programming) önemine dikkat çeker: geliştiricilerin beklenmedik girdi büyüklüklerini, sınır koşullarını ve uç senaryoları sistematik biçimde ele alması gerektiğini vurgular <span class="bkz-ref" title="11. McConnell, S. (2004). Code Complete (2nd ed.).">(Bkz: 11)</span>. Savunmacı programlama yalnızca hata yönetimini değil, sistemin olası kullanım koşullarına hazır olmasını da kapsar.
 
-**Örnek:** Bir kurumsal raporlama sistemi, geliştirme ve test aşamalarında yüz binlerce kayıt içeren veritabanıyla test edilmişti. Sistem bu koşullarda hızlı çalışıyor, raporlar birkaç saniye içinde üretiliyordu. Ancak sistemin canlı ortama  alınmasından bir yıl sonra veritabanı on milyonlarca kayda ulaştığında, bazı raporların çalışması dakikalar sürüyordu. Sorunun kök nedeni, belirli sorgularda kullanılan join ve filtreleme işlemlerinde çalışma anında doğru inekslerin kullanılmamasıydı. Sorguların çalışma zamanı karmaşıklığı, geliştirme ortamındaki veri boyutunda hiç görünür olmamıştı. Performans riski, sistemin veri hacmiyle birlikte büyümüş ve yalnızca canlı ortmama özgü koşullarda gün yüzüne çıkmıştı.
+**Örnek:** Bir kurumsal raporlama sistemi, geliştirme ve test aşamalarında yüz binlerce kayıt içeren veritabanıyla test edilmişti. Sistem bu koşullarda hızlı çalışıyor, raporlar birkaç saniye içinde üretiliyordu. Ancak sistemin canlı ortama alınmasından bir yıl sonra veritabanı on milyonlarca kayda ulaştığında, bazı raporların çalışması dakikalar sürmeye başladı. Sorunun kök nedeni, belirli sorgularda kullanılan join ve filtreleme işlemlerinde doğru indekslerin kullanılmamasıydı. Performans riski, sistemin veri hacmiyle birlikte büyümüş ve yalnızca canlı ortama özgü koşullarda gün yüzüne çıkmıştı.
 
 ---
 
@@ -408,7 +408,7 @@ Humble ve Farley, güvenliği teslimat sürecinin ayrılmaz bir parçası olarak
 
 ### 2.5.4 Ölçeklenebilirlik Eşikleri ve Mimari Sınırlar
 
-Her yazılım sistemi, tasarımı sırasında belirli bir kullanım ölçeğini üstü kapalı veya açık biçimde varsayar. Bu varsayımlar; beklenen kullanıcı sayısını, eş zamanlı işlem hacmini, veri büyüklüğünü ve dış bağımlılıkları kapsar. Sistem bu varsayımlar dahilinde çalıştığı sürece sorunsuz davranır. Varsayımlar aşıldığında ise sistemin mimari sınırlar daha belirgin hale gelir.
+Her yazılım sistemi, tasarımı sırasında belirli bir kullanım ölçeğini üstü kapalı veya açık biçimde varsayar. Bu varsayımlar; beklenen kullanıcı sayısını, eş zamanlı işlem hacmini, veri büyüklüğünü ve dış bağımlılıkları kapsar. Sistem bu varsayımlar dahilinde çalıştığı sürece sorunsuz davranır. Varsayımlar aşıldığında ise sistemin mimari sınırları belirgin hale gelir.
 
 Ölçeklenebilirlik sınırlarını özellikle sinsi yapan, bu sınırların aşılana kadar hiçbir belirti vermemesidir. Lehman'ın yazılım evrimi yasaları bu noktada açıklayıcıdır: yazılım sistemleri, değişen kullanım ve çevre koşullarına uyum sağlamazsa giderek daha az kullanışlı hale gelir <span class="bkz-ref" title="10. Lehman, M. M. (1980). Programs, Life Cycles, and Laws of Software Evolution.">(Bkz: 10)</span>. Büyüyen bir organizasyonun sistemleri o büyümeyle birlikte evrimleşemezse ciddi bir operasyonel kriz riski oluşturur.
 

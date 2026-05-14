@@ -26,7 +26,7 @@ Performans sorunlarının karakteristik özelliği, doğrusal olmayan biçimde o
 
 McConnell, bu bağlamda savunmacı programlama pratiğinin (defensive programming) önemine dikkat çeker: geliştiricilerin beklenmedik girdi büyüklüklerini, sınır koşullarını ve uç senaryoları sistematik biçimde ele alması gerektiğini vurgular <span class="bkz-ref" title="11. McConnell, S. (2004). Code Complete (2nd ed.).">(Bkz: 11)</span>. Savunmacı programlama yalnızca hata yönetimini değil, sistemin olası kullanım koşullarına hazır olmasını da kapsar.
 
-**Örnek:** Bir kurumsal raporlama sistemi, geliştirme ve test aşamalarında yüz binlerce kayıt içeren veritabanıyla test edilmişti. Sistem bu koşullarda hızlı çalışıyor, raporlar birkaç saniye içinde üretiliyordu. Ancak sistemin canlı ortama  alınmasından bir yıl sonra veritabanı on milyonlarca kayda ulaştığında, bazı raporların çalışması dakikalar sürüyordu. Sorunun kök nedeni, belirli sorgularda kullanılan join ve filtreleme işlemlerinde çalışma anında doğru inekslerin kullanılmamasıydı. Sorguların çalışma zamanı karmaşıklığı, geliştirme ortamındaki veri boyutunda hiç görünür olmamıştı. Performans riski, sistemin veri hacmiyle birlikte büyümüş ve yalnızca canlı ortmama özgü koşullarda gün yüzüne çıkmıştı.
+**Örnek:** Bir kurumsal raporlama sistemi, geliştirme ve test aşamalarında yüz binlerce kayıt içeren veritabanıyla test edilmişti. Sistem bu koşullarda hızlı çalışıyor, raporlar birkaç saniye içinde üretiliyordu. Ancak sistemin canlı ortama alınmasından bir yıl sonra veritabanı on milyonlarca kayda ulaştığında, bazı raporların çalışması dakikalar sürmeye başladı. Sorunun kök nedeni, belirli sorgularda kullanılan join ve filtreleme işlemlerinde doğru indekslerin kullanılmamasıydı. Performans riski, sistemin veri hacmiyle birlikte büyümüş ve yalnızca canlı ortama özgü koşullarda gün yüzüne çıkmıştı.
 
 ---
 
@@ -44,7 +44,7 @@ Humble ve Farley, güvenliği teslimat sürecinin ayrılmaz bir parçası olarak
 
 ### 2.5.4 Ölçeklenebilirlik Eşikleri ve Mimari Sınırlar
 
-Her yazılım sistemi, tasarımı sırasında belirli bir kullanım ölçeğini üstü kapalı veya açık biçimde varsayar. Bu varsayımlar; beklenen kullanıcı sayısını, eş zamanlı işlem hacmini, veri büyüklüğünü ve dış bağımlılıkları kapsar. Sistem bu varsayımlar dahilinde çalıştığı sürece sorunsuz davranır. Varsayımlar aşıldığında ise sistemin mimari sınırlar daha belirgin hale gelir.
+Her yazılım sistemi, tasarımı sırasında belirli bir kullanım ölçeğini üstü kapalı veya açık biçimde varsayar. Bu varsayımlar; beklenen kullanıcı sayısını, eş zamanlı işlem hacmini, veri büyüklüğünü ve dış bağımlılıkları kapsar. Sistem bu varsayımlar dahilinde çalıştığı sürece sorunsuz davranır. Varsayımlar aşıldığında ise sistemin mimari sınırları belirgin hale gelir.
 
 Ölçeklenebilirlik sınırlarını özellikle sinsi yapan, bu sınırların aşılana kadar hiçbir belirti vermemesidir. Lehman'ın yazılım evrimi yasaları bu noktada açıklayıcıdır: yazılım sistemleri, değişen kullanım ve çevre koşullarına uyum sağlamazsa giderek daha az kullanışlı hale gelir <span class="bkz-ref" title="10. Lehman, M. M. (1980). Programs, Life Cycles, and Laws of Software Evolution.">(Bkz: 10)</span>. Büyüyen bir organizasyonun sistemleri o büyümeyle birlikte evrimleşemezse ciddi bir operasyonel kriz riski oluşturur.
 

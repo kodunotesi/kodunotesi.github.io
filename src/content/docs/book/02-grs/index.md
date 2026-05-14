@@ -22,7 +22,7 @@ Ancak yapı aynıdır.
 - Implementasyon ekipleri sahadaki baskıyı vurgular. 
 - Yazılım ekipleri ise anlaşılmadıklarını düşünür.
 
-Bu kitap, bu döngünün neden tekrar tekrar oluştuğunu anlamak için yazıldı. Bu kitap, yazılım ekiplerini savunmak için yazılmadı. Aynı şekilde, diğer ekipleri suçlamak için de yazılmadı. Bu kitap, daha temel bir iddia ortaya koyar:
+Bu kitap, bu döngünün neden tekrar tekrar oluştuğunu anlamak için yazıldı. Yazılım ekiplerini savunmayı ya da diğer ekipleri suçlamayı değil, daha temel bir iddiayı ortaya koymayı amaçlar:
 
 **`Sorun bireylerde değildir. Sorun, sistemdedir.`**
 
@@ -32,7 +32,7 @@ Organizasyonlar, yazılım geliştirmeyi çoğu zaman bir üretim faaliyeti gibi
 - Karmaşıklık vardır.
 - Bağımlılıklar vardır.
 
-Belirsizliklerin, karmaşlıklıkların ve bağımlılıkların önemli bir kısmı doğrudan yazılım ekiplerinin kontrolünde değildir. Müşteriler, kurum içi paydaşlar, regülasyonlar/standartlar, kullanılan teknolojiler ve trendler yazılım geliştirme sürecinin doğrusal bir üretim bandı olarak işletilmesini zorlaştırır. Kaldı ki, güncel ve trend olan yazılım geliştirme metodolojilerinin neredeyse tamamı lineer yaklaşım yerine sürekli iyileştirme ve sürekli teslimatı mümkün kılmayı hedefleyen yöntemleri ön plana çıkarır.    
+Belirsizliklerin, karmaşıklıkların ve bağımlılıkların önemli bir kısmı doğrudan yazılım ekiplerinin kontrolünde değildir. Müşteriler, kurum içi paydaşlar, regülasyonlar, standartlar, kullanılan teknolojiler ve trendler yazılım geliştirme sürecinin doğrusal bir üretim bandı olarak işletilmesini zorlaştırır. Güncel yazılım geliştirme metodolojilerinin çoğu da lineer yaklaşım yerine sürekli iyileştirme ve sürekli teslimatı mümkün kılan yöntemleri öne çıkarır.
 
 Bu gerçekler göz ardı edildiğinde, organizasyonlarda yazılım ekiplerinden gerçekçi olmayan beklentiler oluşur. Organizasyonlar bu beklentileri süregelen bir gerilim ortamında yönetmek için efor harcamak zorunda kalır. Yazılım ekipleri ise bu beklentiler karşısında ya savunmaya geçer ya da sessizce kendi bildiklerini okumaya devam eder.
 
@@ -54,13 +54,9 @@ Bu kitap dört bölümden oluşur.
 - Üçüncü bölümde, bu iki katmanın organizasyon içinde nasıl çatışmaya dönüştüğünü analiz edeceğiz.
 - Dördüncü bölümde ise bu problemlere sistemsel çözümler önereceğiz.
 
-Bu kitap, hızlı çözümler sunmaz. 
+Bu kitap, hızlı çözümler veya kolay cevaplar sunmaz. Bunun yerine doğru soruları sormaya çalışır; çünkü doğru sorular sorulmadan doğru çözümler bulunamaz.
 
-Bu kitap, kolay cevaplar vermez. 
-
-Ancak doğru soruları sorar. Çünkü doğru sorular sorulmadan, doğru çözümler bulunamaz.
-
-Bu kitabı okurken, anlatılan örneklerde kendinizi, ekibinizi ve organizasyonunuzu göreceksiniz. Bu bir tesadüf değildir. Çünkü bu problemler bireysel değil, yapısaldır. Ve yapısal problemler, ancak yapısal çözümlerle giderilebilir.
+Anlatılan örneklerde kendinizi, ekibinizi veya organizasyonunuzu görmeniz tesadüf olmayacaktır. Çünkü bu problemler bireysel değil, yapısaldır; yapısal problemler de ancak yapısal çözümlerle giderilebilir.
 
 Bu kitap, o çözümlere giden yolu açmayı amaçlar.
 

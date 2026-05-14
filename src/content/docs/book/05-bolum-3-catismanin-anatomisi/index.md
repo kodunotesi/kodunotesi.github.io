@@ -42,7 +42,7 @@ Bu nedenle "uzun sürüyor" yargısı çoğu durumda mutlak bir olgu değil, öl
 
 ### 3.1.3 Tahminin Taahhüde Dönüşmesi
 
-Çatışmanın kritik kırılma noktası burada oluşur: teknik ekip tarafından belirsizlik aralığı olarak verilen tahmin, yönetim zincirinde süresi belli net tarih dilimlerine dönüşür. Teknik ekiplerin verdiği aralıklar sadeleştirilip takvim üzerinde sabitlendiğinde ise bazı riskler görünmez hale gelir. Katı bir şekilde takvimleştirme, belirsizlik aralığının üretilmesine neden olan bağlamın deforme olmasına hatta kaybolmasına neden olur.
+Çatışmanın kritik kırılma noktası burada oluşur: teknik ekip tarafından belirsizlik aralığı olarak verilen tahmin, yönetim zincirinde net tarih dilimlerine dönüşür. Aralıklar sadeleştirilip takvim üzerinde sabitlendiğinde bazı riskler görünmez hale gelir. Katı takvimleştirme, belirsizlik aralığını doğuran bağlamı bozar, hatta tamamen kaybettirebilir.
 
 Risk görünmez olduğunda ise teslimat sapması teknik keşif sonucu olarak değil, sözünü tutmama olarak yorumlanır. Bu yorum çoğu zaman niyetle değil, raporlama baskısıyla üretilir. Ancak etkisi niyetten bağımsızdır.
 
@@ -299,7 +299,7 @@ Savunmacı iletişim döngüsü tipik olarak şu davranışları üretir:
 
 Zamanla organizasyon görünürde daha kontrollü hale gelir; ancak gerçekte ortak problem çözme kapasitesi azalır. Toplantılar çözüm üretmekten çok pozisyon savunmaya hizmet etmeye başlar.
 
-Örneğin teknik ekip ileride suçlanmamak için daha uzun risk listeleri üretir. İş tarafı ise ilerleme baskısını artırmak için daha sert teslim tarihleri koyar. Her iki taraf da kendini korumaya çalışırken güven daha da azalır. Bu döngü belirli bir noktadan sonra teknik problem olmaktan çıkar ve ilişki problemine dönüşür. Artık tartışmanın merkezinde sistem davranışı değil, insanların birbirine atfettiği niyetler vardır.
+Örneğin teknik ekip ileride suçlanmamak için daha uzun risk listeleri üretir. İş tarafı ise ilerleme baskısını artırmak için daha sert teslim tarihleri koyar. Her iki taraf da kendini korumaya çalışırken güven daha da azalır. Belirli bir noktadan sonra tartışmanın merkezinde sistem davranışı değil, insanların birbirine atfettiği niyetler vardır.
 
 Bu aşamaya gelmiş organizasyonlarda teknik doğruluk tek başına çatışmayı çözmeye yetmez. Çünkü problem bilgi eksikliğinden çok güven eksikliğine dönüşmüştür.
 
@@ -366,7 +366,7 @@ Suçlama döngüsü, çatışmanın kurumsallaşmış halidir. Bu aşamada siste
 
 Bu döngü çoğu zaman açık bir kötü niyetle başlamaz. Başlangıçta herkes yalnızca baskı altındaki bir problemi açıklamaya çalışır: gecikme neden oldu, hata nasıl canlıya çıktı, müşteri neden etkilendi, karar neden zamanında alınamadı? Ancak organizasyonda güven düşükse bu sorular hızla öğrenme sorusu olmaktan çıkar ve savunma sorusuna dönüşür.
 
-Suçlama döngüsünün ayırt edici özelliği, problemin kendisinden çok problemin kime ait olduğunun tartışılmasıdır. Böyle ortamlarda "ne oldu" sorusu bile tarafsız bir araştırma daveti gibi duyulmaz; üstü kapalı "bunu kim yaptı" sorusunu taşır. Bu nedenle ekipler olayları açıklarken aynı anda kendilerini korumaya çalışır.
+Suçlama döngüsünün ayırt edici özelliği, problemin kendisinden çok problemin kime ait olduğunun tartışılmasıdır. Böyle ortamlarda "ne oldu" sorusu bile tarafsız bir araştırma daveti gibi duyulmaz; üstü kapalı "bunu kim yaptı" sorusunu taşır. Bu yüzden ekipler olayları açıklarken aynı anda kendilerini korumaya çalışır.
 
 Bir süre sonra organizasyonun enerjisi üç farklı hatta dağılır:
 

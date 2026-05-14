@@ -6,7 +6,7 @@ Suçlama döngüsü, çatışmanın kurumsallaşmış halidir. Bu aşamada siste
 
 Bu döngü çoğu zaman açık bir kötü niyetle başlamaz. Başlangıçta herkes yalnızca baskı altındaki bir problemi açıklamaya çalışır: gecikme neden oldu, hata nasıl canlıya çıktı, müşteri neden etkilendi, karar neden zamanında alınamadı? Ancak organizasyonda güven düşükse bu sorular hızla öğrenme sorusu olmaktan çıkar ve savunma sorusuna dönüşür.
 
-Suçlama döngüsünün ayırt edici özelliği, problemin kendisinden çok problemin kime ait olduğunun tartışılmasıdır. Böyle ortamlarda "ne oldu" sorusu bile tarafsız bir araştırma daveti gibi duyulmaz; üstü kapalı "bunu kim yaptı" sorusunu taşır. Bu nedenle ekipler olayları açıklarken aynı anda kendilerini korumaya çalışır.
+Suçlama döngüsünün ayırt edici özelliği, problemin kendisinden çok problemin kime ait olduğunun tartışılmasıdır. Böyle ortamlarda "ne oldu" sorusu bile tarafsız bir araştırma daveti gibi duyulmaz; üstü kapalı "bunu kim yaptı" sorusunu taşır. Bu yüzden ekipler olayları açıklarken aynı anda kendilerini korumaya çalışır.
 
 Bir süre sonra organizasyonun enerjisi üç farklı hatta dağılır:
 

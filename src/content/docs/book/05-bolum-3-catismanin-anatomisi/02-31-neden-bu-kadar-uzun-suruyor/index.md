@@ -30,7 +30,7 @@ Bu nedenle "uzun sürüyor" yargısı çoğu durumda mutlak bir olgu değil, öl
 
 ### 3.1.3 Tahminin Taahhüde Dönüşmesi
 
-Çatışmanın kritik kırılma noktası burada oluşur: teknik ekip tarafından belirsizlik aralığı olarak verilen tahmin, yönetim zincirinde süresi belli net tarih dilimlerine dönüşür. Teknik ekiplerin verdiği aralıklar sadeleştirilip takvim üzerinde sabitlendiğinde ise bazı riskler görünmez hale gelir. Katı bir şekilde takvimleştirme, belirsizlik aralığının üretilmesine neden olan bağlamın deforme olmasına hatta kaybolmasına neden olur.
+Çatışmanın kritik kırılma noktası burada oluşur: teknik ekip tarafından belirsizlik aralığı olarak verilen tahmin, yönetim zincirinde net tarih dilimlerine dönüşür. Aralıklar sadeleştirilip takvim üzerinde sabitlendiğinde bazı riskler görünmez hale gelir. Katı takvimleştirme, belirsizlik aralığını doğuran bağlamı bozar, hatta tamamen kaybettirebilir.
 
 Risk görünmez olduğunda ise teslimat sapması teknik keşif sonucu olarak değil, sözünü tutmama olarak yorumlanır. Bu yorum çoğu zaman niyetle değil, raporlama baskısıyla üretilir. Ancak etkisi niyetten bağımsızdır.
 

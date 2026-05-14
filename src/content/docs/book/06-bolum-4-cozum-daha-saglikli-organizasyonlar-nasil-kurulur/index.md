@@ -6,9 +6,9 @@ title: "BÖLÜM 4: Çözüm – Daha Sağlıklı Organizasyonlar Nasıl Kurulur?
 
 Önceki bölümlerde yazılım ekiplerine yönelik algının nasıl oluştuğunu, yazılım geliştirmenin neden doğrusal bir üretim hattı gibi yönetilemeyeceğini ve bu iki gerçekliğin organizasyon içinde nasıl çatışmaya dönüştüğünü inceledik.
 
-Bu bölümde odak artık teşhisten çözüme kayıyor. Ancak burada çözümden kastımız, ekiplerden daha iyi niyetli olmalarını istemek ya da toplantılarda daha nazik konuşmalarını önermek değildir. Bunlar faydalı olabilir; fakat tek başına yeterli değildir. Çünkü önceki bölümlerde gördüğümüz problemler bireylerin kişisel tutumlarından çok, organizasyonun çalışma biçimiyle ilgilidir.
+Bu bölümde odak artık teşhisten çözüme kayıyor. Ancak burada çözümden kastımız, ekiplerden daha iyi niyetli olmalarını istemek ya da toplantılarda daha nazik konuşmalarını önermek değildir. Bunlar faydalı olabilir; fakat tek başına yeterli değildir. Çünkü önceki bölümlerde gördüğümüz problemler kişisel tutumlardan çok organizasyonun çalışma biçimiyle ilgilidir.
 
-Eğer bir organizasyonda teknik risk görünmez kalıyorsa, yazılım ekibi sürekli savunmada kalıyorsa, müşteri beklentileri gerçekçi olmayan tarihlerle yönetiliyorsa, ürün kararları parça parça alınıyorsa ve hatalar öğrenme yerine suçlama üretiyorsa, problem yalnızca iletişim eksikliği değildir. Problem, sistemin yanlış davranışı doğal hale getirmesidir.
+Eğer bir organizasyonda teknik risk görünmez kalıyor, yazılım ekibi sürekli savunmada duruyor, müşteri beklentileri gerçekçi olmayan tarihlerle yönetiliyor ve hatalar öğrenme yerine suçlama üretiyorsa, problem yalnızca iletişim eksikliği değildir. Problem, sistemin yanlış davranışı doğal hale getirmesidir.
 
 Bu nedenle sağlıklı organizasyon kurmanın temel sorusu şudur: İnsanlardan doğru davranışı sürekli kahramanca üretmelerini mi bekliyoruz, yoksa doğru davranışın daha kolay, daha görünür ve daha güvenli hale geldiği bir sistem mi tasarlıyoruz? Bu bakış açısı, problemi tekil davranışlardan çok sistemi oluşturan ilişkiler, geri bildirim döngüleri ve öğrenme kapasitesi üzerinden ele alan sistem düşüncesi yaklaşımıyla uyumludur (Bkz: 8).
 
@@ -20,7 +20,7 @@ Bu bölüm, ikinci yaklaşımı savunur. Daha sağlıklı yazılım organizasyon
 
 Yazılım organizasyonlarında çözüm arayışı çoğu zaman bireysel davranışlara yönelir. Daha iyi proje yöneticileri, daha disiplinli geliştiriciler, daha net ürün yöneticileri, daha sabırlı müşteriler ya da daha güçlü liderler aranır. Elbette bireysel yetkinlik önemlidir. Ancak sistem kötü tasarlanmışsa iyi insanlar bile tekrar eden gerilimleri kalıcı biçimde çözemeyebilir.
 
-Bir sistem, insanların hangi bilgiyi görünür kıldığını, hangi riski sakladığını, hangi davranışın ödüllendirildiğini ve hangi davranışın cezalandırıldığını belirler. Eğer organizasyon yalnızca teslim tarihini ödüllendiriyor, ama teknik borcun azaltılmasını görünmez bırakıyorsa, ekipler zamanla kısa vadeli teslimata yönelir. Eğer kötü haber getiren ekip sorgulanıyor, ama problemi geç fark eden ekip geçici olarak rahat bırakılıyorsa, riskler daha geç paylaşılır. Eğer müşteriye verilen sözler teknik gerçeklikle hizalanmadan oluşturuluyorsa, yazılım ekibi kaçınılmaz olarak gerilimin son halkasında kalır. Bu nedenle güvenli biçimde risk paylaşabilmek, yalnızca kültürel bir tercih değil, öğrenme kapasitesini belirleyen temel bir organizasyonel koşuldur (Bkz: 2).
+Bir sistem, insanların hangi bilgiyi görünür kıldığını, hangi riski sakladığını, hangi davranışın ödüllendirildiğini ve hangisinin cezalandırıldığını belirler. Organizasyon yalnızca teslim tarihini ödüllendiriyor, ama teknik borcun azaltılmasını görünmez bırakıyorsa ekipler zamanla kısa vadeli teslimata yönelir. Kötü haber getiren ekip sorgulanıyor, problemi geç fark eden ekip geçici olarak rahat bırakılıyorsa riskler daha geç paylaşılır. Müşteriye verilen sözler teknik gerçeklikle hizalanmadan oluşturuluyorsa yazılım ekibi kaçınılmaz olarak gerilimin son halkasında kalır. Bu nedenle güvenli biçimde risk paylaşabilmek, yalnızca kültürel bir tercih değil, öğrenme kapasitesini belirleyen temel bir organizasyonel koşuldur (Bkz: 2).
 
 Bu nedenle çözüm, insanlardan sürekli daha fazla çaba istemek değil, organizasyonel varsayımları değiştirmektir.
 
@@ -94,7 +94,7 @@ Sağlıklı taahhüt disiplini şu ayrımı netleştirir:
 
 Bu dört kavram birbirine karıştırıldığında çatışma kaçınılmaz hale gelir. Bir geliştiricinin erken aşamada söylediği "iki hafta sürebilir" cümlesi, satış sunumunda "iki haftada teslim" cümlesine dönüşürse, tahmin taahhüt gibi kullanılmış olur. Kapsam değiştiğinde tarih değişmiyorsa, plan gerçeklikten kopmuş olur. Karar bağımlılıkları çözülmeden müşteriye söz veriliyorsa, organizasyon kendi içinde gerilim üretir.
 
-Bu nedenle sağlıklı organizasyonlarda dış taahhütler yalnızca takvim üzerinden verilmez. Taahhüt; kapsam, kalite beklentisi, kabul kriteri, risk seviyesi ve değişiklik yönetimiyle birlikte tanımlanır.
+Bu nedenle sağlıklı organizasyonlarda dış taahhütler yalnızca takvim üzerinden verilmez. Kapsam, kalite beklentisi, kabul kriteri, risk seviyesi ve değişiklik yönetimiyle birlikte tanımlanır.
 
 Bir teslimat sözü verilmeden önce şu sorular netleşmelidir:
 
@@ -110,7 +110,7 @@ Beklenti yönetimi yalnızca dış müşteriye dönük değildir. Organizasyon i
 
 **Örnek:** İstanbul'da bir fintech şirketinde satış ve implementasyon ekipleri müşterilere doğrudan teslim tarihi veriyordu. Yazılım ekibi çoğu zaman bu tarihleri sonradan öğreniyor ve gerçekçi olmayan sözleri düzeltmeye çalışıyordu. Şirket, dış taahhüt sürecini yeniden tasarladı. Artık müşteri tarihleri yalnızca ürün, yazılım ve operasyon temsilcilerinin birlikte yaptığı kısa etki değerlendirmesinden sonra veriliyordu. Başlangıçta satış döngüsü yavaşladı ve bazı müşteriler daha net söz isteyen rakiplere yöneldi. Ancak altı ay sonra geciken teslimat oranı belirgin biçimde düştü, müşteri eskalasyonları azaldı ve satış ekibi de daha güvenilir vaatlerle ilerlediği için uzun vadede daha az kriz yaşadı.
 
-Bu tür bir değişim kısa vadede rahatsız edicidir. Çünkü organizasyonun iyimserlik üzerinden çalışmasını zorlaştırır. Fakat uzun vadede güvenilirlik üretir. Müşteri için en yıkıcı olan şey çoğu zaman geç tarih almak değil, verilen tarihin sürekli bozulmasıdır. Güvenilir akış yaratmak, darboğazları ve kısıtları görünür kılmayı gerektirir; aksi halde organizasyon gerçek kapasitesini değil, temenni edilen kapasiteyi yönetir (Bkz: 1).
+Bu tür bir değişim kısa vadede rahatsız edicidir; çünkü organizasyonun iyimserlik üzerinden çalışmasını zorlaştırır. Fakat uzun vadede güvenilirlik üretir. Müşteri için en yıkıcı olan şey çoğu zaman geç tarih almak değil, verilen tarihin sürekli bozulmasıdır. Güvenilir akış yaratmak, darboğazları ve kısıtları görünür kılmayı gerektirir; aksi halde organizasyon gerçek kapasitesini değil, temenni edilen kapasiteyi yönetir (Bkz: 1).
 
 ---
 
@@ -296,7 +296,7 @@ Bu tür bir öğrenme pratiği zamanla güven üretir. İnsanlar hata olduğunda
 
 ## 4.9 Uygulama Yol Haritası: Nereden Başlamalı?
 
-Bu bölümde anlatılan çözümler kapsamlı görünebilir. Gerçekten de sağlıklı organizasyon bir gecede kurulmaz. Ancak bu, değişimin büyük bir dönüşüm programıyla başlaması gerektiği anlamına gelmez. Çoğu organizasyon için en doğru başlangıç, mevcut çatışma döngüsünü görünür kılan küçük ama düzenli müdahalelerdir.
+Bu bölümde anlatılan çözümler kapsamlı görünebilir. Sağlıklı organizasyon bir gecede kurulmaz. Ancak bu, değişimin büyük bir dönüşüm programıyla başlaması gerektiği anlamına gelmez. Çoğu organizasyon için en doğru başlangıç, mevcut çatışma döngüsünü görünür kılan küçük ama düzenli müdahalelerdir.
 
 Uygulama yol haritası dört aşamada düşünülebilir.
 

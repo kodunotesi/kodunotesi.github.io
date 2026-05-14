@@ -4,7 +4,7 @@ sidebar:
   hidden: true
 ---
 
-Test yazımı, yazılım geliştirmede en sık "zaman kaybı" olarak nitelendirilen ve en sık terk edilen pratiklerden biridir. Bu algı bir yönü ile anlaşılabilirdir: test yazmak zaman alır, başlangıçta doğrudan görünür bir çıktı üretmez ve teslimat takvimini uzatan ek bir iş gibi görünür. Ancak bu algı, testlerin yazılım geliştirme sürecindeki gerçek rolünü eksik değerlendirmektedir.
+Test yazımı, yazılım geliştirmede en sık "zaman kaybı" olarak nitelendirilen ve en sık terk edilen pratiklerden biridir. Bu algı bir yönüyle anlaşılabilirdir: test yazmak zaman alır, başlangıçta doğrudan görünür bir çıktı üretmez ve teslimat takvimini uzatan ek bir iş gibi görünür. Ancak bu bakış, testlerin gerçek rolünü eksik değerlendirir.
 
 Testler yalnızca hata bulma araçları değildir; aynı zamanda sistemin beklenen davranışını tanımlayan ve değişiklikler sırasında bu davranışın korunup korunmadığını doğrulayan çalıştırılabilir güvence mekanizmalarıdır. Bir test geçtiğinde, ilgili davranışın test edilen senaryolar altında hâlâ beklendiği gibi çalıştığı doğrulanmış olur. Bir değişiklik yapıldığında testlerin yeniden çalıştırılması, beklenmeyen yan etkilerin erken aşamada görünür hale gelmesini sağlar.
 

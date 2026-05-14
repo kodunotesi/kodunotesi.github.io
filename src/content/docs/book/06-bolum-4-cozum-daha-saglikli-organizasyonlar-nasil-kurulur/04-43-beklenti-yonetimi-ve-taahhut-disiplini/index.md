@@ -17,7 +17,7 @@ Sağlıklı taahhüt disiplini şu ayrımı netleştirir:
 
 Bu dört kavram birbirine karıştırıldığında çatışma kaçınılmaz hale gelir. Bir geliştiricinin erken aşamada söylediği "iki hafta sürebilir" cümlesi, satış sunumunda "iki haftada teslim" cümlesine dönüşürse, tahmin taahhüt gibi kullanılmış olur. Kapsam değiştiğinde tarih değişmiyorsa, plan gerçeklikten kopmuş olur. Karar bağımlılıkları çözülmeden müşteriye söz veriliyorsa, organizasyon kendi içinde gerilim üretir.
 
-Bu nedenle sağlıklı organizasyonlarda dış taahhütler yalnızca takvim üzerinden verilmez. Taahhüt; kapsam, kalite beklentisi, kabul kriteri, risk seviyesi ve değişiklik yönetimiyle birlikte tanımlanır.
+Bu nedenle sağlıklı organizasyonlarda dış taahhütler yalnızca takvim üzerinden verilmez. Kapsam, kalite beklentisi, kabul kriteri, risk seviyesi ve değişiklik yönetimiyle birlikte tanımlanır.
 
 Bir teslimat sözü verilmeden önce şu sorular netleşmelidir:
 
@@ -33,7 +33,7 @@ Beklenti yönetimi yalnızca dış müşteriye dönük değildir. Organizasyon i
 
 **Örnek:** İstanbul'da bir fintech şirketinde satış ve implementasyon ekipleri müşterilere doğrudan teslim tarihi veriyordu. Yazılım ekibi çoğu zaman bu tarihleri sonradan öğreniyor ve gerçekçi olmayan sözleri düzeltmeye çalışıyordu. Şirket, dış taahhüt sürecini yeniden tasarladı. Artık müşteri tarihleri yalnızca ürün, yazılım ve operasyon temsilcilerinin birlikte yaptığı kısa etki değerlendirmesinden sonra veriliyordu. Başlangıçta satış döngüsü yavaşladı ve bazı müşteriler daha net söz isteyen rakiplere yöneldi. Ancak altı ay sonra geciken teslimat oranı belirgin biçimde düştü, müşteri eskalasyonları azaldı ve satış ekibi de daha güvenilir vaatlerle ilerlediği için uzun vadede daha az kriz yaşadı.
 
-Bu tür bir değişim kısa vadede rahatsız edicidir. Çünkü organizasyonun iyimserlik üzerinden çalışmasını zorlaştırır. Fakat uzun vadede güvenilirlik üretir. Müşteri için en yıkıcı olan şey çoğu zaman geç tarih almak değil, verilen tarihin sürekli bozulmasıdır. Güvenilir akış yaratmak, darboğazları ve kısıtları görünür kılmayı gerektirir; aksi halde organizasyon gerçek kapasitesini değil, temenni edilen kapasiteyi yönetir (Bkz: 1).
+Bu tür bir değişim kısa vadede rahatsız edicidir; çünkü organizasyonun iyimserlik üzerinden çalışmasını zorlaştırır. Fakat uzun vadede güvenilirlik üretir. Müşteri için en yıkıcı olan şey çoğu zaman geç tarih almak değil, verilen tarihin sürekli bozulmasıdır. Güvenilir akış yaratmak, darboğazları ve kısıtları görünür kılmayı gerektirir; aksi halde organizasyon gerçek kapasitesini değil, temenni edilen kapasiteyi yönetir (Bkz: 1).
 
 ---
 

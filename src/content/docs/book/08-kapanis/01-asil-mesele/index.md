@@ -12,7 +12,7 @@ Bir organizasyonda suçlama döngüsü sürekli tekrar ediyorsa, ilk soru kimin 
 
 Bu soruların ortak özelliği şudur: Odağı kişiden sisteme taşırlar.
 
-Bu geçiş küçük görünür, fakat çok önemlidir. Çünkü "kim yaptı?" sorusu savunma üretir. "Sistem bunu nasıl üretti?" sorusu öğrenme üretir.
+Bu geçiş küçük görünür, fakat önemlidir. Çünkü "kim yaptı?" sorusu savunma üretir. "Sistem bunu nasıl üretti?" sorusu öğrenme üretir.
 
 ---
 

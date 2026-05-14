@@ -22,7 +22,7 @@ Savunmacı iletişim döngüsü tipik olarak şu davranışları üretir:
 
 Zamanla organizasyon görünürde daha kontrollü hale gelir; ancak gerçekte ortak problem çözme kapasitesi azalır. Toplantılar çözüm üretmekten çok pozisyon savunmaya hizmet etmeye başlar.
 
-Örneğin teknik ekip ileride suçlanmamak için daha uzun risk listeleri üretir. İş tarafı ise ilerleme baskısını artırmak için daha sert teslim tarihleri koyar. Her iki taraf da kendini korumaya çalışırken güven daha da azalır. Bu döngü belirli bir noktadan sonra teknik problem olmaktan çıkar ve ilişki problemine dönüşür. Artık tartışmanın merkezinde sistem davranışı değil, insanların birbirine atfettiği niyetler vardır.
+Örneğin teknik ekip ileride suçlanmamak için daha uzun risk listeleri üretir. İş tarafı ise ilerleme baskısını artırmak için daha sert teslim tarihleri koyar. Her iki taraf da kendini korumaya çalışırken güven daha da azalır. Belirli bir noktadan sonra tartışmanın merkezinde sistem davranışı değil, insanların birbirine atfettiği niyetler vardır.
 
 Bu aşamaya gelmiş organizasyonlarda teknik doğruluk tek başına çatışmayı çözmeye yetmez. Çünkü problem bilgi eksikliğinden çok güven eksikliğine dönüşmüştür.
 

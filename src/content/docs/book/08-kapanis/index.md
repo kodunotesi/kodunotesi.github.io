@@ -4,15 +4,11 @@ title: "KAPANIŞ"
 
 Bu kitabın başında ortaya koyduğumuz temel iddia basitti: sorun tek başına yazılım ekipleri değildir; sorun, organizasyonların yazılım geliştirmeyi ele alış biçimidir.
 
-Bu cümle ilk bakışta yazılım ekiplerini savunmak için kurulmuş gibi görünebilir. Oysa kitabın amacı bir tarafı haklı çıkarmak değildi. Amaç, tekrar eden gerilimlerin arkasındaki yapıyı görünür hale getirmekti. Çünkü yazılım ekipleri ile ürün, proje, satış, implementasyon, operasyon ve yönetim ekipleri arasındaki çatışmalar çoğu zaman kişisel tutumlardan değil, aynı sistemi farklı gerçeklikler üzerinden okumaktan doğar.
+Bu iddia yazılım ekiplerini savunmak için değil, tekrar eden gerilimlerin arkasındaki yapıyı görünür kılmak için kuruldu. Yazılım ekipleri ile ürün, proje, satış, implementasyon, operasyon ve yönetim ekipleri arasındaki çatışmalar çoğu zaman kişisel tutumlardan değil, aynı sistemi farklı gerçeklikler üzerinden okumaktan doğar.
 
-Bölüm 1'de yazılım ekiplerine yönelik algının nasıl oluştuğunu gördük. "Yavaş", "zorlaştıran", "detaycı", "hayır diyen" veya "işi büyüten" gibi etiketlerin çoğu, bağlamından koparılmış gerçek gözlemlerden beslenir. Yazılım ekipleri gerçekten bazen yavaş görünür, gerçekten bazen daha fazla süre ister, gerçekten bazen riskleri öne çıkarır. Ancak bu davranışlar çoğu zaman isteksizlikten değil, görünmeyen iş yükünden, farklı KPI'lardan, iletişim boşluklarından ve teknik gerçekliğin yeterince anlaşılmamasından kaynaklanır.
+Bölüm 1'de bu algının nasıl oluştuğunu; Bölüm 2'de yazılım geliştirmenin belirsizlik, karmaşıklık, bağımlılık, kalite, teknik borç ve görünmeyen riskler üzerine kurulu doğasını; Bölüm 3'te bu gerçekliklerin organizasyon içinde nasıl çatışmaya dönüştüğünü; Bölüm 4'te ise çözümün bireylerden daha fazla çaba istemek değil, sistemi yeniden tasarlamak olduğunu gördük.
 
-Bölüm 2'de bu teknik gerçekliğin kendisini inceledik. Yazılım geliştirme belirsizlik, karmaşıklık, bağımlılık, kalite, teknik borç ve görünmeyen riskler üzerine kurulu bir disiplindir. Dışarıdan küçük görünen bir değişiklik içeride geniş bir etki alanına sahip olabilir. Hızlı görünen bir karar, birkaç ay sonra teknik borç olarak geri dönebilir. Bugün görünmeyen bir performans, güvenlik veya ölçeklenebilirlik riski, yarın canlı sistemde büyük bir krize dönüşebilir.
-
-Bölüm 3'te bu gerçekliklerin organizasyon içinde nasıl çatışmaya dönüştüğünü ele aldık. "Neden bu kadar uzun sürüyor?", "Bu küçük bir işti", "Neden değişiklik yapamıyoruz?", "Yazılım ekibi direnç gösteriyor" ve "Suçlu kim?" soruları ayrı ayrı görünse de aynı yapısal gerilimin farklı yüzleridir. Teknik gerçeklik iş diline, iş baskısı risk diline, risk maliyeti karar diline çevrilemediğinde taraflar birbirini anlamak yerine birbirine niyet atfetmeye başlar.
-
-Bölüm 4'te ise çözümün bireylerden daha fazla çaba istemek değil, sistemi yeniden tasarlamak olduğunu gördük. Ortak gerçeklik, beklenti disiplini, görünürlük, önceliklendirme, sahiplik, ürün disiplini ve öğrenme kültürü; sağlıklı organizasyonların temel müdahale alanlarıdır. Bunlar yalnızca süreç önerileri değildir. Bunlar, organizasyonun hangi davranışları kolaylaştırdığına ve hangi davranışları zorlaştırdığına dair tasarım kararlarıdır.
+Ortak gerçeklik, beklenti disiplini, görünürlük, önceliklendirme, sahiplik, ürün disiplini ve öğrenme kültürü yalnızca süreç önerileri değildir. Bunlar, organizasyonun hangi davranışları kolaylaştırdığına ve hangi davranışları zorlaştırdığına dair tasarım kararlarıdır.
 
 Bu nedenle kitabın sonunda varmak istediğimiz nokta şudur: Yazılım geliştirme yalnızca teknik bir üretim faaliyeti değildir. Yazılım geliştirme, organizasyonun karar alma biçimini, belirsizlikle ilişkisini, risk anlayışını, öğrenme kapasitesini ve güven düzeyini görünür kılan bir aynadır.
 
@@ -30,7 +26,7 @@ Bir organizasyonda suçlama döngüsü sürekli tekrar ediyorsa, ilk soru kimin 
 
 Bu soruların ortak özelliği şudur: Odağı kişiden sisteme taşırlar.
 
-Bu geçiş küçük görünür, fakat çok önemlidir. Çünkü "kim yaptı?" sorusu savunma üretir. "Sistem bunu nasıl üretti?" sorusu öğrenme üretir.
+Bu geçiş küçük görünür, fakat önemlidir. Çünkü "kim yaptı?" sorusu savunma üretir. "Sistem bunu nasıl üretti?" sorusu öğrenme üretir.
 
 ---
 

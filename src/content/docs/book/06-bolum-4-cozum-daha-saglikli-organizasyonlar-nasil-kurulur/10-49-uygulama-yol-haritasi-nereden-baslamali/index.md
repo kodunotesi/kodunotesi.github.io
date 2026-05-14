@@ -2,7 +2,7 @@
 title: "4.9 Uygulama Yol Haritası: Nereden Başlamalı?"
 ---
 
-Bu bölümde anlatılan çözümler kapsamlı görünebilir. Gerçekten de sağlıklı organizasyon bir gecede kurulmaz. Ancak bu, değişimin büyük bir dönüşüm programıyla başlaması gerektiği anlamına gelmez. Çoğu organizasyon için en doğru başlangıç, mevcut çatışma döngüsünü görünür kılan küçük ama düzenli müdahalelerdir.
+Bu bölümde anlatılan çözümler kapsamlı görünebilir. Sağlıklı organizasyon bir gecede kurulmaz. Ancak bu, değişimin büyük bir dönüşüm programıyla başlaması gerektiği anlamına gelmez. Çoğu organizasyon için en doğru başlangıç, mevcut çatışma döngüsünü görünür kılan küçük ama düzenli müdahalelerdir.
 
 Uygulama yol haritası dört aşamada düşünülebilir.
 

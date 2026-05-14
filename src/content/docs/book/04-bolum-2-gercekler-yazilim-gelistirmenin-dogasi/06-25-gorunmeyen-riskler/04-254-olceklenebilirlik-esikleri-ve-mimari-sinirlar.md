@@ -4,7 +4,7 @@ sidebar:
   hidden: true
 ---
 
-Her yazılım sistemi, tasarımı sırasında belirli bir kullanım ölçeğini üstü kapalı veya açık biçimde varsayar. Bu varsayımlar; beklenen kullanıcı sayısını, eş zamanlı işlem hacmini, veri büyüklüğünü ve dış bağımlılıkları kapsar. Sistem bu varsayımlar dahilinde çalıştığı sürece sorunsuz davranır. Varsayımlar aşıldığında ise sistemin mimari sınırlar daha belirgin hale gelir.
+Her yazılım sistemi, tasarımı sırasında belirli bir kullanım ölçeğini üstü kapalı veya açık biçimde varsayar. Bu varsayımlar; beklenen kullanıcı sayısını, eş zamanlı işlem hacmini, veri büyüklüğünü ve dış bağımlılıkları kapsar. Sistem bu varsayımlar dahilinde çalıştığı sürece sorunsuz davranır. Varsayımlar aşıldığında ise sistemin mimari sınırları belirgin hale gelir.
 
 Ölçeklenebilirlik sınırlarını özellikle sinsi yapan, bu sınırların aşılana kadar hiçbir belirti vermemesidir. Lehman'ın yazılım evrimi yasaları bu noktada açıklayıcıdır: yazılım sistemleri, değişen kullanım ve çevre koşullarına uyum sağlamazsa giderek daha az kullanışlı hale gelir <span class="bkz-ref" title="10. Lehman, M. M. (1980). Programs, Life Cycles, and Laws of Software Evolution.">(Bkz: 10)</span>. Büyüyen bir organizasyonun sistemleri o büyümeyle birlikte evrimleşemezse ciddi bir operasyonel kriz riski oluşturur.
 
