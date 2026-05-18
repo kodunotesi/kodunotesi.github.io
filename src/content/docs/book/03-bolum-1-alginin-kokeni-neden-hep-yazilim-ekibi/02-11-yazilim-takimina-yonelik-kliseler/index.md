@@ -2,7 +2,7 @@
 title: "1.1 Yazılım Takımına Yönelik Klişeler"
 ---
 
-Klişeler durup dudurken oluşmaz. Her klişenin arkasında, bağlamından koparılmış gerçek bir gözlem vardır. Yazılım ekiplerine yönelik klişeler de bu kuralın istisnası değildir. Bu yargılar çoğu zaman yaşanmış deneyimlere dayanır ve bu yargılar deneyimin tamamını değil yalnızca görünen kısmını yansıtır. Klişenin kalıcı olmasını sağlayan şey ise bağlamın kaybolması ve gözlemin sistematik bir etikete dönüşmesidir.
+Klişeler durup dururken oluşmaz. Her klişenin arkasında, bağlamından koparılmış gerçek bir gözlem vardır. Yazılım ekiplerine yönelik klişeler de bu kuralın istisnası değildir. Bu yargılar çoğu zaman yaşanmış deneyimlere dayanır ve bu yargılar deneyimin tamamını değil yalnızca görünen kısmını yansıtır. Klişenin kalıcı olmasını sağlayan şey ise bağlamın kaybolması ve gözlemin sistematik bir etikete dönüşmesidir.
 
 Bu bölümde yaygın klişeleri tek tek ele alacağız. Her birini tanımlamakla kalmayıp, bu klişenin neden oluştuğunu, hangi yapısal koşullar ile beslendiğini ve yazılım ekibinin perspektifinden nasıl göründüğünü inceleyeceğiz.
 

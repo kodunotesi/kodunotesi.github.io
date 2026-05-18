@@ -45,7 +45,7 @@ Her ekip kendi işini en öncelikli olarak görür. Bu doğal bir eğilimdir; an
 
 Yazılım geliştirme sürecinde en sarsıcı çatışma anlarından biri, paydaşların geliştirilen ürünü ilk kez gördüğü andır. Aylar boyunca süren çalışmanın ardından yapılan demo toplantısında "bu benim beklediğim şey değil" cümlesi, her taraf için farklı bir anlam taşır.
 
-Paydaş için bu cümle, beklentilerinin karşılanmadığını ve sürecin yanlış ilerlediğini ifade eder. Yazılım ekibi için ise bu cümle, aylarca boyunca verilen ve onaylanan gereksinimlere uygun çalışıldığını, ancak o gereksinimlerin yanlış yazıldığını ya da yanlış anlaşıldığını gösterir.
+Paydaş için bu cümle, beklentilerinin karşılanmadığını ve sürecin yanlış ilerlediğini ifade eder. Yazılım ekibi için ise bu cümle, aylar boyunca verilen ve onaylanan gereksinimlere uygun çalışıldığını, ancak o gereksinimlerin yanlış yazıldığını ya da yanlış anlaşıldığını gösterir.
 
 Bu açık, çoğu zaman gereksinim belirsizliğinden kaynaklanır. Yazılı bir gereksinim belgesi, paydaşın zihnindeki gerçek beklentiyi tam olarak yansıtmayabilir. Paydaş onayladığını sandığı belgeyi, aslında yüzeysel olarak değerlendirmiştir. Yazılım ekibi ise bu belgeyi teknik kesinlikle yorumlamış ve uygulamıştır.
 
