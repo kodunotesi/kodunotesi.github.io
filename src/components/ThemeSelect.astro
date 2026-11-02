@@ -1,0 +1,159 @@
+---
+// Replaces Starlight's theme dropdown with a light/dark toggle switch.
+// Until the reader picks a theme, the switch follows the system preference.
+---
+
+<kodun-theme-toggle>
+	<button type="button" role="switch" class="theme-toggle" aria-label="Koyu tema" aria-checked="false">
+		<span class="track" aria-hidden="true">
+			<svg class="track-icon sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+			<svg class="track-icon moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" /></svg>
+			<span class="knob">
+				<svg class="knob-icon sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+				<svg class="knob-icon moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" /></svg>
+			</span>
+		</span>
+	</button>
+</kodun-theme-toggle>
+
+<style>
+	kodun-theme-toggle {
+		display: inline-flex;
+		align-items: center;
+	}
+	.theme-toggle {
+		all: unset;
+		cursor: pointer;
+		border-radius: 999px;
+	}
+	.theme-toggle:focus-visible {
+		outline: 2px solid var(--sl-color-text-accent);
+		outline-offset: 3px;
+	}
+	.track {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 3.5rem;
+		height: 1.85rem;
+		padding: 0 0.45rem;
+		box-sizing: border-box;
+		border-radius: 999px;
+		background: var(--sl-color-gray-6);
+		border: 1px solid var(--sl-color-gray-5);
+		transition: background-color 0.25s ease, border-color 0.25s ease;
+	}
+	.theme-toggle:hover .track {
+		border-color: var(--sl-color-accent);
+	}
+	svg {
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 2;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+	}
+	.track-icon {
+		width: 0.8rem;
+		height: 0.8rem;
+		color: var(--sl-color-gray-3);
+	}
+	.knob {
+		position: absolute;
+		top: 50%;
+		left: 0.2rem;
+		display: grid;
+		place-items: center;
+		width: 1.4rem;
+		height: 1.4rem;
+		border-radius: 50%;
+		/* Fixed colors: Starlight inverts its gray scale in light mode, so its variables can't be used here. */
+		background: #ffffff;
+		color: #d97706;
+		box-shadow: 0 1px 3px rgb(0 0 0 / 0.25);
+		transform: translateY(-50%);
+		transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.25s ease;
+	}
+	.knob-icon {
+		position: absolute;
+		width: 0.85rem;
+		height: 0.85rem;
+		transition: opacity 0.2s ease, transform 0.25s ease;
+	}
+	/* Light theme: knob on the left showing the sun. */
+	.knob-icon.moon {
+		opacity: 0;
+		transform: rotate(-90deg) scale(0.6);
+	}
+	/* Dark theme: knob slides right and shows the moon. Driven by CSS so it is correct before scripts run. */
+	:global([data-theme='dark']) .knob {
+		transform: translate(1.65rem, -50%);
+		background: #2a2f3a;
+		color: #fcd34d;
+		box-shadow: 0 1px 3px rgb(0 0 0 / 0.5);
+	}
+	:global([data-theme='dark']) .knob-icon.sun {
+		opacity: 0;
+		transform: rotate(90deg) scale(0.6);
+	}
+	:global([data-theme='dark']) .knob-icon.moon {
+		opacity: 1;
+		transform: none;
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.knob,
+		.knob-icon,
+		.track {
+			transition: none;
+		}
+	}
+</style>
+
+<script>
+	type Theme = 'dark' | 'light';
+	const storageKey = 'starlight-theme';
+
+	const stored = (): Theme | null => {
+		try {
+			const value = localStorage.getItem(storageKey);
+			return value === 'dark' || value === 'light' ? value : null;
+		} catch {
+			return null;
+		}
+	};
+	const systemTheme = (): Theme => (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+	const current = (): Theme => (document.documentElement.dataset.theme === 'light' ? 'light' : 'dark');
+
+	function render(theme: Theme): void {
+		document.querySelectorAll('kodun-theme-toggle button').forEach((button) => {
+			button.setAttribute('aria-checked', String(theme === 'dark'));
+			button.setAttribute('title', theme === 'dark' ? 'Açık temaya geç' : 'Koyu temaya geç');
+		});
+	}
+
+	function apply(theme: Theme, persist: boolean): void {
+		document.documentElement.dataset.theme = theme;
+		if (persist) {
+			try {
+				localStorage.setItem(storageKey, theme);
+			} catch {}
+		}
+		render(theme);
+	}
+
+	// Follow the system theme until the reader makes an explicit choice.
+	matchMedia('(prefers-color-scheme: light)').addEventListener('change', () => {
+		if (!stored()) apply(systemTheme(), false);
+	});
+
+	class KodunThemeToggle extends HTMLElement {
+		connectedCallback() {
+			render(current());
+			this.querySelector('button')?.addEventListener('click', () => {
+				apply(current() === 'dark' ? 'light' : 'dark', true);
+			});
+		}
+	}
+	customElements.define('kodun-theme-toggle', KodunThemeToggle);
+</script>

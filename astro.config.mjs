@@ -86,6 +86,7 @@ export default defineConfig({
 			customCss: ['./src/styles/global.css'],
 			components: {
 				Footer: './src/components/Footer.astro',
+				ThemeSelect: './src/components/ThemeSelect.astro',
 			},
 		}),
 	],
