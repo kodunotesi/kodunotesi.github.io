@@ -19,7 +19,5 @@ Her ekip kendi açısından rasyonel biçimde davranmaktadır. Hiçbiri yanlış
 
 Bu yapısal uyumsuzluk, bireysel iletişim becerilerini geliştirerek ya da toplantı sıklığını artırarak çözülemez. Sorun, teşvik yapılarında yatmaktadır. Bu gerçeği görmeden atılacak her adım, yüzeydeki belirtiyi tedavi etmeye çalışır; altta yatan nedeni değil.
 
----
-
 
 

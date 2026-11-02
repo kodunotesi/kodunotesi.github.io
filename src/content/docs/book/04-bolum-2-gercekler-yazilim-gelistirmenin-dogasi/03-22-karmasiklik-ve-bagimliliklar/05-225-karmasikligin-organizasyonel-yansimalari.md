@@ -14,7 +14,5 @@ Fowler'ın dile getirdiği gibi, karmaşıklığı azaltmak teknik bir tercih de
 
 Karmaşıklık arttıkça sistemin davranışını öngörmek zorlaşır; bu durum yazılım ekiplerinin temkinli hareket etmesine neden olur. Karmaşıklık, yazılım geliştirmede lineer olmayan bir maliyet artışı yaratır <span class="bkz-ref" title="1. Brooks, F. P. (1995). The Mythical Man-Month.">(Bkz: 1)</span>.
 
----
-
 
 

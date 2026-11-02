@@ -24,6 +24,8 @@ Bir ekip riskleri sürekli vurguluyorsa, ilk soru ekibin direnç gösterip göst
 
 Bir organizasyonda suçlama döngüsü sürekli tekrar ediyorsa, ilk soru kimin hatalı olduğuna değil, neden risklerin erken ve güvenli biçimde paylaşılamadığına sorulmalıdır.
 
+Bir organizasyon yapay zekâ araçlarına rağmen teslimatın hızlanmadığını düşünüyorsa, ilk soru araçların yeterince kullanılıp kullanılmadığına değil, darboğazın gerçekten kod yazmakta olup olmadığına ve üretilen kodu doğrulama kapasitesinin nasıl yönetildiğine sorulmalıdır.
+
 Bu soruların ortak özelliği şudur: Odağı kişiden sisteme taşırlar.
 
 Bu geçiş küçük görünür, fakat önemlidir. Çünkü "kim yaptı?" sorusu savunma üretir. "Sistem bunu nasıl üretti?" sorusu öğrenme üretir.
@@ -101,6 +103,8 @@ Değişim çoğu zaman büyük bir dönüşüm programı gibi başlamaz. Bazen t
 ## Son Söz
 
 Yazılım geliştirme koddan ibaret değildir. Kod, organizasyonel kararların teknik biçim almış halidir.
+
+Yapay zekâ çağında bu cümle daha da önem kazanıyor. Kodu artık makineler de yazabiliyor; ancak hangi kodun yazılması gerektiğine, neyin yeterince doğrulandığına ve sonuçların sahipliğini kimin üstlendiğine yine organizasyonlar karar veriyor. Yapay zekâ kodu ucuzlattı; anlaşmayı, güveni ve sahipliği ucuzlatmadı.
 
 Bir sistemin mimarisi, çoğu zaman organizasyonun iletişim biçimini yansıtır. Bir ürünün karmaşıklığı, çoğu zaman yıllar boyunca verilen küçük istisna kararlarının toplamıdır. Bir ekibin temkinli davranışı, çoğu zaman geçmişte ödenmiş operasyonel bedellerin hafızasıdır. Bir gecikme, çoğu zaman yalnızca efor eksikliği değil, görünmeyen bağımlılıkların ve geç fark edilen varsayımların sonucudur.
 

@@ -28,9 +28,9 @@ Ortak gerçeklik oluşturmak için kullanılabilecek pratiklerden biri, düzenli
 * Hangi varsayımlar doğru çıkmazsa plan değişir?
 * Kararı bugün almak mı, biraz daha keşif yapmak mı daha düşük maliyetlidir?
 
-Bu sorular, tartışmayı kişi ve ekip pozisyonlarından çıkarıp sistem davranışına taşır. Sistem davranışına odaklanmak, problemleri bireysel hatalara indirgemek yerine aradaki bağımlılıkları, gecikmeli etkileri ve geri bildirim döngülerini görmeyi sağlar (Bkz: 8).
+Bu sorular, tartışmayı kişi ve ekip pozisyonlarından çıkarıp sistem davranışına taşır. Sistem davranışına odaklanmak, problemleri bireysel hatalara indirgemek yerine aradaki bağımlılıkları, gecikmeli etkileri ve geri bildirim döngülerini görmeyi sağlar <span class="bkz-ref" title="8. Senge, P. (2006). The Fifth Discipline.">(Bkz: 8)</span>.
 
-**Örnek:** Gebze'de yürütülen bir MES dönüşümünde ekipler arasındaki gerilim sürekli artıyordu. Ürün ekibi sahadan gelen değişiklikleri acil görüyor, yazılım ekibi mimari riskleri vurguluyor, operasyon ekibi ise geçiş takviminin bozulmasından endişe ediyordu. Şirket haftalık "ortak gerçeklik oturumu" başlattı. Bu oturumlarda backlog maddeleri yalnızca iş listesi olarak değil; müşteri etkisi, teknik risk, saha hazırlığı, karar bağımlılığı ve geri dönüş maliyetiyle birlikte değerlendirildi. Üç ay içinde toplantı sayısı azalmadı; fakat toplantıların niteliği değişti. Ekipler birbirini ikna etmeye çalışmak yerine, aynı kararın farklı maliyetlerini birlikte görmeye başladı.
+**Örnek:** Bir üretim yazılımı dönüşümünde ekipler arasındaki gerilim sürekli artıyordu. Ürün ekibi sahadan gelen değişiklikleri acil görüyor, yazılım ekibi mimari riskleri vurguluyor, operasyon ekibi ise geçiş takviminin bozulmasından endişe ediyordu. Şirket haftalık "ortak gerçeklik oturumu" başlattı. Bu oturumlarda backlog maddeleri yalnızca iş listesi olarak değil; müşteri etkisi, teknik risk, saha hazırlığı, karar bağımlılığı ve geri dönüş maliyetiyle birlikte değerlendirildi. Üç ay içinde toplantı sayısı azalmadı; fakat toplantıların niteliği değişti. Ekipler birbirini ikna etmeye çalışmak yerine, aynı kararın farklı maliyetlerini birlikte görmeye başladı.
 
 Ortak gerçeklik oluşturmanın en önemli çıktısı güven duygusudur. Çünkü güven, tarafların her zaman aynı fikirde olmasıyla değil, kararların hangi gerçekliklere dayanarak alındığını görmesiyle oluşur.
 

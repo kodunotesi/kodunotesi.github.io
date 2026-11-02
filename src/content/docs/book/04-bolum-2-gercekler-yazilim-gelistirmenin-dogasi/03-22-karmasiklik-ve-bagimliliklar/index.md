@@ -63,11 +63,11 @@ Bu etki, değişiklik kararlarını karmaşık hale getirir. Bir bileşeni deği
 
 Yazılım ekiplerinin bazı değişiklik taleplerine "bu basit değil" yanıtını vermesinin temel nedeni bu dinamiktir. Değiştirilen şeyin kendisi basit olabilir; ama değişikliğin etki alanını güvenli biçimde yönetmek basit değildir.
 
-**Örnek:** Bir üretim tesisinde kullanılan MES sisteminde, operatörlerin üretim başlangıcında seçtiği "vardiya tipi" alanına yeni bir seçenek eklendi. Değişiklik yalnızca operatör ekranındaki bir açılır listeyi ilgilendiriyor gibi görünüyordu. Arayüz güncellendi, test edildi ve canlı ortama alındı.
+**Örnek:** Bir perakende şirketinin satış sisteminde, kasiyerlerin işlem sırasında seçtiği "ödeme tipi" alanına yeni bir seçenek eklendi. Değişiklik yalnızca kasa ekranındaki bir açılır listeyi ilgilendiriyor gibi görünüyordu. Arayüz güncellendi, test edildi ve canlı ortama alındı.
 
-Bir hafta sonra, bazı üretim raporlarında toplam üretim miktarlarının eksik hesaplandığı fark edildi. İncelemede, raporlama servisinin vardiya tiplerini sabit bir liste üzerinden değerlendirdiği ve yeni eklenen seçeneği tanımadığı ortaya çıktı. Bu nedenle ilgili kayıtlar raporlara dahil edilmemişti. Daha sonra, aynı veriyi kullanan performans analiz ekranlarında da hatalı OEE hesaplamaları oluştuğu görüldü.
+Bir hafta sonra, bazı satış raporlarında günlük ciro toplamlarının eksik hesaplandığı fark edildi. İncelemede, raporlama servisinin ödeme tiplerini sabit bir liste üzerinden değerlendirdiği ve yeni eklenen seçeneği tanımadığı ortaya çıktı. Bu nedenle ilgili kayıtlar raporlara dahil edilmemişti. Daha sonra, aynı veriyi kullanan finansal mutabakat ekranlarında da hatalı sonuçlar oluştuğu görüldü.
 
-Başlangıçta yalnızca kullanıcı arayüzünde küçük bir alan güncellemesi gibi görünen değişiklik, üretim raporlama ve performans analiz süreçlerine kadar yayılan bir dalgalanma etkisi oluşturdu.
+Başlangıçta yalnızca kullanıcı arayüzünde küçük bir alan güncellemesi gibi görünen değişiklik, satış raporlama ve finansal mutabakat süreçlerine kadar yayılan bir dalgalanma etkisi oluşturdu.
 
 ---
 
@@ -82,6 +82,16 @@ Fowler'ın dile getirdiği gibi, karmaşıklığı azaltmak teknik bir tercih de
 **Örnek:** Bir lojistik teknoloji şirketinde kargo takip sistemi on yıl boyunca geliştirilmişti. Sistemin belirli bir çekirdeğini gerçek anlamda anlayan tek bir kıdemli geliştirici kalmıştı. O geliştirici görevden ayrıldığında, ekip kritik bir modülü değiştirme konusunda aylarca tereddüt etti. Değişikliği kimse üstlenemiyordu çünkü bağımlılık haritası hiçbir zaman dokümante edilmemişti. Sonunda dış danışman desteğiyle yapılan analizin maliyeti, o değişikliği yapmanın tahmini maliyetinin birkaç katına ulaştı. Karmaşıklık, organizasyonun hareket kabiliyetini bloke etmişti.
 
 Karmaşıklık arttıkça sistemin davranışını öngörmek zorlaşır; bu durum yazılım ekiplerinin temkinli hareket etmesine neden olur. Karmaşıklık, yazılım geliştirmede lineer olmayan bir maliyet artışı yaratır <span class="bkz-ref" title="1. Brooks, F. P. (1995). The Mythical Man-Month.">(Bkz: 1)</span>.
+
+### 2.2.6 Bireysel Hız, Sistem Hızı: Yapay Zekâ ve Verimlilik Paradoksu
+
+Yapay zekâ (YZ) destekli araçlar, tek bir geliştiricinin belirli bir görevi tamamlama hızını önemli ölçüde artırabilir. Ancak bireysel hızdaki artış, sistemin teslimat hızına doğrudan yansımaz. Bir değişikliğin müşteriye ulaşması için kod yazımının yanı sıra gereksinimin netleşmesi, kararların alınması, kod incelemesi, test, entegrasyon, onay ve canlıya geçiş adımlarının da tamamlanması gerekir. Darboğaz bu adımlardan birindeyse, kod yazımını hızlandırmak yalnızca darboğazın önündeki kuyruğu büyütür.
+
+Ekonomi tarihinde bu durumun iki tanıdık karşılığı vardır. Birincisi Jevons Paradoksu'dur: bir kaynağın kullanımı verimlileştikçe, o kaynağa olan toplam talep azalmak yerine artabilir <span class="bkz-ref" title="13. Jevons, W. S. (1865). The Coal Question.">(Bkz: 13)</span>. Kod üretmek ucuzladıkça organizasyon daha fazla özellik, daha fazla entegrasyon ve daha fazla deneme talep eder; her yeni kod parçası ise bu bölümde ele alınan bağımlılık ve karmaşıklık yükünü büyütür. İkincisi dinamo etkisidir: elektrik motorları fabrikalara girdiğinde verimlilik artışı hemen gelmemiş; kazanç, fabrikalar buhar makinesine göre değil elektriğin olanaklarına göre yeniden tasarlandığında ortaya çıkmıştır <span class="bkz-ref" title="14. David, P. A. (1990). The Dynamo and the Computer: An Historical Perspective on the Modern Productivity Paradox. American Economic Review, 80(2).">(Bkz: 14)</span>. YZ'yi mevcut süreçlerin üzerine bir eklenti olarak koyan organizasyonlar da beklenen sıçramayı göremez; çünkü onay, koordinasyon ve doğrulama süreçleri değişmeden kalmıştır.
+
+Bu iki gözlem, bu bölümün temel iddiasını güçlendirir: yazılım geliştirme doğrusal bir üretim hattı değildir. Üretim hattı varsayımıyla bakıldığında kod yazımını hızlandırmak tüm süreci hızlandırmalıdır. Oysa yazılım geliştirmede asıl maliyet, kodun kendisinden çok kodun sistemle, kararlarla ve diğer ekiplerle etkileşiminde ortaya çıkar.
+
+**Örnek:** Bir sigorta yazılımı şirketinde YZ kodlama araçlarının yaygınlaşmasının ardından ekiplerin tamamladığı geliştirme görevi sayısı belirgin biçimde arttı. Altı ay sonra yapılan değerlendirmede, değişikliklerin müşteriye ulaşma süresinin neredeyse hiç kısalmadığı görüldü. Değişiklikler artık kod yazımında değil; iş birimlerinin onayında, test ortamı kuyruğunda ve entegrasyon testlerinde bekliyordu. Organizasyon zaten darboğaz olmayan adımı hızlandırmış; asıl bekleme noktalarına dokunmamıştı.
 
 ---
 

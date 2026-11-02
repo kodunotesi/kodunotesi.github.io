@@ -19,7 +19,7 @@ Buradaki kritik ayrım şudur: bu tablo çoğu zaman ekip disiplininin zayıflı
 
 Teknik borç yalnızca sistemi değil, ekiplerin zihinsel çalışma biçimini de etkiler. Her değişiklik öncesinde büyüyen etki analizi ihtiyacı, geliştiricilerin dikkat kapasitesini rutin bakım faaliyetlerine tüketmeye başlar. Zamanla ekipler yeni özellik geliştirmekten çok, mevcut davranışı güvenli biçimde korumaya odaklanır.
 
-**Örnek:** Üretim planlama yazılımı geliştiren bir ekip üç ardışık döngüde teslim hedefini kaçırdı. İlk yorum planlama hatasıydı. İnceleme derinleştirildiğinde, gecikmelerin ortak nedeninin eski planlama çekirdeğine yapılan küçük değişikliklerin beklenmedik yan etkiler üretmesi olduğu görüldü. Ekip zamanı, yeni fonksiyon geliştirmekten çok mevcut davranışı doğrulamaya ve risk analizine gidiyordu. Operasyonel belirtiler, teknik borcun birikmiş etkisini görünür hale getirmişti.
+**Örnek:** Rota planlama yazılımı geliştiren bir lojistik ekibi art arda birkaç döngüde teslim hedefini kaçırdı. İlk yorum planlama hatasıydı. İnceleme derinleştirildiğinde, gecikmelerin ortak nedeninin eski rota planlama çekirdeğine yapılan küçük değişikliklerin beklenmedik yan etkiler üretmesi olduğu görüldü. Ekip zamanı, yeni fonksiyon geliştirmekten çok mevcut davranışı doğrulamaya ve risk analizine gidiyordu. Operasyonel belirtiler, teknik borcun birikmiş etkisini görünür hale getirmişti.
 
 ---
 

@@ -31,7 +31,7 @@ Bu maliyetler genellikle geleceğe dönüktür, olasılıklar üzerinden ele al�
 
 Buradaki kritik problem, organizasyonların çoğunda bu iki risk türünün aynı karar çerçevesinde değerlendirilmemesidir.
 
-İş tarafı teknik ekibi gereğinden fazla temkinli bulabilir.Teknik ekip ise iş tarafını riskleri küçümsemekle suçlayabilir. Oysa çoğu durumda iki taraf da kendi görünür maliyet alanına göre rasyonel davranmaktadır.
+İş tarafı teknik ekibi gereğinden fazla temkinli bulabilir. Teknik ekip ise iş tarafını riskleri küçümsemekle suçlayabilir. Oysa çoğu durumda iki taraf da kendi görünür maliyet alanına göre rasyonel davranmaktadır.
 
 Çatışmanın özü genellikle teknik bilgi eksikliğinden çok, asimetrik risk görünürlüğüdür.
 

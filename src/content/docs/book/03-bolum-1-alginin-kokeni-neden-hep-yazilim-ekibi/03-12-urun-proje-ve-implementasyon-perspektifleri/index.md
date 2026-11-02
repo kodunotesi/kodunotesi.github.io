@@ -30,9 +30,9 @@ Implementasyon ekipleri, organizasyonun müşteriyle en doğrudan temas eden bir
 
 Bu ekipler üzerindeki baskı, diğer ekiplerden farklı bir nitelik taşır: anlık ve görünür bir baskıdır. Müşteri şikayet ediyordur, saha durmuştur, sistem çalışmıyordur. Bu gerçeklik, implementasyon ekiplerini her zaman "şimdi çalışsın" önceliğiyle hareket etmeye iter. Uzun vadeli mimari sağlık, bu anlık baskının gölgesinde kalır.
 
-Yapısal bir sorun olarak implementasyon ekipleri, müşteri taleplerini çoğu zaman analiz etmeden ya da önceliklendirmeden yazılım ekiplerine iletir. "Müşteri istiyor" ifadesi, bir gereksinim analizi yerine geçer hale gelir. Bu durum, yazılım ekipleri üzerinde hem teknik hem de iletişimsel bir yük oluşturur.
+Talep analizi ve önceliklendirme için tanımlı bir adım olmadığında, müşteri talepleri çoğu zaman analiz edilmeden ya da önceliklendirilmeden yazılım ekiplerine ulaşır. "Müşteri istiyor" ifadesi, bir gereksinim analizi yerine geçer hale gelir. Bu durum, yazılım ekipleri üzerinde hem teknik hem de iletişimsel bir yük oluşturur.
 
-**Örnek:** Bir sanayi tesisinde çalışan implementasyon ekibi, fabrika ziyareti sırasında müşteriden topladığı on iki ayrı "küçük iyileştirme" talebini bir liste halinde yazılım ekibine iletti. Listede önceliklendirme yoktu, teknik bağlam yoktu, müşteriyle yapılan anlaşma detayları yoktu. Yazılım ekibi her birinin aslında ne anlama geldiğini anlamak için ek görüşmeler yapmak zorunda kaldı. Bu görüşmeler, listenin kendisinden daha uzun sürdü.
+**Örnek:** Bir perakende zinciri projesinde çalışan implementasyon ekibi, mağaza ziyaretleri sırasında müşteriden topladığı on iki ayrı "küçük iyileştirme" talebini bir liste halinde yazılım ekibine iletti. Listede önceliklendirme yoktu, teknik bağlam yoktu, müşteriyle yapılan anlaşma detayları yoktu. Yazılım ekibi her birinin aslında ne anlama geldiğini anlamak için ek görüşmeler yapmak zorunda kaldı. Bu görüşmeler, listenin kendisinden daha uzun sürdü.
 
 ### 1.2.4 Yazılım Ekibi Perspektifi
 
@@ -40,7 +40,7 @@ Yazılım ekibi için başarı; sürdürülebilir, ölçeklenebilir, güvenli, g
 
 Sistemin çökmemesi bir başarıdır, ama görünmezdir. Mimari borç birikmemesi bir başarıdır, ama ölçülmesi kolay değildir. Güvenlik açığı üretilmemesi bir başarıdır, ama kutlanmaz.
 
-Buna karşılık yazılım ekipleri, geçmişte verilen tüm kararların sorumluluğunu taşımak zorundadır.Aynı zamanda gelecekte oluşabilecek ihtiyaçları veya sorunları öngörmelidirler. Hızlı teslim edilebilmesi için özellikler, teknik borç olarak sisteme işlenir. Yıllar içinde biriken bu borç, her yeni geliştirmenin maliyetini artırır ve hız düşer. Ama bu hız düşüşü dışarıdan bakıldığında "yazılım ekibinin yavaşlaması" olarak okunur; sistemin birikmiş karmaşıklığının bir sonucu olarak değil.
+Buna karşılık yazılım ekipleri, geçmişte verilen tüm kararların sorumluluğunu taşımak zorundadır. Aynı zamanda gelecekte oluşabilecek ihtiyaçları veya sorunları öngörmelidirler. Hızlı teslim edilebilmesi için özellikler, teknik borç olarak sisteme işlenir. Yıllar içinde biriken bu borç, her yeni geliştirmenin maliyetini artırır ve hız düşer. Ama bu hız düşüşü dışarıdan bakıldığında "yazılım ekibinin yavaşlaması" olarak okunur; sistemin birikmiş karmaşıklığının bir sonucu olarak değil.
 
 Bu asimetri önemlidir: ürün, proje ve implementasyon ekipleri kararlar alır ve ilerler; yazılım ekibi ise bu kararların uzun vadeli sonuçlarıyla yaşamaya devam eder.
 
@@ -60,6 +60,14 @@ Her ekip kendi açısından rasyonel biçimde davranmaktadır. Hiçbiri yanlış
 *Accelerate* araştırmaları bu dinamiği "lokal optimizasyon ile global optimizasyon" çatışması olarak tanımlar: her ekip kendi metriğini optimize ettiğinde, sistemin bütünü için kayıp üretilir <span class="bkz-ref" title="2. Forsgren, N., Humble, J., Kim, G. (2018). Accelerate.">(Bkz: 2)</span>. Yazılım geliştirmede bu durum Conway Yasası ile de örtüşür: organizasyonların ürettiği sistemler, o organizasyonların iletişim yapısını yansıtır <span class="bkz-ref" title="5. Conway, M. E. (1968). How Do Committees Invent? Datamation.">(Bkz: 5)</span>. KPI’lar hizalanmamışsa, sistemin mimarisi ve ekipler arası işbirliği de hizalanmamış olacaktır.
 
 Bu yapısal uyumsuzluk, bireysel iletişim becerilerini geliştirerek ya da toplantı sıklığını artırarak çözülemez. Sorun, teşvik yapılarında yatmaktadır. Bu gerçeği görmeden atılacak her adım, yüzeydeki belirtiyi tedavi etmeye çalışır; altta yatan nedeni değil.
+
+### 1.2.6 Yapay Zekâ Çağında Çıktı Metrikleri
+
+YZ destekli geliştirme, KPI uyumsuzluğuna yeni bir boyut ekler. Kod satırı, açılan değişiklik talebi (pull request) sayısı, kapanan iş adedi ya da "kodun yüzde kaçının YZ tarafından yazıldığı" gibi çıktı metrikleri, YZ araçlarıyla neredeyse zahmetsizce büyütülebilir. Bu metrikler yükselirken organizasyon verimliliğin arttığını düşünebilir; oysa müşteriye ulaşan değer, sistemin kararlılığı ve değişiklik maliyeti aynı yönde hareket etmeyebilir.
+
+Goodhart Yasası bu tuzağı öz biçimde ifade eder: bir ölçüt hedefe dönüştüğünde, iyi bir ölçüt olmaktan çıkar <span class="bkz-ref" title="7. Goodhart, C. A. E. (1975). Problems of Monetary Management: The U.K. Experience. Papers in Monetary Economics, Reserve Bank of Australia.">(Bkz: 7)</span>. YZ, çıktı metriklerini hedefe dönüştürmenin maliyetini neredeyse sıfıra indirir. Ürün ekibi teslim edilen özellik sayısına, yönetim YZ kullanım oranına, yazılım ekibi ise incelemeden geçen değişiklik sayısına odaklandığında, her ekip kendi metriğini iyileştirirken sistemin bütünü kaybedebilir.
+
+Bu nedenle YZ çağında anlamlı ölçüm, üretilen koddan kabul edilen ve değer üreten değişikliğe kaymalıdır: canlıya alınan, doğrulanmış ve geri alınması gerekmeyen değişiklikler; beklenen değere karşı gerçekleşen değer; değişiklik başarısızlık oranı ve geri dönüş süresi gibi sistem düzeyindeki göstergeler <span class="bkz-ref" title="2. Forsgren, N., Humble, J., Kim, G. (2018). Accelerate.">(Bkz: 2)</span>. Bu göstergeler ekip eğilimlerini izlemek içindir; bireyleri sıralamak için kullanıldıklarında aynı tuzağa yeniden düşülür.
 
 ---
 

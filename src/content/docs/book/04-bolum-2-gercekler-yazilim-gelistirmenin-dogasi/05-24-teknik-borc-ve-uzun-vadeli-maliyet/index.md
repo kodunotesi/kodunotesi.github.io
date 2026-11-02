@@ -10,7 +10,7 @@ Yazılım geliştirmede teknik borç çoğu zaman yalnızca kod kalitesi problem
 
 Teknik borç, yazılım geliştirme sürecinde kısa vadeli teslimat hedefleri uğruna alınan ve gelecekte ek maliyet üreten kararların birikimidir. Bu tanımın önemli bir sonucu vardır: teknik borç yalnızca kod kalitesi değil, karar kalitesi problemidir. Kod, bu kararların yalnızca görünen yüzüdür.
 
-Kavramsal karışıklık genellikle burada başlar. Kurumlar teknik borcu yalnızca “kötü kod” veya “eski teknoloji” başlığına indirger. Oysa borç farklı katmanlarda oluşabilir:
+Kavramsal karışıklık genellikle burada başlar. Kurumlar teknik borcu yalnızca "kötü kod" veya "eski teknoloji" başlığına indirger. Oysa borç farklı katmanlarda oluşabilir:
 
 * Mimari borç: geçici tasarımın kalıcılaşması, sorumluluk sınırlarının bulanıklaşması.
 * Test borcu: kritik davranışların otomatik güvenceye bağlanmaması.
@@ -18,7 +18,7 @@ Kavramsal karışıklık genellikle burada başlar. Kurumlar teknik borcu yalnı
 * Operasyon borcu: gözlemlenebilirlik, alarm ve izleme eksikleri.
 * Bilgi borcu: dokümantasyon eksikliği ve kritik bilginin kişilerde kilitlenmesi.
 
-Bu türlerin ortak özelliği aynıdır: bugün görünmez olan risk, yarın değişiklik maliyeti olarak geri döner. Bu nedenle teknik borç “hata” üretmeden de birikebilir. Sistem çalışıyor olabilir; ancak değiştirilebilirlik kapasitesi sessizce azalıyor olabilir <span class="bkz-ref" title="7. Cunningham, W. (1992). The WyCash Portfolio Management System. | 8. Fowler, M. (2018). Technical Debt Quadrant.">(Bkz: 7, 8)</span>.
+Bu türlerin ortak özelliği aynıdır: bugün görünmez olan risk, yarın değişiklik maliyeti olarak geri döner. Bu nedenle teknik borç "hata" üretmeden de birikebilir. Sistem çalışıyor olabilir; ancak değiştirilebilirlik kapasitesi sessizce azalıyor olabilir <span class="bkz-ref" title="7. Cunningham, W. (1992). The WyCash Portfolio Management System. | 8. Fowler, M. (2018). Technical Debt Quadrant.">(Bkz: 7, 8)</span>.
 
 Buradaki önemli ayrımlardan biri, her teknik borcun kötü niyetli veya irrasyonel bir karar sonucu oluşmamasıdır. Bazı durumlarda organizasyonlar bilinçli olarak kısa vadeli hız kazanımı için teknik borç alabilir. Özellikle erken aşama ürünlerde, kritik teslim tarihlerinde veya belirsiz iş ihtiyaçlarında bu tercih stratejik olabilir. Sorun çoğu zaman borcun varlığından değil; görünmez hale gelmesinden, sürekli ertelenmesinden ve geri ödeme kapasitesinin kaybedilmesinden doğar.
 
@@ -63,7 +63,7 @@ Buradaki kritik ayrım şudur: bu tablo çoğu zaman ekip disiplininin zayıflı
 
 Teknik borç yalnızca sistemi değil, ekiplerin zihinsel çalışma biçimini de etkiler. Her değişiklik öncesinde büyüyen etki analizi ihtiyacı, geliştiricilerin dikkat kapasitesini rutin bakım faaliyetlerine tüketmeye başlar. Zamanla ekipler yeni özellik geliştirmekten çok, mevcut davranışı güvenli biçimde korumaya odaklanır.
 
-**Örnek:** Üretim planlama yazılımı geliştiren bir ekip üç ardışık döngüde teslim hedefini kaçırdı. İlk yorum planlama hatasıydı. İnceleme derinleştirildiğinde, gecikmelerin ortak nedeninin eski planlama çekirdeğine yapılan küçük değişikliklerin beklenmedik yan etkiler üretmesi olduğu görüldü. Ekip zamanı, yeni fonksiyon geliştirmekten çok mevcut davranışı doğrulamaya ve risk analizine gidiyordu. Operasyonel belirtiler, teknik borcun birikmiş etkisini görünür hale getirmişti.
+**Örnek:** Rota planlama yazılımı geliştiren bir lojistik ekibi art arda birkaç döngüde teslim hedefini kaçırdı. İlk yorum planlama hatasıydı. İnceleme derinleştirildiğinde, gecikmelerin ortak nedeninin eski rota planlama çekirdeğine yapılan küçük değişikliklerin beklenmedik yan etkiler üretmesi olduğu görüldü. Ekip zamanı, yeni fonksiyon geliştirmekten çok mevcut davranışı doğrulamaya ve risk analizine gidiyordu. Operasyonel belirtiler, teknik borcun birikmiş etkisini görünür hale getirmişti.
 
 ---
 
@@ -78,7 +78,7 @@ Geç fark edilmenin başlıca nedenleri şunlardır:
 * Başarı yanılsaması: erken dönem teslim başarısı, yapısal riski görünmez kılar.
 * Yerel optimizasyon: ekipler kendi hedeflerini tuttururken sistem düzeyinde verim düşebilir.
 
-Bu nedenle teknik borç çoğu kurumda “aniden ortaya çıkan” bir sorun gibi algılanır. Oysa çoğu durumda sorun ani değildir; yalnızca birikim görünür eşiği geçmiştir. Eşik aşıldığında maliyet artışı hızlanır ve geri dönüş daha zor hale gelir <span class="bkz-ref" title="8. Fowler, M. (2018). Technical Debt Quadrant. | 9. Forsgren, N., Humble, J., &amp; Kim, G. (2018). Accelerate.">(Bkz: 8, 9)</span>.
+Bu nedenle teknik borç çoğu kurumda "aniden ortaya çıkan" bir sorun gibi algılanır. Oysa çoğu durumda sorun ani değildir; yalnızca birikim görünür eşiği geçmiştir. Eşik aşıldığında maliyet artışı hızlanır ve geri dönüş daha zor hale gelir <span class="bkz-ref" title="8. Fowler, M. (2018). Technical Debt Quadrant. | 9. Forsgren, N., Humble, J., &amp; Kim, G. (2018). Accelerate.">(Bkz: 8, 9)</span>.
 
 **Örnek:** Kurumsal insan kaynakları yazılımının ürün yöneticisi, Jira dashboard’unda aylık teslim edilen özellik sayısını izliyordu. İlk dönemde metrikler olumlu görünüyordu. Ancak zamanla müşteri taleplerine yanıt süresi uzamaya, sprint içi belirsizlik büyümeye ve acil düzeltme oranı artmaya başladı. İlk yorum talep yoğunluğu oldu. Daha sonra yapılan analiz, asıl sapmanın teknik borç kaynaklı değişiklik maliyeti artışından geldiğini gösterdi. Görünür teslim metrikleri güçlü kaldığı için problem uzun süre fark edilmemişti.
 
@@ -86,5 +86,14 @@ Teknik borcun geç fark edilmesi, onu yalnızca teknik bir konu olmaktan çıkar
 
 
 ---
+### 2.4.5 Anlama Borcu: Çalışan Ama Anlaşılmayan Kod
+
+Teknik borç, bilinçli ya da bilinçsiz alınan tasarım kararlarının gelecekteki değişiklik maliyetine yansımasıdır. YZ destekli geliştirme, bunun yanına daha sessiz bir borç türü ekler: anlama borcu. Anlama borcu; sistemde çalışan, testlerden geçen, hatta temiz görünen, ancak ekipte hiç kimsenin neden o biçimde yazıldığını, hangi varsayımlara dayandığını ve değiştirildiğinde neyi etkileyeceğini gerçek anlamda bilmediği kodun birikmesidir. Bazı kaynaklarda bilgi borcu olarak da adlandırılır.
+
+Peter Naur, programlamayı bir "teori inşası" olarak tanımlar: bir yazılım sisteminin asıl değeri kodun kendisinde değil, onu geliştiren ekibin zihnindeki ortak anlayıştadır. Kodun neden böyle olduğunu, hangi gerçek dünya ihtiyacına karşılık geldiğini ve nasıl değişebileceğini bilen bu anlayış kaybolduğunda, kod yerinde dursa bile sistem fiilen ölmeye başlar <span class="bkz-ref" title="16. Naur, P. (1985). Programming as Theory Building. Microprocessing and Microprogramming, 15(5).">(Bkz: 16)</span>. Geleneksel geliştirmede bu teori, kodu yazma sürecinde kendiliğinden oluşur. YZ kodu ürettiğinde ise yazma süreci kısalır ve teori oluşmadan kod sisteme girebilir.
+
+Anlama borcu, teknik borçla aynı faiz mekanizmasıyla çalışır; ancak daha geç fark edilir. Kod kalitesi metrikleri iyi görünebilir, hatalar azalmış bile olabilir. Borç; ilk ciddi değişiklik talebinde, ilk beklenmedik arızada ya da sistemi bilen tek kişinin ayrılmasında görünür hale gelir. O noktada ekip, kendi sistemini yeniden keşfetmek zorunda kalır. Bu nedenle YZ çağında sağlıklı bir kural şudur: açıklanamayan bir değişiklik, testlerden geçse bile hazır değildir.
+
+**Örnek:** Bir SaaS şirketinde bir ekip, raporlama altyapısını YZ destekli araçlarla birkaç hafta içinde yeniden yazdı. Yeni yapı daha hızlıydı ve testlerden sorunsuz geçti. Bir yıl sonra büyük bir müşterinin özel raporlama ihtiyacı geldiğinde ekip, hesaplama mantığının bazı kısımlarının neden o biçimde kurulduğunu açıklayamadı. Altyapıyı yeniden yazan geliştiriciler başka projelere geçmişti; geride bıraktıkları kod okunaklıydı, ama kararların gerekçesi hiçbir yerde yoktu. Ekip, iki haftalık bir değişiklik için önce bir aylık bir keşif çalışması yapmak zorunda kaldı.
 
 

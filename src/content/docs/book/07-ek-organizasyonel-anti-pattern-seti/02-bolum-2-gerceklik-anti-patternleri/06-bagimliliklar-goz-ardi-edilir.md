@@ -12,6 +12,4 @@ sidebar:
 
 **Daha sağlıklı soru:** Bu işin başarısı hangi sistemlere, kararlara ve ekiplerin zamanında hareket etmesine bağlı?
 
----
-
 

@@ -13,6 +13,4 @@ sidebar:
 
 **Daha sağlıklı soru:** Teslimatı mümkün kılan ama çıktı olarak görünmeyen işler hangileri?
 
----
-
 

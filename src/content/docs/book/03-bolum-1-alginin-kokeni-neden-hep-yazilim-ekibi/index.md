@@ -54,7 +54,7 @@ Yapısal sorun şudur: yazılım ekibi "hayır" dediğinde, bu cevabın arkasın
 
 **"Sahaya inmek istemezler"**
 
-Müşterilerine anahtar teslim proje yapan şirketlerde çokça rastlanan bu klişe, özellikle proje sayısının fazla olduğu kurumlarda belirginleşir. Yazılım geliştirme ekiplerinin sürekli sahada olması isteği; diğer ekiplerin sağlanan çözüme güvenlerinin olmaması, sahaya konumlanan yazılımlarda hataların bulunması ve implementasyon ekibinin domain bilgisi eksikliği gibi nedenlerden kaynaklanır.
+Müşterilerine anahtar teslim proje yapan şirketlerde çokça rastlanan bu klişe, özellikle proje sayısının fazla olduğu kurumlarda belirginleşir. Yazılım geliştirme ekiplerinin sürekli sahada olması isteği; diğer ekiplerin sağlanan çözüme yeterince güvenememesi, sahada beklenmeyen sistem davranışlarıyla karşılaşılması ve domain bilgisinin ekipler arasında yeterince paylaşılmaması gibi nedenlerden kaynaklanır.
 
 Sahaya inmemenin arka planında da yapısal bir neden vardır: yazılım geliştirme derin konsantrasyon gerektiren bir iştir. Araştırmalar, bir geliştiricinin yoğun çalışma akışına girmesinin ortalama 15-20 dakika aldığını ve her kesintinin bu akışı sıfırladığını gösterir. Saha ziyaretleri ise genellikle tam gün süren, önceden planlanamayan ve bağlam değiştirme maliyeti yüksek aktivitelerdir. Birden fazla projenin eş zamanlı yürütüldüğü organizasyonlarda bu durum, zaten dar olan kapasiteyi daha da daraltır.
 
@@ -68,7 +68,7 @@ Sahaya inmeme klişesiyle yapısal olarak benzerdir. Özellikle müşteri ile ü
 
 Bu talebin arkasında meşru bir ihtiyaç vardır: müşteri isteklerinin teknik açıdan değerlendirilmesi gerekir. Ancak bu değerlendirmenin toplantı sırasında, hazırlıksız ve doğaçlama yapılması yazılım ekibi için yüksek belirsizlik ve hata riski taşır. "Yapılabilir mi?" sorusuna anında cevap vermek çoğu zaman ya gerçekçi olmayan taahhütlere ya da "hayır" cevabının yanlış yorumlanmasına yol açar. Gereksinim analizi ayrı bir beceri ve rol gerektirir. Bu rol yoksa, yazılım ekibi aynı anda geliştirici, analist ve müşteri toplantısı katılımcısı olmaya zorlanır.
 
-**Örnek:** Bir üretim takip sistemi geliştiren firmada, müşteri toplantılarına yazılım ekibinden kıdemli bir geliştirici düzenli olarak dahil edildi. Toplantılar ortalama üç saat sürüyor, geliştirici kararları gerçek zamanlı olarak not alıyordu. Bir süre sonra bu geliştiricinin sprint hızı diğerlerinin yarısına düştü. Ekip içinde "o artık geliştirici değil, analist" yorumu yapılmaya başlandı. Organizasyon bir geliştiriciyi kaybetmeden bir analist kazanmıştı. Ancak, bunu fark etmemişti.
+**Örnek:** Kurumsal bir CRM ürünü geliştiren firmada, müşteri toplantılarına yazılım ekibinden kıdemli bir geliştirici düzenli olarak dahil edildi. Toplantılar ortalama üç saat sürüyor, geliştirici kararları gerçek zamanlı olarak not alıyordu. Bir süre sonra bu geliştiricinin sprint hızı diğerlerinin yarısına düştü. Ekip içinde "o artık geliştirici değil, analist" yorumu yapılmaya başlandı. Organizasyon bir analist kazanırken bir geliştirici kaybetmişti. Ancak bunu fark etmemişti.
 
 ---
 
@@ -92,9 +92,17 @@ Bu dinamiğin altında da yapısal bir neden vardır: yazılım ekibi, eksik vey
 
 **Örnek:** Bir kamu yazılım projesinde iş analisti, gereksinimler dokümanını teslim etti. Yazılım ekibi beş kritik belirsizlik tespit etti ve bunları yazılı olarak iletti. İş analisti "bunları toplantıda konuşalım" dedi. Toplantıda yazılım ekibi lideri her maddeyi tek tek açıkladı. Toplantıdan çıkıldığında iş analisti ekibine "yazılım ekibi her şeyi sorguluyor, hiç kolaylaştırmıyorlar" yorumunu yaptı. Yazılım ekibi ise "gereksinimler hâlâ net değil" diye kendi içinde konuştu. İki ekip de aynı toplantıdan çıkmış, ama bambaşka deneyimler yaşamıştı.
 
+**"Yapay zekâ varken bu kadar sürmemeli"**
+
+Yapay zekâ (YZ) destekli kodlama araçlarının yaygınlaşmasıyla "yavaşlar" klişesi yeni bir biçim kazandı. Bir ekranın, bir fonksiyonun, hatta küçük bir uygulamanın dakikalar içinde üretilebildiğini gören organizasyon, yazılım ekibinin süre tahminlerini eskisinden de şüpheli karşılar: "Bunu YZ ile bir saatte yaparsınız."
+
+Bu klişenin arkasındaki gözlem doğrudur: kod üretmenin görünen kısmı gerçekten ucuzladı. Ancak işin görünmeyen kısmı (gereksinimi netleştirmek, üretilen kodu mevcut sistemle bütünleştirmek, doğrulamak, güvenliğini sağlamak ve canlıda sahiplenmek) aynı oranda ucuzlamadı. Kod üretme hızı arttıkça bu görünmeyen işin hacmi de artar. Algı ile ölçülen gerçeklik arasındaki fark burada da kendini gösterir: deneyimli geliştiricilerle yapılan kontrollü bir çalışmada katılımcılar YZ araçlarıyla yüzde 20 daha hızlı çalıştıklarını düşünürken, ölçülen tamamlanma süreleri yüzde 19 daha uzun çıkmıştır <span class="bkz-ref" title="6. Becker, J., Rush, N., Barnes, E., Rein, D. (2025). Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. METR.">(Bkz: 6)</span>. Bu bulgu YZ'nin değersiz olduğunu değil, hız algısının güvenilir bir ölçüt olmadığını gösterir.
+
+**Örnek:** Bir B2B SaaS şirketinde yönetim, YZ kodlama araçlarına yatırım yaptıktan sonra teslimat kapasitesinin belirgin biçimde artmasını bekledi. İlk iki sprintte açılan değişiklik talebi sayısı gerçekten arttı. Ancak canlıya çıkan özellik sayısı neredeyse aynı kaldı; artan kod hacmi kod incelemesi, test ve entegrasyon aşamalarında birikiyordu. Yönetimin sorusu "araçları kullanmıyorlar mı?" oldu; yazılım ekibinin cevabı ise "darboğaz hiçbir zaman kod yazmak değildi" idi.
+
 ---
 
-Bu yedi klişenin ortak noktası yalnızca yazılım geliştirmenin doğasının yeterince anlaşılmaması değildir <span class="bkz-ref" title="1. Brooks, F. P. (1995). The Mythical Man-Month.">(Bkz: 1)</span>. Daha derin bir sorun vardır: bu klişelerin her biri, organizasyonun işleyiş biçiminin doğal bir çıktısıdır. Bağlam olmadan yapılan gözlemler etikete dönüşür; etiketler zaman içinde gerçekmiş gibi muamele görür. Bu döngü kırılmadan, ekipler arasındaki gerilim yönetilemez.
+Bu sekiz klişenin ortak noktası yalnızca yazılım geliştirmenin doğasının yeterince anlaşılmaması değildir <span class="bkz-ref" title="1. Brooks, F. P. (1995). The Mythical Man-Month.">(Bkz: 1)</span>. Daha derin bir sorun vardır: bu klişelerin her biri, organizasyonun işleyiş biçiminin doğal bir çıktısıdır. Bağlam olmadan yapılan gözlemler etikete dönüşür; etiketler zaman içinde gerçekmiş gibi muamele görür. Bu döngü kırılmadan, ekipler arasındaki gerilim yönetilemez.
 
 Bu klişelerin nasıl beslendiğini anlamak için bir adım daha atmak gerekir: her ekibin başarıyı farklı tanımladığı ve bu tanımların yapısal olarak çatıştığı gerçeğini görmek. Bu konu, bir sonraki bölümün konusudur.
 
@@ -130,9 +138,9 @@ Implementasyon ekipleri, organizasyonun müşteriyle en doğrudan temas eden bir
 
 Bu ekipler üzerindeki baskı, diğer ekiplerden farklı bir nitelik taşır: anlık ve görünür bir baskıdır. Müşteri şikayet ediyordur, saha durmuştur, sistem çalışmıyordur. Bu gerçeklik, implementasyon ekiplerini her zaman "şimdi çalışsın" önceliğiyle hareket etmeye iter. Uzun vadeli mimari sağlık, bu anlık baskının gölgesinde kalır.
 
-Yapısal bir sorun olarak implementasyon ekipleri, müşteri taleplerini çoğu zaman analiz etmeden ya da önceliklendirmeden yazılım ekiplerine iletir. "Müşteri istiyor" ifadesi, bir gereksinim analizi yerine geçer hale gelir. Bu durum, yazılım ekipleri üzerinde hem teknik hem de iletişimsel bir yük oluşturur.
+Talep analizi ve önceliklendirme için tanımlı bir adım olmadığında, müşteri talepleri çoğu zaman analiz edilmeden ya da önceliklendirilmeden yazılım ekiplerine ulaşır. "Müşteri istiyor" ifadesi, bir gereksinim analizi yerine geçer hale gelir. Bu durum, yazılım ekipleri üzerinde hem teknik hem de iletişimsel bir yük oluşturur.
 
-**Örnek:** Bir sanayi tesisinde çalışan implementasyon ekibi, fabrika ziyareti sırasında müşteriden topladığı on iki ayrı "küçük iyileştirme" talebini bir liste halinde yazılım ekibine iletti. Listede önceliklendirme yoktu, teknik bağlam yoktu, müşteriyle yapılan anlaşma detayları yoktu. Yazılım ekibi her birinin aslında ne anlama geldiğini anlamak için ek görüşmeler yapmak zorunda kaldı. Bu görüşmeler, listenin kendisinden daha uzun sürdü.
+**Örnek:** Bir perakende zinciri projesinde çalışan implementasyon ekibi, mağaza ziyaretleri sırasında müşteriden topladığı on iki ayrı "küçük iyileştirme" talebini bir liste halinde yazılım ekibine iletti. Listede önceliklendirme yoktu, teknik bağlam yoktu, müşteriyle yapılan anlaşma detayları yoktu. Yazılım ekibi her birinin aslında ne anlama geldiğini anlamak için ek görüşmeler yapmak zorunda kaldı. Bu görüşmeler, listenin kendisinden daha uzun sürdü.
 
 ### 1.2.4 Yazılım Ekibi Perspektifi
 
@@ -140,7 +148,7 @@ Yazılım ekibi için başarı; sürdürülebilir, ölçeklenebilir, güvenli, g
 
 Sistemin çökmemesi bir başarıdır, ama görünmezdir. Mimari borç birikmemesi bir başarıdır, ama ölçülmesi kolay değildir. Güvenlik açığı üretilmemesi bir başarıdır, ama kutlanmaz.
 
-Buna karşılık yazılım ekipleri, geçmişte verilen tüm kararların sorumluluğunu taşımak zorundadır.Aynı zamanda gelecekte oluşabilecek ihtiyaçları veya sorunları öngörmelidirler. Hızlı teslim edilebilmesi için özellikler, teknik borç olarak sisteme işlenir. Yıllar içinde biriken bu borç, her yeni geliştirmenin maliyetini artırır ve hız düşer. Ama bu hız düşüşü dışarıdan bakıldığında "yazılım ekibinin yavaşlaması" olarak okunur; sistemin birikmiş karmaşıklığının bir sonucu olarak değil.
+Buna karşılık yazılım ekipleri, geçmişte verilen tüm kararların sorumluluğunu taşımak zorundadır. Aynı zamanda gelecekte oluşabilecek ihtiyaçları veya sorunları öngörmelidirler. Hızlı teslim edilebilmesi için özellikler, teknik borç olarak sisteme işlenir. Yıllar içinde biriken bu borç, her yeni geliştirmenin maliyetini artırır ve hız düşer. Ama bu hız düşüşü dışarıdan bakıldığında "yazılım ekibinin yavaşlaması" olarak okunur; sistemin birikmiş karmaşıklığının bir sonucu olarak değil.
 
 Bu asimetri önemlidir: ürün, proje ve implementasyon ekipleri kararlar alır ve ilerler; yazılım ekibi ise bu kararların uzun vadeli sonuçlarıyla yaşamaya devam eder.
 
@@ -160,6 +168,14 @@ Her ekip kendi açısından rasyonel biçimde davranmaktadır. Hiçbiri yanlış
 *Accelerate* araştırmaları bu dinamiği "lokal optimizasyon ile global optimizasyon" çatışması olarak tanımlar: her ekip kendi metriğini optimize ettiğinde, sistemin bütünü için kayıp üretilir <span class="bkz-ref" title="2. Forsgren, N., Humble, J., Kim, G. (2018). Accelerate.">(Bkz: 2)</span>. Yazılım geliştirmede bu durum Conway Yasası ile de örtüşür: organizasyonların ürettiği sistemler, o organizasyonların iletişim yapısını yansıtır <span class="bkz-ref" title="5. Conway, M. E. (1968). How Do Committees Invent? Datamation.">(Bkz: 5)</span>. KPI’lar hizalanmamışsa, sistemin mimarisi ve ekipler arası işbirliği de hizalanmamış olacaktır.
 
 Bu yapısal uyumsuzluk, bireysel iletişim becerilerini geliştirerek ya da toplantı sıklığını artırarak çözülemez. Sorun, teşvik yapılarında yatmaktadır. Bu gerçeği görmeden atılacak her adım, yüzeydeki belirtiyi tedavi etmeye çalışır; altta yatan nedeni değil.
+
+### 1.2.6 Yapay Zekâ Çağında Çıktı Metrikleri
+
+YZ destekli geliştirme, KPI uyumsuzluğuna yeni bir boyut ekler. Kod satırı, açılan değişiklik talebi (pull request) sayısı, kapanan iş adedi ya da "kodun yüzde kaçının YZ tarafından yazıldığı" gibi çıktı metrikleri, YZ araçlarıyla neredeyse zahmetsizce büyütülebilir. Bu metrikler yükselirken organizasyon verimliliğin arttığını düşünebilir; oysa müşteriye ulaşan değer, sistemin kararlılığı ve değişiklik maliyeti aynı yönde hareket etmeyebilir.
+
+Goodhart Yasası bu tuzağı öz biçimde ifade eder: bir ölçüt hedefe dönüştüğünde, iyi bir ölçüt olmaktan çıkar <span class="bkz-ref" title="7. Goodhart, C. A. E. (1975). Problems of Monetary Management: The U.K. Experience. Papers in Monetary Economics, Reserve Bank of Australia.">(Bkz: 7)</span>. YZ, çıktı metriklerini hedefe dönüştürmenin maliyetini neredeyse sıfıra indirir. Ürün ekibi teslim edilen özellik sayısına, yönetim YZ kullanım oranına, yazılım ekibi ise incelemeden geçen değişiklik sayısına odaklandığında, her ekip kendi metriğini iyileştirirken sistemin bütünü kaybedebilir.
+
+Bu nedenle YZ çağında anlamlı ölçüm, üretilen koddan kabul edilen ve değer üreten değişikliğe kaymalıdır: canlıya alınan, doğrulanmış ve geri alınması gerekmeyen değişiklikler; beklenen değere karşı gerçekleşen değer; değişiklik başarısızlık oranı ve geri dönüş süresi gibi sistem düzeyindeki göstergeler <span class="bkz-ref" title="2. Forsgren, N., Humble, J., Kim, G. (2018). Accelerate.">(Bkz: 2)</span>. Bu göstergeler ekip eğilimlerini izlemek içindir; bireyleri sıralamak için kullanıldıklarında aynı tuzağa yeniden düşülür.
 
 ---
 
@@ -193,7 +209,7 @@ Bir geliştirici yeni bir özellik teslim ettiğinde bu başarı olarak değerle
 
 ### 1.3.3 Teknik Borcun Birikimi
 
-Teknik borç kavramı, ilk olarak Ward Cunningham tarafından 1992 yılında tanımlandı. Cunningham, yazılım sistemlerinde bilinçli olarak alınan kısa vadeli kararların uzun vadede maliyete dönüştüğünü bir finansal metafor üzerinden açıkladı: tıpkı borç gibi, teknik borç da faiz öder. Her yeni geliştirme, birikmiş teknik borç üzerine inşa edildiğinde daha maliyetli hale gelir <span class="bkz-ref" title="3. McConnell, S. (2004). Code Complete.">(Bkz: 3)</span>.
+Teknik borç kavramı, ilk olarak Ward Cunningham tarafından 1992 yılında tanımlandı. Cunningham, yazılım sistemlerinde bilinçli olarak alınan kısa vadeli kararların uzun vadede maliyete dönüştüğünü bir finansal metafor üzerinden açıkladı: tıpkı borç gibi, teknik borç da faiz öder. Her yeni geliştirme, birikmiş teknik borç üzerine inşa edildiğinde daha maliyetli hale gelir <span class="bkz-ref" title="3. Cunningham, W. (1992). The WyCash Portfolio Management System.">(Bkz: 3)</span>.
 
 Bu birikimin somut sonuçları şöyle gözlemlenir:
 
@@ -219,9 +235,19 @@ Görünmez iş yükünün uzun vadeli maliyeti yalnızca teknik değildir; organ
 
 **Örnek:** Hızlı büyüyen bir girişimde yazılım ekibi iki yıl boyunca yeni özellik geliştirmeye odaklandı. Refactoring talepleri "şimdi değil, ilerleyen sprintlerde" kararıyla ertelendi. İki yılın sonunda ekip her sprint daha az iş çıkarır hale geldi. Yönetim çözüm olarak iki yeni geliştirici işe aldı. Yeni geliştiriciler sistemi anlamakta güçlük çekti; mevcut ekip bu geliştiricilere destek vermek için zamanlarının önemli bir bölümünü harcadı. Sprint hızı gerilemeye devam etti.
 
+### 1.3.5 Doğrulama Yükü: Yapay Zekâ Çağının Görünmeyen İşi
+
+YZ destekli geliştirme, görünmeyen iş yükünün bileşimini değiştirir. Söz dizimi, tekrar eden kalıp kodlar ve basit dönüşümler gibi düşük düzeyli işlerin önemli bir kısmı makineye devredilebilir. Ancak bunların yerini daha yüksek düzeyli ve daha az görünen bir iş alır: üretilen kodun gerçekten doğru olup olmadığını anlamak, mevcut sistemin bağlamıyla tutarlılığını kontrol etmek, hangi önerinin kabul edileceğine karar vermek ve kendi yazmadığı bir kodun sorumluluğunu üstlenmek.
+
+Bu yük geliştiricilerin kendi deneyimlerinde de görünür hale gelmektedir. 2025 yılında yapılan geniş katılımlı bir geliştirici anketinde katılımcıların yüzde 66'sı YZ araçlarıyla yaşadıkları sorunlar arasında "neredeyse doğru ama tam olarak değil" çözümleri, yüzde 45'i ise YZ tarafından üretilen kodda hata ayıklamanın daha fazla zaman aldığını belirtmiştir <span class="bkz-ref" title="8. Stack Overflow (2025). 2025 Developer Survey: AI.">(Bkz: 8)</span>. "Neredeyse doğru" kod, açıkça hatalı koddan daha tehlikelidir; çünkü hatayı bulmak, kodun tamamını anlamayı gerektirir.
+
+Doğrulama yükü, klasik görünmeyen işin tüm özelliklerini taşır: sprint panosunda ayrı bir kart olarak yer almaz, çıktı metriklerinde görünmez ve tamamlandığında geriye "hiçbir şey olmamış" izlenimi bırakır. Organizasyon üretilen kod miktarını görürken, o kodu güvenilir kılan emeği görmez. Bu nedenle YZ'nin yaygınlaştığı ekiplerde kapasite planlaması, kod yazma süresini değil, doğrulama ve inceleme kapasitesini temel almalıdır.
+
+**Örnek:** Bir lojistik yazılımı ekibinde kıdemli geliştiriciler, ekibin YZ araçlarıyla ürettiği değişikliklerin kod incelemesini üstlendi. Birkaç ay içinde kıdemli geliştiricilerin zamanının büyük kısmı inceleme kuyruğuna gitmeye başladı; kendi geliştirme işleri sürekli ertelendi. Sprint raporlarında bu emek görünmediği için, yönetimin gözünde kıdemli geliştiricilerin üretkenliği düşmüştü. Oysa ekibin güvenilir biçimde canlıya çıkabilmesini sağlayan şey tam olarak bu görünmeyen işti.
+
 ---
 
-Görünmeyen iş yükü, algı ile gerçeklik arasındaki en büyük boşluklardan biridir. Bu boşluğu kapatmanın yolu, yazılım geliştirmeyi yalnızca çıktı üzerinden ölçen yaklaşımın ötesine geçmektir. Bakım, iyileştirme ve teknik sağlık, özellik geliştirme kadar gerçek bir iştir; yalnızca farklı bir görünürlüğe sahiptir. Bu gerçeklik kabul edilmeden, ekip kapasitesine ilişkin yapılan her planlama eksik kalır <span class="bkz-ref" title="3. McConnell, S. (2004). Code Complete.">(Bkz: 3)</span>.
+Görünmeyen iş yükü, algı ile gerçeklik arasındaki en büyük boşluklardan biridir. Bu boşluğu kapatmanın yolu, yazılım geliştirmeyi yalnızca çıktı üzerinden ölçen yaklaşımın ötesine geçmektir. Bakım, iyileştirme ve teknik sağlık, özellik geliştirme kadar gerçek bir iştir; yalnızca farklı bir görünürlüğe sahiptir. Bu gerçeklik kabul edilmeden, ekip kapasitesine ilişkin yapılan her planlama eksik kalır <span class="bkz-ref" title="3. Cunningham, W. (1992). The WyCash Portfolio Management System.">(Bkz: 3)</span>.
 
 ---
 
@@ -274,7 +300,7 @@ Bu noktada bir başka sorun devreye girer: kırık telefon etkisi. Bir gereksini
 
 Müşteriden implementasyon ekibine, implementasyon ekibinden proje yöneticisine, proje yöneticisinden ürün yöneticisine, ürün yöneticisinden yazılım ekibine ulaşan bir gereksinim; her aktarımda biraz anlam yitirir, biraz bağlam düşer, biraz öncelik değiştirir. Sonunda yazılım ekibinin önündeki problem tanımı, müşterinin orijinal ihtiyacıyla yalnızca uzaktan benzeşebilir.
 
-**Örnek:** Bir müşteri, kullanıcıların günlük operasyon sırasında aynı raporu sürekli son 24 saat filtresiyle açtığını ve bu nedenle zaman kaybettiklerini belirterek, raporun varsayılan tarih aralığının değiştirilmesini istedi. Implementasyon ekibi bu talebi “raporlama ekranı kullanıcıları yavaşlatıyor” şeklinde özetledi. Proje yöneticisi bunu “raporlama performansı iyileştirilmeli” başlığıyla ürün yönetimine aktardı. Ürün yönetimi ise problemi sistem performansı perspektifiyle değerlendirerek yazılım ekibine “raporlama modülünde performans optimizasyonu gerekli” şeklinde iletti.
+**Örnek:** Bir müşteri, kullanıcıların günlük operasyon sırasında aynı raporu sürekli son 24 saat filtresiyle açtığını ve bu nedenle zaman kaybettiklerini belirterek, raporun varsayılan tarih aralığının değiştirilmesini istedi. Implementasyon ekibi bu talebi "raporlama ekranı kullanıcıları yavaşlatıyor" şeklinde özetledi. Proje yöneticisi bunu "raporlama performansı iyileştirilmeli" başlığıyla ürün yönetimine aktardı. Ürün yönetimi ise problemi sistem performansı perspektifiyle değerlendirerek yazılım ekibine "raporlama modülünde performans optimizasyonu gerekli" şeklinde iletti.
 
 Yazılım ekibi bu bilgiyle kapsamlı bir performans analizi başlattı; sorgu süreleri incelendi, indeks stratejileri değerlendirildi ve altyapı tarafında optimizasyon planları hazırlandı. Oysa müşterinin gerçek ihtiyacı yalnızca varsayılan filtre değerinin değiştirilmesiydi ve bu değişiklik birkaç dakikalık bir geliştirmeyle çözülebilecek kadar basitti.
 
@@ -306,11 +332,11 @@ Bu asimetri, kapsam yönetimini yazılım ekibinin tek başına üstlendiği bir
 
 Frederick Brooks, *The Mythical Man-Month* adlı kitabında bunu net biçimde ortaya koyar: geciken bir projeye insan kaynağı eklemek projeyi daha da geciktirir. Yeni ekip üyeleri sistemi öğrenmek için zamana ihtiyaç duyar; mevcut ekip bu öğretim sürecinde üretkenliğini kaybeder; iletişim maliyeti artar. Bu gözlem "Brooks Yasası" olarak bilinir ve onlarca yıllık deneyimle doğrulanmış durumdadır <span class="bkz-ref" title="1. Brooks, F. P. (1995). The Mythical Man-Month.">(Bkz: 1)</span>.
 
-Hız baskısının daha doğrudan bir maliyeti ise teknik borç üretimidir. Zaman kısıtı altında çalışan yazılım ekipleri özellikleri kabaca geliştirir: testler yazılmaz, mimari kararlar ertelenir, güvenlik kontrolleri atlanır, hata yönetimi basitleştirilir. Kısa vadede sistem teslim edilir uzun vadede bu kararların her biri bakım maliyeti olarak geri döner. Hız baskısı altında teslim edilen her özellik, gelecekteki her özelliğin maliyetini artırır.
+Hız baskısının daha doğrudan bir maliyeti ise teknik borç üretimidir. Zaman kısıtı altında çalışan yazılım ekiplerinde kısa yollara başvurma eğilimi artar: testlerin, mimari kararların, güvenlik kontrollerinin ve hata yönetiminin ertelenmesi riski doğar. Kısa vadede sistem teslim edilir uzun vadede bu kararların her biri bakım maliyeti olarak geri döner. Hız baskısı altında teslim edilen her özellik, gelecekteki her özelliğin maliyetini artırır.
 
-Bu dinamiğin en tehlikeli tarafı, maliyet ile faturanın farklı zamanlarda ve farklı kişilere kesilmesidir. Hız kararını veren yönetici veya ürün yöneticisi, altı ay sonra yavaşlayan sistemi başka bir sorunun çıktısı olarak görür. Maliyeti ödeyen ise o sırada ekipte çalışan geliştirici ve son kullanıcıdır.
+Bu dinamiğin en tehlikeli tarafı, maliyet ile faturanın farklı zamanlarda ve farklı kişilere kesilmesidir. Hız kararı ile altı ay sonra yavaşlayan sistem arasındaki bağ çoğu zaman görünmez kalır; yavaşlama başka bir sorunun çıktısı gibi algılanır. Maliyeti ödeyen ise o sırada ekipte çalışan geliştirici ve son kullanıcıdır.
 
-**Örnek:** Bir yazılım ekibi, stratejik öneme sahip bir müşteri için modülü altı haftada teslim etmesi gerektiğini öğrendi. Normal koşullarda on iki haftalık bir iş olduğu değerlendirildi. Yönetim "bu müşteri çok önemli, nasıl yapacağımızı bulun" dedi. Ekip birçok kısa yolu kabul ederek altı haftada teslim etti. Müşteri memnun kaldı. Ancak üç ay sonra aynı modüle yeni bir gereksinim eklenmesi gerektiğinde, yazılım ekibi mevcut yapının bunu kaldırmayacağını belirtti. Yeniden yazım kararı alındı. Bu sefer gereken süre on altı haftaydı.
+**Örnek:** Bir yazılım ekibi, stratejik öneme sahip bir müşteri için modülü altı haftada teslim etmesi gerektiğini öğrendi. Normal koşullarda on iki haftalık bir iş olduğu değerlendirildi. Tarihte esneklik olmadığı için ekip birçok kısa yolu kabul ederek altı haftada teslim etti. Müşteri memnun kaldı. Ancak üç ay sonra aynı modüle yeni bir gereksinim eklenmesi gerektiğinde, yazılım ekibi mevcut yapının bunu kaldırmayacağını belirtti. Yeniden yazım kararı alındı. Bu sefer gereken süre on altı haftaydı.
 
 ### 1.5.3 Önceliklendirme Çatışmaları
 
@@ -320,7 +346,7 @@ Her ekip kendi işini en öncelikli olarak görür. Bu doğal bir eğilimdir; an
 
 Önceliklendirme konusunda net bir karar mekanizması olmadığında, çatışma kaçınılmazdır. Yazılım ekibi kimin talebini önceliklendirir? Hangi kritere göre? Bu kararı kim verir? Bu sorular yanıtsız kaldığında, önceliklendirme çoğu zaman en çok baskı yapana göre şekillenir. Bu durum, hem kaliteyi düşürür hem de ekibin yönlendirilebileceği izlenimini güçlendirir.
 
-**Örnek:** Bir yazılım ekibi aynı anda üç farklı yönden gelen taleple karşı karşıya kaldı: proje yöneticisi taahhüt edilen entegrasyonun bitmesini istiyordu, ürün yöneticisi yeni pazara açılış için kritik bir özelliğin hızla hazırlanmasını talep ediyordu, implementasyon ekibi ise üretim ortamında devam eden bir performans sorununa öncelik verilmesini istiyordu. Üç talep de meşruydu. Yazılım ekibi lideri hangisini önceliklendireceğine karar veremedi ve bu kararı üst yönetime iletti. Üst yönetim "hepsini yapın" dedi.
+**Örnek:** Bir yazılım ekibi aynı anda üç farklı yönden gelen taleple karşı karşıya kaldı: proje yöneticisi taahhüt edilen entegrasyonun bitmesini istiyordu, ürün yöneticisi yeni pazara açılış için kritik bir özelliğin hızla hazırlanmasını talep ediyordu, implementasyon ekibi ise üretim ortamında devam eden bir performans sorununa öncelik verilmesini istiyordu. Üç talep de meşruydu. Yazılım ekibi lideri hangisini önceliklendireceğine karar veremedi ve bu kararı üst yönetime iletti. Net bir öncelik kararı çıkmadı; üç iş paralel yürütülmeye çalışıldı ve üçü de gecikti.
 
 ### 1.5.4 Beklenti-Gerçeklik Açığı
 
@@ -366,6 +392,9 @@ Böylece Bölüm 1, kitabın geri kalanı için temel bir eşik kurar: algının
 3. Cunningham, W. (1992). The WyCash Portfolio Management System.
 4. DeMarco, T., Lister, T. (2013). Peopleware.
 5. Conway, M. E. (1968). How Do Committees Invent? Datamation.
+6. Becker, J., Rush, N., Barnes, E., Rein, D. (2025). Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. METR.
+7. Goodhart, C. A. E. (1975). Problems of Monetary Management: The U.K. Experience. Papers in Monetary Economics, Reserve Bank of Australia.
+8. Stack Overflow (2025). 2025 Developer Survey: AI.
 
 ---
 

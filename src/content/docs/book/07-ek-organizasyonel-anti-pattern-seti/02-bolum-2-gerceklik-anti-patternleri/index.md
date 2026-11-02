@@ -62,5 +62,45 @@ title: "Bölüm 2: Gerçeklik Anti-Pattern'leri"
 
 **Daha sağlıklı soru:** Bu işin başarısı hangi sistemlere, kararlara ve ekiplerin zamanında hareket etmesine bağlı?
 
+### Çalışan Kod Hazır Koddur
+
+**Belirti:** Derlenen, testlerden geçen ya da demoda çalışan kod üretime hazır kabul edilir.
+
+**Neden sorun?** Çalışmak hazır olmak değildir. Yetkilendirme, sınır durumlar, entegrasyon, güvenlik ve anlaşılabilirlik ayrı sorulardır.
+
+**Örnek:** İki günde hazırlanan bir YZ prototipi müşteriye "neredeyse bitti" olarak sunuldu; ürünleştirme üç ay sürdü.
+
+**Daha sağlıklı soru:** Bu kodun kabul ölçütleri neler ve ekipte bu kodu kim açıklayabilir?
+
+### Anlaşılmayan Kod Sorun Değildir
+
+**Belirti:** Testlerden geçen kod, ekipte kimse nasıl çalıştığını açıklayamasa bile sorunsuz kabul edilir.
+
+**Neden sorun?** Anlama borcu, ilk ciddi değişiklikte ya da ilk arızada faiziyle geri döner.
+
+**Örnek:** YZ ile yeniden yazılan bir modülde, bir yıl sonra kimse hesaplama mantığının gerekçesini bilmiyordu.
+
+**Daha sağlıklı soru:** Bu değişikliği ekipte kim açıklayabilir?
+
+### Geçici Uygulama Geçici Kalır
+
+**Belirti:** YZ ile hızlıca üretilen "geçici" araçlar sahipsiz bırakılır.
+
+**Neden sorun?** Geçici araçlar zamanla iş süreçlerine bağlanır ve kimsenin üstlenmediği kalıcı sistemlere dönüşür.
+
+**Örnek:** Bir ekibin hafta sonu hazırladığı raporlama aracı, iki yıl sonra finans sürecinin kritik bir parçası haline gelmişti.
+
+**Daha sağlıklı soru:** Bu uygulama ne zaman ve kim tarafından kullanımdan kaldırılacak?
+
+### İstem Bir Güvenlik Sınırıdır
+
+**Belirti:** YZ ajanlarının güvenliği yalnızca istemdeki (prompt) "şunu yapma" talimatlarıyla sağlanmaya çalışılır.
+
+**Neden sorun?** Dışarıdan gelen içerik modeli yönlendirebilir. Güvenliği istem değil, yetki sınırları sağlar.
+
+**Örnek:** Bir destek ajanı, talep metnine gizlenmiş bir talimatla başka bir müşterinin kayıtlarına erişebildi.
+
+**Daha sağlıklı soru:** Bu ajan en kötü durumda neye erişebilir ve ne yapabilir?
+
 ---
 

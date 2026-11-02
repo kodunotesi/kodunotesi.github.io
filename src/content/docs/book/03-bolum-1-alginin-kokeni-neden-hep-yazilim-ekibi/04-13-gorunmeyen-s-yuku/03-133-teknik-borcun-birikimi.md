@@ -5,7 +5,7 @@ sidebar:
   hidden: true
 ---
 
-Teknik borç kavramı, ilk olarak Ward Cunningham tarafından 1992 yılında tanımlandı. Cunningham, yazılım sistemlerinde bilinçli olarak alınan kısa vadeli kararların uzun vadede maliyete dönüştüğünü bir finansal metafor üzerinden açıkladı: tıpkı borç gibi, teknik borç da faiz öder. Her yeni geliştirme, birikmiş teknik borç üzerine inşa edildiğinde daha maliyetli hale gelir <span class="bkz-ref" title="3. McConnell, S. (2004). Code Complete.">(Bkz: 3)</span>.
+Teknik borç kavramı, ilk olarak Ward Cunningham tarafından 1992 yılında tanımlandı. Cunningham, yazılım sistemlerinde bilinçli olarak alınan kısa vadeli kararların uzun vadede maliyete dönüştüğünü bir finansal metafor üzerinden açıkladı: tıpkı borç gibi, teknik borç da faiz öder. Her yeni geliştirme, birikmiş teknik borç üzerine inşa edildiğinde daha maliyetli hale gelir <span class="bkz-ref" title="3. Cunningham, W. (1992). The WyCash Portfolio Management System.">(Bkz: 3)</span>.
 
 Bu birikimin somut sonuçları şöyle gözlemlenir:
 

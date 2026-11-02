@@ -10,7 +10,7 @@ Bu bölümde odak artık teşhisten çözüme kayıyor. Ancak burada çözümden
 
 Eğer bir organizasyonda teknik risk görünmez kalıyor, yazılım ekibi sürekli savunmada duruyor, müşteri beklentileri gerçekçi olmayan tarihlerle yönetiliyor ve hatalar öğrenme yerine suçlama üretiyorsa, problem yalnızca iletişim eksikliği değildir. Problem, sistemin yanlış davranışı doğal hale getirmesidir.
 
-Bu nedenle sağlıklı organizasyon kurmanın temel sorusu şudur: İnsanlardan doğru davranışı sürekli kahramanca üretmelerini mi bekliyoruz, yoksa doğru davranışın daha kolay, daha görünür ve daha güvenli hale geldiği bir sistem mi tasarlıyoruz? Bu bakış açısı, problemi tekil davranışlardan çok sistemi oluşturan ilişkiler, geri bildirim döngüleri ve öğrenme kapasitesi üzerinden ele alan sistem düşüncesi yaklaşımıyla uyumludur (Bkz: 8).
+Bu nedenle sağlıklı organizasyon kurmanın temel sorusu şudur: İnsanlardan doğru davranışı sürekli kahramanca üretmelerini mi bekliyoruz, yoksa doğru davranışın daha kolay, daha görünür ve daha güvenli hale geldiği bir sistem mi tasarlıyoruz? Bu bakış açısı, problemi tekil davranışlardan çok sistemi oluşturan ilişkiler, geri bildirim döngüleri ve öğrenme kapasitesi üzerinden ele alan sistem düşüncesi yaklaşımıyla uyumludur <span class="bkz-ref" title="8. Senge, P. (2006). The Fifth Discipline.">(Bkz: 8)</span>.
 
 Bu bölüm, ikinci yaklaşımı savunur. Daha sağlıklı yazılım organizasyonları, daha fazla kontrol ekleyerek değil; gerçekliği daha görünür, kararları daha bilinçli, sorumlulukları daha net ve öğrenmeyi daha güvenli hale getirerek kurulur.
 
@@ -20,7 +20,7 @@ Bu bölüm, ikinci yaklaşımı savunur. Daha sağlıklı yazılım organizasyon
 
 Yazılım organizasyonlarında çözüm arayışı çoğu zaman bireysel davranışlara yönelir. Daha iyi proje yöneticileri, daha disiplinli geliştiriciler, daha net ürün yöneticileri, daha sabırlı müşteriler ya da daha güçlü liderler aranır. Elbette bireysel yetkinlik önemlidir. Ancak sistem kötü tasarlanmışsa iyi insanlar bile tekrar eden gerilimleri kalıcı biçimde çözemeyebilir.
 
-Bir sistem, insanların hangi bilgiyi görünür kıldığını, hangi riski sakladığını, hangi davranışın ödüllendirildiğini ve hangisinin cezalandırıldığını belirler. Organizasyon yalnızca teslim tarihini ödüllendiriyor, ama teknik borcun azaltılmasını görünmez bırakıyorsa ekipler zamanla kısa vadeli teslimata yönelir. Kötü haber getiren ekip sorgulanıyor, problemi geç fark eden ekip geçici olarak rahat bırakılıyorsa riskler daha geç paylaşılır. Müşteriye verilen sözler teknik gerçeklikle hizalanmadan oluşturuluyorsa yazılım ekibi kaçınılmaz olarak gerilimin son halkasında kalır. Bu nedenle güvenli biçimde risk paylaşabilmek, yalnızca kültürel bir tercih değil, öğrenme kapasitesini belirleyen temel bir organizasyonel koşuldur (Bkz: 2).
+Bir sistem, insanların hangi bilgiyi görünür kıldığını, hangi riski sakladığını, hangi davranışın ödüllendirildiğini ve hangisinin cezalandırıldığını belirler. Organizasyon yalnızca teslim tarihini ödüllendiriyor, ama teknik borcun azaltılmasını görünmez bırakıyorsa ekipler zamanla kısa vadeli teslimata yönelir. Kötü haber getiren ekip sorgulanıyor, problemi geç fark eden ekip geçici olarak rahat bırakılıyorsa riskler daha geç paylaşılır. Müşteriye verilen sözler teknik gerçeklikle hizalanmadan oluşturuluyorsa yazılım ekibi kaçınılmaz olarak gerilimin son halkasında kalır. Bu nedenle güvenli biçimde risk paylaşabilmek, yalnızca kültürel bir tercih değil, öğrenme kapasitesini belirleyen temel bir organizasyonel koşuldur <span class="bkz-ref" title="2. Edmondson, A. (2018). The Fearless Organization.">(Bkz: 2)</span>.
 
 Bu nedenle çözüm, insanlardan sürekli daha fazla çaba istemek değil, organizasyonel varsayımları değiştirmektir.
 
@@ -69,9 +69,9 @@ Ortak gerçeklik oluşturmak için kullanılabilecek pratiklerden biri, düzenli
 * Hangi varsayımlar doğru çıkmazsa plan değişir?
 * Kararı bugün almak mı, biraz daha keşif yapmak mı daha düşük maliyetlidir?
 
-Bu sorular, tartışmayı kişi ve ekip pozisyonlarından çıkarıp sistem davranışına taşır. Sistem davranışına odaklanmak, problemleri bireysel hatalara indirgemek yerine aradaki bağımlılıkları, gecikmeli etkileri ve geri bildirim döngülerini görmeyi sağlar (Bkz: 8).
+Bu sorular, tartışmayı kişi ve ekip pozisyonlarından çıkarıp sistem davranışına taşır. Sistem davranışına odaklanmak, problemleri bireysel hatalara indirgemek yerine aradaki bağımlılıkları, gecikmeli etkileri ve geri bildirim döngülerini görmeyi sağlar <span class="bkz-ref" title="8. Senge, P. (2006). The Fifth Discipline.">(Bkz: 8)</span>.
 
-**Örnek:** Gebze'de yürütülen bir MES dönüşümünde ekipler arasındaki gerilim sürekli artıyordu. Ürün ekibi sahadan gelen değişiklikleri acil görüyor, yazılım ekibi mimari riskleri vurguluyor, operasyon ekibi ise geçiş takviminin bozulmasından endişe ediyordu. Şirket haftalık "ortak gerçeklik oturumu" başlattı. Bu oturumlarda backlog maddeleri yalnızca iş listesi olarak değil; müşteri etkisi, teknik risk, saha hazırlığı, karar bağımlılığı ve geri dönüş maliyetiyle birlikte değerlendirildi. Üç ay içinde toplantı sayısı azalmadı; fakat toplantıların niteliği değişti. Ekipler birbirini ikna etmeye çalışmak yerine, aynı kararın farklı maliyetlerini birlikte görmeye başladı.
+**Örnek:** Bir üretim yazılımı dönüşümünde ekipler arasındaki gerilim sürekli artıyordu. Ürün ekibi sahadan gelen değişiklikleri acil görüyor, yazılım ekibi mimari riskleri vurguluyor, operasyon ekibi ise geçiş takviminin bozulmasından endişe ediyordu. Şirket haftalık "ortak gerçeklik oturumu" başlattı. Bu oturumlarda backlog maddeleri yalnızca iş listesi olarak değil; müşteri etkisi, teknik risk, saha hazırlığı, karar bağımlılığı ve geri dönüş maliyetiyle birlikte değerlendirildi. Üç ay içinde toplantı sayısı azalmadı; fakat toplantıların niteliği değişti. Ekipler birbirini ikna etmeye çalışmak yerine, aynı kararın farklı maliyetlerini birlikte görmeye başladı.
 
 Ortak gerçeklik oluşturmanın en önemli çıktısı güven duygusudur. Çünkü güven, tarafların her zaman aynı fikirde olmasıyla değil, kararların hangi gerçekliklere dayanarak alındığını görmesiyle oluşur.
 
@@ -108,9 +108,9 @@ Bir teslimat sözü verilmeden önce şu sorular netleşmelidir:
 
 Beklenti yönetimi yalnızca dış müşteriye dönük değildir. Organizasyon içinde de aynı disiplin gerekir. Yönetimin ekipten ne beklediği, ürün ekibinin teknik ekipten ne istediği, operasyonun canlıya geçişten ne anladığı ve yazılım ekibinin hangi koşullarda güvenli teslimat yapabileceği açık olmalıdır.
 
-**Örnek:** İstanbul'da bir fintech şirketinde satış ve implementasyon ekipleri müşterilere doğrudan teslim tarihi veriyordu. Yazılım ekibi çoğu zaman bu tarihleri sonradan öğreniyor ve gerçekçi olmayan sözleri düzeltmeye çalışıyordu. Şirket, dış taahhüt sürecini yeniden tasarladı. Artık müşteri tarihleri yalnızca ürün, yazılım ve operasyon temsilcilerinin birlikte yaptığı kısa etki değerlendirmesinden sonra veriliyordu. Başlangıçta satış döngüsü yavaşladı ve bazı müşteriler daha net söz isteyen rakiplere yöneldi. Ancak altı ay sonra geciken teslimat oranı belirgin biçimde düştü, müşteri eskalasyonları azaldı ve satış ekibi de daha güvenilir vaatlerle ilerlediği için uzun vadede daha az kriz yaşadı.
+**Örnek:** Bir fintech şirketinde satış ve implementasyon ekipleri müşterilere doğrudan teslim tarihi veriyordu. Yazılım ekibi çoğu zaman bu tarihleri sonradan öğreniyor ve gerçekçi olmayan sözleri düzeltmeye çalışıyordu. Şirket, dış taahhüt sürecini yeniden tasarladı. Artık müşteri tarihleri yalnızca ürün, yazılım ve operasyon temsilcilerinin birlikte yaptığı kısa etki değerlendirmesinden sonra veriliyordu. Başlangıçta satış döngüsü yavaşladı ve bazı müşteriler daha net söz isteyen rakiplere yöneldi. Ancak altı ay sonra geciken teslimat oranı belirgin biçimde düştü, müşteri eskalasyonları azaldı ve satış ekibi de daha güvenilir vaatlerle ilerlediği için uzun vadede daha az kriz yaşadı.
 
-Bu tür bir değişim kısa vadede rahatsız edicidir; çünkü organizasyonun iyimserlik üzerinden çalışmasını zorlaştırır. Fakat uzun vadede güvenilirlik üretir. Müşteri için en yıkıcı olan şey çoğu zaman geç tarih almak değil, verilen tarihin sürekli bozulmasıdır. Güvenilir akış yaratmak, darboğazları ve kısıtları görünür kılmayı gerektirir; aksi halde organizasyon gerçek kapasitesini değil, temenni edilen kapasiteyi yönetir (Bkz: 1).
+Bu tür bir değişim kısa vadede rahatsız edicidir; çünkü organizasyonun iyimserlik üzerinden çalışmasını zorlaştırır. Fakat uzun vadede güvenilirlik üretir. Müşteri için en yıkıcı olan şey çoğu zaman geç tarih almak değil, verilen tarihin sürekli bozulmasıdır. Güvenilir akış yaratmak, darboğazları ve kısıtları görünür kılmayı gerektirir; aksi halde organizasyon gerçek kapasitesini değil, temenni edilen kapasiteyi yönetir <span class="bkz-ref" title="1. Goldratt, E. M. (1990). Theory of Constraints.">(Bkz: 1)</span>.
 
 ---
 
@@ -144,11 +144,19 @@ Risk görünürlüğü için her büyük işin yanında şu bilgiler yer alabili
 
 Kapasite görünürlüğü için ise yalnızca kaç geliştiricinin çalıştığı değil, kapasitenin neye harcandığı gösterilmelidir. Bir ekip haftanın yarısını canlı destek, veri düzeltme ve müşteri eskalasyonlarına harcıyorsa, o ekibin feature üretim kapasitesi kağıt üzerindeki kişi sayısından çok daha düşüktür.
 
-**Örnek:** Ankara'da bir ERP şirketinde yazılım ekibi sürekli "neden daha az özellik çıkıyor" sorusuyla karşılaşıyordu. Ekip, sprint çıktısını üç kategoriye ayırarak raporlamaya başladı: ürün geliştirme, teknik iyileştirme ve risk azaltma. İlk raporlarda zamanın önemli bir kısmının eski modüllerdeki regresyonları önlemeye, manuel veri düzeltmelerine ve test altyapısı eksiklerini kapatmaya gittiği görüldü. Bu görünürlük, tartışmayı "ekip yavaş mı" sorusundan "kapasiteyi tüketen sistemsel maliyetler neler" sorusuna taşıdı. Sonraki çeyrekte teknik borç azaltımı için planlı kapasite ayrıldı ve canlı hata sayısı düştükçe feature geliştirme hızı da arttı.
+**Örnek:** Bir ERP şirketinde yazılım ekibi sürekli "neden daha az özellik çıkıyor" sorusuyla karşılaşıyordu. Ekip, sprint çıktısını üç kategoriye ayırarak raporlamaya başladı: ürün geliştirme, teknik iyileştirme ve risk azaltma. İlk raporlarda zamanın önemli bir kısmının eski modüllerdeki regresyonları önlemeye, manuel veri düzeltmelerine ve test altyapısı eksiklerini kapatmaya gittiği görüldü. Bu görünürlük, tartışmayı "ekip yavaş mı" sorusundan "kapasiteyi tüketen sistemsel maliyetler neler" sorusuna taşıdı. Sonraki çeyrekte teknik borç azaltımı için planlı kapasite ayrıldı ve canlı hata sayısı düştükçe feature geliştirme hızı da arttı.
 
-Görünürlük, güvenin ön koşuludur; fakat görünürlük tek başına güven üretmez. Görünür hale gelen bilginin nasıl kullanıldığı belirleyicidir. Eğer teknik borç görünür olduğunda ekip suçlanıyorsa, bir sonraki sefer borç daha az görünür olur. Eğer risk görünür olduğunda ekip destek alıyorsa, riskler daha erken paylaşılır. Yüksek performanslı yazılım organizasyonlarında teslimat hızı, kalite ve operasyonel güvenilirlik birlikte ele alınır; görünürlük bu bütünün yönetilebilmesi için temel girdilerden biridir (Bkz: 3).
+Görünürlük, güvenin ön koşuludur; fakat görünürlük tek başına güven üretmez. Görünür hale gelen bilginin nasıl kullanıldığı belirleyicidir. Eğer teknik borç görünür olduğunda ekip suçlanıyorsa, bir sonraki sefer borç daha az görünür olur. Eğer risk görünür olduğunda ekip destek alıyorsa, riskler daha erken paylaşılır. Yüksek performanslı yazılım organizasyonlarında teslimat hızı, kalite ve operasyonel güvenilirlik birlikte ele alınır; görünürlük bu bütünün yönetilebilmesi için temel girdilerden biridir <span class="bkz-ref" title="3. Forsgren, N., Humble, J., &amp; Kim, G. (2018). Accelerate.">(Bkz: 3)</span>.
 
-Bu yüzden görünürlük sisteminin amacı kontrol değil, ortak karar kalitesini artırmak olmalıdır. Sürekli teslimat pratiklerinde de amaç yalnızca daha sık yayın yapmak değil, değişiklikleri küçük, izlenebilir ve geri döndürülebilir hale getirerek riski yönetilebilir kılmaktır (Bkz: 7).
+Bu yüzden görünürlük sisteminin amacı kontrol değil, ortak karar kalitesini artırmak olmalıdır. Sürekli teslimat pratiklerinde de amaç yalnızca daha sık yayın yapmak değil, değişiklikleri küçük, izlenebilir ve geri döndürülebilir hale getirerek riski yönetilebilir kılmaktır <span class="bkz-ref" title="7. Humble, J., &amp; Farley, D. (2010). Continuous Delivery.">(Bkz: 7)</span>.
+
+### Yapay Zekâ Çağında Görünürlük
+
+Yapay zekâ (YZ) destekli geliştirme, görünür kılınması gereken iş türlerine yenilerini ekler. Bunların başında doğrulama ve inceleme kapasitesi gelir. YZ ile üretilen kod miktarı arttıkça, bu kodu inceleyen, test eden ve canlıya hazırlayan ekip üyelerinin zamanı sistemin gerçek darboğazına dönüşür. Kapasite görünürlüğü artık yalnızca "kaç geliştirici var?" sorusunu değil, "ne kadar değişikliği güvenle doğrulayabiliyoruz?" sorusunu da yanıtlamalıdır.
+
+İkinci yeni kalem, YZ'nin işletme maliyetidir. YZ araçlarının maliyeti lisans ücretiyle sınırlı değildir; kullanım yoğunluğuna, başarısız denemelere ve ajanların çalışma biçimine göre değişen, öngörülmesi zor bir gider kalemi oluşturur. Bu maliyet görünür değilse, verimlilik kazancının gerçekte ne kadar olduğu da bilinemez. Anlamlı ölçüt, tüketilen kaynak ya da üretilen kod miktarı değil; harcanan kaynak başına kabul edilen ve canlıya ulaşan değişikliktir.
+
+Üçüncü kalem, 2.4.5'te ele alınan anlama borcudur. Risk görünürlüğü listesine "bu değişikliği ekipte kim açıklayabilir?" sorusunu eklemek basit ama etkili bir adımdır. Cevabı olmayan değişiklikler teknik borç gibi izlenmeli ve planlamada karşılığı ayrılmalıdır.
 
 ---
 
@@ -158,7 +166,7 @@ Birçok yazılım organizasyonunda önceliklendirme, resmi olarak vardır; fakat
 
 Bu durum tek başına problem değildir. Yazılım organizasyonlarında değişim kaçınılmazdır. Problem, değişimin maliyetsiz kabul edilmesidir.
 
-Sağlıklı önceliklendirme sistemi, her yeni kararın bir değiş tokuş içerdiğini görünür kılar. Bir iş öne alındığında başka bir iş geriye düşer. Bir kapsam büyüdüğünde teslim tarihi, kalite seviyesi veya kapasite etkilenir. Bir teknik risk ertelendiğinde gelecekteki değişiklik maliyeti artar. Ürün geliştirme akışında kararların ekonomik etkisini görünür kılmak, yalnızca öncelik sırası belirlemekten daha güçlü bir yönetim aracıdır (Bkz: 6).
+Sağlıklı önceliklendirme sistemi, her yeni kararın bir değiş tokuş içerdiğini görünür kılar. Bir iş öne alındığında başka bir iş geriye düşer. Bir kapsam büyüdüğünde teslim tarihi, kalite seviyesi veya kapasite etkilenir. Bir teknik risk ertelendiğinde gelecekteki değişiklik maliyeti artar. Ürün geliştirme akışında kararların ekonomik etkisini görünür kılmak, yalnızca öncelik sırası belirlemekten daha güçlü bir yönetim aracıdır <span class="bkz-ref" title="6. Reinertsen, D. G. (2009). The Principles of Product Development Flow.">(Bkz: 6)</span>.
 
 Bu nedenle önceliklendirme yalnızca "ne en önemli" sorusu değildir. Daha doğru soru şudur: Bugün hangi işi seçersek hangi maliyeti, hangi riski ve hangi fırsatı kabul etmiş oluyoruz?
 
@@ -183,7 +191,7 @@ Sağlıklı önceliklendirme için karar kriterleri açık olmalıdır:
 
 Bu kriterler kararları mekanik hale getirmez; ama tartışmanın kalitesini artırır. İnsanlar yalnızca kendi talebinin önemini savunmak yerine, talebin sistem üzerindeki etkisini konuşmaya başlar.
 
-**Örnek:** Bir SaaS şirketinde üst yönetim her büyük müşterinin talebini öncelikli kabul ediyordu. Sonuç olarak roadmap sürekli bölünüyor, ekipler aynı anda çok fazla işi başlatıyor ve hiçbir iş güvenilir ritimde tamamlanmıyordu. Şirket çeyreklik planlamada açık bir kapasite modeli kullanmaya başladı: kapasitenin belirli bir bölümü stratejik ürün geliştirmeye, belirli bir bölümü müşteri uyarlamalarına, belirli bir bölümü teknik borç ve risk azaltmaya ayrıldı. Acil talepler hâlâ kabul edilebiliyordu; ancak hangi kapasiteden düşeceği açıkça görülüyordu. Bu değişiklik tartışmaları tamamen bitirmedi, ama kararların maliyetini görünür hale getirdi. Böylece organizasyon, her işi aynı anda başlatmak yerine sistemin gerçek kısıtını yönetmeye başladı (Bkz: 1).
+**Örnek:** Bir SaaS şirketinde üst yönetim her büyük müşterinin talebini öncelikli kabul ediyordu. Sonuç olarak roadmap sürekli bölünüyor, ekipler aynı anda çok fazla işi başlatıyor ve hiçbir iş güvenilir ritimde tamamlanmıyordu. Şirket çeyreklik planlamada açık bir kapasite modeli kullanmaya başladı: kapasitenin belirli bir bölümü stratejik ürün geliştirmeye, belirli bir bölümü müşteri uyarlamalarına, belirli bir bölümü teknik borç ve risk azaltmaya ayrıldı. Acil talepler hâlâ kabul edilebiliyordu; ancak hangi kapasiteden düşeceği açıkça görülüyordu. Bu değişiklik tartışmaları tamamen bitirmedi, ama kararların maliyetini görünür hale getirdi. Böylece organizasyon, her işi aynı anda başlatmak yerine sistemin gerçek kısıtını yönetmeye başladı <span class="bkz-ref" title="1. Goldratt, E. M. (1990). Theory of Constraints.">(Bkz: 1)</span>.
 
 Önceliklendirme sisteminin olgunlaşması, yazılım ekibinin sürekli "hayır" diyen taraf gibi görünmesini engeller. Çünkü "hayır" artık kişisel direnç değil, sistemin kapasite ve risk gerçekliğinin sonucu olarak anlaşılır. Daha da önemlisi, organizasyon bazen bilinçli olarak risk alabilir. Sağlıklı sistemlerin amacı her riski engellemek değil, alınan riskin görülmesini sağlamaktır.
 
@@ -214,11 +222,26 @@ Sağlıklı sahiplik modeli şu soruları cevaplar:
 * Karar gerektiğinde son sözü kim söylüyor?
 * Bir risk ortaya çıktığında hangi ekipler birlikte hareket ediyor?
 
-Bu modelde ürün, yazılım ve operasyon birbirinden kopuk aşamalar değil, aynı akışın farklı sorumluluk alanlarıdır. Takımlar arası sınırların ve etkileşim biçimlerinin bilinçli tasarlanması, yazılım sisteminin mimarisini ve teslimat akışını doğrudan etkiler (Bkz: 4).
+Bu modelde ürün, yazılım ve operasyon birbirinden kopuk aşamalar değil, aynı akışın farklı sorumluluk alanlarıdır. Takımlar arası sınırların ve etkileşim biçimlerinin bilinçli tasarlanması, yazılım sisteminin mimarisini ve teslimat akışını doğrudan etkiler <span class="bkz-ref" title="4. Skelton, M., &amp; Pais, M. (2019). Team Topologies.">(Bkz: 4)</span>.
 
-**Örnek:** Bursa'da üretim yazılımı geliştiren bir firmada modül bazlı sahiplik modeli uygulandı. Öncesinde her hata farklı ekipler arasında dolaşıyor, müşteri etkisi geç anlaşılıyor ve aynı problemler tekrar ediyordu. Yeni modelde her kritik modül için ürün temsilcisi, teknik sahip ve operasyon temsilcisinden oluşan küçük bir sahiplik üçlüsü tanımlandı. Bu üçlü gereksinim, geliştirme, canlıya geçiş, performans ve müşteri geri bildirimi üzerinde birlikte sorumluluk aldı. Hatalar tamamen bitmedi; fakat tekrar eden hata oranı düştü, karar alma süresi kısaldı ve problemler daha erken sahiplenildi.
+**Örnek:** Kurumsal yazılım geliştiren bir firmada modül bazlı sahiplik modeli uygulandı. Öncesinde her hata farklı ekipler arasında dolaşıyor, müşteri etkisi geç anlaşılıyor ve aynı problemler tekrar ediyordu. Yeni modelde her kritik modül için ürün temsilcisi, teknik sahip ve operasyon temsilcisinden oluşan küçük bir sahiplik üçlüsü tanımlandı. Bu üçlü gereksinim, geliştirme, canlıya geçiş, performans ve müşteri geri bildirimi üzerinde birlikte sorumluluk aldı. Hatalar tamamen bitmedi; fakat tekrar eden hata oranı düştü, karar alma süresi kısaldı ve problemler daha erken sahiplenildi.
 
 Sahiplik modeli kurulurken dikkat edilmesi gereken risk, sahipliği suçlama aracına dönüştürmektir. Eğer "sahip" kavramı yalnızca hata olduğunda aranacak kişiyi tanımlıyorsa, sistem savunmacı davranış üretir. Sağlıklı sahiplik, hesap verebilirlik ile destek yetkisini birlikte verir. Bir alanın sahibi olan kişi veya ekip, yalnızca sonuçtan sorumlu tutulmamalı; karar alma, öncelik belirleme ve iyileştirme yapma yetkisine de sahip olmalıdır.
+
+### Yapay Zekâ Çağında Sahiplik
+
+YZ destekli geliştirme, sahiplik sorusuna yeni bir boyut ekler. Bir değişikliğin bir kısmı YZ tarafından üretilmiş, bir geliştirici tarafından düzenlenmiş ve bir başkası tarafından onaylanmış olabilir. Bu durumda "bu kod nereden geldi, kim onayladı, neden böyle?" sorularının cevabı kendiliğinden oluşmaz.
+
+Sağlıklı organizasyonlarda ilke açıktır: YZ bir araçtır, sahip değildir. YZ ile üretilen her değişikliğin, onu anlayan ve sonuçlarını üstlenen bir insan sahibi olmalıdır. Bu, YZ katkısının gizlenmesi anlamına gelmez; tam tersine, hangi değişikliklerin YZ destekli üretildiğinin ve kim tarafından gözden geçirilip onaylandığının izlenebilir olması, olay sonrası analizlerde ve denetimlerde kritik bilgi sağlar. Bu izlenebilirlik bir verimlilik puanı olarak değil, hesap verebilirlik mekanizması olarak kullanılmalıdır.
+
+Sahiplik modeli YZ çağında şu soruları da cevaplamalıdır:
+
+* YZ destekli üretilen değişikliklerde kabul ölçütlerini kim tanımlar?
+* İnceleme gerçek bir doğrulama mı, yoksa bir onay ritüeli mi?
+* YZ ajanlarına hangi sistemlerde, hangi yetkilerle işlem yapma izni verilir ve bu yetkilerden kim sorumludur?
+* Bir değişikliği açıklayabilecek kimse kalmadığında bu durumu kim fark eder?
+
+Bu soruların cevapsız kaldığı organizasyonlarda YZ, sorumluluğun dağılmasının yeni bir yolu haline gelir. "YZ böyle üretmiş" cümlesi, "ben yapmadım"ın yeni biçimidir. Sahiplik ise tam olarak bu cümlenin söylenmesine gerek bırakmayan yapıdır.
 
 ---
 
@@ -247,9 +270,9 @@ Değişiklik yönetimi bu noktada kritik rol oynar. Her değişiklik talebi ayn�
 * Bakım ve destek maliyeti ne olacak?
 * Bu talep kabul edilirse hangi standart zayıflayacak?
 
-**Örnek:** İzmir'de bir SaaS şirketi yıllarca büyük müşteriler için özel geliştirmeler yaptı. Satış ekibi bu esnekliği rekabet avantajı olarak görüyordu. Ancak birkaç yıl içinde ürünün farklı müşterilerde farklı davranan çok sayıda varyantı oluştu. Test süreçleri uzadı, destek ekibi hangi müşteride hangi davranışın geçerli olduğunu takip etmekte zorlandı, yeni özelliklerin geliştirme maliyeti arttı. Şirket radikal bir karar aldı: müşteri bazlı özel geliştirmeler durduruldu, talepler ürün roadmap'i ve konfigürasyon stratejisi üzerinden değerlendirilmeye başlandı. İlk üç ayda bazı satış fırsatları kaybedildi. Bir yıl sonra kod tabanı sadeleşti, yayın güvenilirliği arttı ve destek yükü azaldı.
+**Örnek:** Bir SaaS şirketi yıllarca büyük müşteriler için özel geliştirmeler yaptı. Satış ekibi bu esnekliği rekabet avantajı olarak görüyordu. Ancak birkaç yıl içinde ürünün farklı müşterilerde farklı davranan çok sayıda varyantı oluştu. Test süreçleri uzadı, destek ekibi hangi müşteride hangi davranışın geçerli olduğunu takip etmekte zorlandı, yeni özelliklerin geliştirme maliyeti arttı. Şirket radikal bir karar aldı: müşteri bazlı özel geliştirmeler durduruldu, talepler ürün roadmap'i ve konfigürasyon stratejisi üzerinden değerlendirilmeye başlandı. İlk üç ayda bazı satış fırsatları kaybedildi. Bir yıl sonra kod tabanı sadeleşti, yayın güvenilirliği arttı ve destek yükü azaldı.
 
-Ürün disiplini teknik bir tercih değil, stratejik bir karardır. Çünkü organizasyonun ne kadar hızlı değişebileceğini, yalnızca ekip kapasitesi değil, ürünün ne kadar standart ve yönetilebilir olduğu belirler. Yalın yazılım geliştirme yaklaşımı da bu noktada israfı azaltmayı, akışı sadeleştirmeyi ve müşteriye değer üretmeyen varyasyonu sınırlamayı vurgular (Bkz: 5).
+Ürün disiplini teknik bir tercih değil, stratejik bir karardır. Çünkü organizasyonun ne kadar hızlı değişebileceğini, yalnızca ekip kapasitesi değil, ürünün ne kadar standart ve yönetilebilir olduğu belirler. Yalın yazılım geliştirme yaklaşımı da bu noktada israfı azaltmayı, akışı sadeleştirmeyi ve müşteriye değer üretmeyen varyasyonu sınırlamayı vurgular <span class="bkz-ref" title="5. Poppendieck, M., &amp; Poppendieck, T. (2003). Lean Software Development.">(Bkz: 5)</span>.
 
 ---
 
@@ -275,7 +298,7 @@ Suçlama kültüründe olay sonrası değerlendirme şu sorular etrafında döne
 
 Bu yaklaşım hataları önemsizleştirmez. Aksine, hatayı daha ciddiye alır. Çünkü tek kişiyi suçlamak çoğu zaman hızlı kapanış sağlar; sistemi değiştirmek ise gerçek iyileştirme gerektirir.
 
-Öğrenen organizasyonlar olay sonrası değerlendirmeleri cezalandırma alanı değil, sistem tasarımı alanı olarak kullanır. Bu değerlendirmelerde amaç, kimin savunma yapacağını belirlemek değil, sistemin hangi koşullarda bu sonucu ürettiğini anlamaktır. Bunun için insanların hata, belirsizlik ve kötü haberleri cezalandırılma korkusu olmadan paylaşabildiği psikolojik güvenlik zemini gerekir (Bkz: 2).
+Öğrenen organizasyonlar olay sonrası değerlendirmeleri cezalandırma alanı değil, sistem tasarımı alanı olarak kullanır. Bu değerlendirmelerde amaç, kimin savunma yapacağını belirlemek değil, sistemin hangi koşullarda bu sonucu ürettiğini anlamaktır. Bunun için insanların hata, belirsizlik ve kötü haberleri cezalandırılma korkusu olmadan paylaşabildiği psikolojik güvenlik zemini gerekir <span class="bkz-ref" title="2. Edmondson, A. (2018). The Fearless Organization.">(Bkz: 2)</span>.
 
 Etkili bir olay sonrası değerlendirme şu yapıya sahip olabilir:
 
@@ -288,9 +311,17 @@ Etkili bir olay sonrası değerlendirme şu yapıya sahip olabilir:
 * Sistemsel nedenler: süreç, mimari, kapasite, iletişim veya sahiplik kaynaklı faktörler.
 * İyileştirme aksiyonları: kontrol eklemek yerine sistemi daha görünür, güvenli veya basit hale getiren adımlar.
 
-**Örnek:** Bir ödeme sisteminde canlı hata yaşandıktan sonra ilk toplantı doğal olarak gergindi. Müşteri etkisi yüksekti ve yönetim hızlı açıklama bekliyordu. Önceki pratikte bu tür toplantılar hangi ekibin hatalı olduğuna odaklanıyordu. Bu kez olay sonrası değerlendirme tarafsız zaman çizelgesiyle başladı. Hatanın tek bir test eksikliğinden değil, değişen iş kuralının dokümantasyona geç eklenmesi, entegrasyon test ortamının canlı davranışı yansıtmaması ve onay sürecinde operasyonel senaryoların temsil edilmemesinden kaynaklandığı görüldü. Aksiyon olarak yalnızca "daha dikkatli test" kararı alınmadı; test ortamı güncellendi, iş kuralı değişiklikleri için kabul kriteri şablonu oluşturuldu ve operasyon temsilcisi kritik ödeme akışlarının tasarım incelemesine dahil edildi.
+**Örnek:** Bir ödeme sisteminde canlı hata yaşandığını düşünelim. İlk toplantı doğal olarak gergindir; müşteri etkisi yüksektir ve yönetim hızlı açıklama bekler. Eski pratikte bu tür toplantılar hangi ekibin hatalı olduğuna odaklanır. Bu kez olay sonrası değerlendirme tarafsız bir zaman çizelgesiyle başlar. Hatanın tek bir test eksikliğinden değil; değişen iş kuralının dokümantasyona geç eklenmesinden, entegrasyon test ortamının canlı davranışı yansıtmamasından ve onay sürecinde operasyonel senaryoların temsil edilmemesinden kaynaklandığı görülür. Aksiyon olarak yalnızca "daha dikkatli test" kararı alınmaz; test ortamı güncellenir, iş kuralı değişiklikleri için kabul kriteri şablonu oluşturulur ve operasyon temsilcisi kritik ödeme akışlarının tasarım incelemesine dahil edilir.
 
-Bu tür bir öğrenme pratiği zamanla güven üretir. İnsanlar hata olduğunda otomatik olarak saklanmak yerine, sistemi iyileştirmeye katkı vermeye başlar. Çünkü amaç kişinin kusurunu bulmak değil, sistemin daha güvenilir hale gelmesini sağlamaktır. Öğrenen organizasyon yaklaşımında kalıcı iyileştirme, olayları tekil sapmalar olarak değil, sistemin ürettiği örüntüler olarak okuyabilmekle mümkündür (Bkz: 8).
+Bu tür bir öğrenme pratiği zamanla güven üretir. İnsanlar hata olduğunda otomatik olarak saklanmak yerine, sistemi iyileştirmeye katkı vermeye başlar. Çünkü amaç kişinin kusurunu bulmak değil, sistemin daha güvenilir hale gelmesini sağlamaktır. Öğrenen organizasyon yaklaşımında kalıcı iyileştirme, olayları tekil sapmalar olarak değil, sistemin ürettiği örüntüler olarak okuyabilmekle mümkündür <span class="bkz-ref" title="8. Senge, P. (2006). The Fifth Discipline.">(Bkz: 8)</span>.
+
+### Yapay Zekâ Çağında Öğrenme ve Kurumsal Hafıza
+
+YZ, öğrenen organizasyon için hem bir fırsat hem de sessiz bir risk taşır. Fırsat tarafında; olay sonrası değerlendirmelerin hazırlanması, geçmiş kararların bulunması ve sistem bilgisinin dokümante edilmesi YZ ile çok daha erişilebilir hale gelebilir. Risk tarafında ise öğrenmenin kendisi aşınabilir.
+
+Yazılım ekiplerinde kıdemli geliştiriciler büyük ölçüde rutin işler üzerinden yetişir: küçük hataları düzeltmek, basit özellikler eklemek, kod incelemelerinde geri bildirim almak. YZ bu rutin işlerin önemli bir kısmını üstlendiğinde, yeni başlayan geliştiricilerin öğrenme zemini daralır. Yapay zekâya en açık mesleklerde kariyerinin başındaki çalışanların istihdamının, daha deneyimli çalışanlara kıyasla belirgin biçimde gerilediğini gösteren bulgular, bu riskin teorik olmadığını gösterir <span class="bkz-ref" title="9. Brynjolfsson, E., Chandar, B., Chen, R. (2025). Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence. Stanford Digital Economy Lab.">(Bkz: 9)</span>. Bugün yeni başlayanların öğrenme hattını kesen bir organizasyon, birkaç yıl sonra sistemini anlayacak kıdemli geliştirici bulmakta zorlanır.
+
+Bu noktada temel tercih, YZ'nin nasıl konumlandırıldığıdır. İnsanların yerine geçecek bir araç olarak konumlandırılan YZ kısa vadede maliyeti düşürebilir; ancak 2.4.5'te ele alınan anlama borcunu ve kurumsal hafıza kaybını hızlandırır. İnsanların yetkinliğini tamamlayan bir araç olarak konumlandırılan YZ ise öğrenmeyi hızlandırabilir <span class="bkz-ref" title="10. Acemoglu, D., Restrepo, P. (2019). Automation and New Tasks: How Technology Displaces and Reinstates Labor. Journal of Economic Perspectives, 33(2).">(Bkz: 10)</span>. Öğrenen organizasyon, YZ'den elde ettiği verimlilik kazancının bir kısmını bilinçli olarak öğrenmeye ayırır: karar kayıtları tutmak, olay sonrası değerlendirmelerde "bu sistemi kim anlıyor?" sorusunu sormak ve yeni başlayanlardan YZ çıktısını yalnızca kullanmalarını değil, sorgulamalarını beklemek.
 
 ---
 
@@ -313,7 +344,7 @@ Bu aşamada sorulabilecek sorular şunlardır:
 
 İkinci aşama görünürlüktür. Seçilen gerilim alanında iş, risk, kapasite ve karar maliyeti görünür hale getirilmelidir. Örneğin sorun teknik borçsa, borç yalnızca teknik liste olarak değil, teslimat hızı, hata oranı ve operasyonel yük üzerindeki etkisiyle gösterilmelidir. Sorun beklenti yönetimiyse, verilen sözlerin hangi varsayımlara dayandığı görünür olmalıdır.
 
-Üçüncü aşama karar mekanizmasını değiştirmektir. Görünür hale gelen bilgi kararları değiştirmiyorsa, görünürlük kısa sürede anlamsızlaşır. Risk görünür ama öncelik değişmezse, ekipler risk paylaşmayı bırakır. Kapasite görünür ama aynı miktarda iş başlatılmaya devam ederse, planlama güven kaybeder. Bu nedenle her görünürlük pratiği, bir karar pratiğine bağlanmalıdır. Akışın iyileşmesi, kısıtların ve bekleme maliyetlerinin karar mekanizmasına dahil edilmesine bağlıdır (Bkz: 1, 6).
+Üçüncü aşama karar mekanizmasını değiştirmektir. Görünür hale gelen bilgi kararları değiştirmiyorsa, görünürlük kısa sürede anlamsızlaşır. Risk görünür ama öncelik değişmezse, ekipler risk paylaşmayı bırakır. Kapasite görünür ama aynı miktarda iş başlatılmaya devam ederse, planlama güven kaybeder. Bu nedenle her görünürlük pratiği, bir karar pratiğine bağlanmalıdır. Akışın iyileşmesi, kısıtların ve bekleme maliyetlerinin karar mekanizmasına dahil edilmesine bağlıdır <span class="bkz-ref" title="1. Goldratt, E. M. (1990). Theory of Constraints. | 6. Reinertsen, D. G. (2009). The Principles of Product Development Flow.">(Bkz: 1, 6)</span>.
 
 Dördüncü aşama öğrenme döngüsüdür. Organizasyon yaptığı müdahalelerin etkisini düzenli olarak değerlendirmelidir. Teslimat güvenilirliği arttı mı? Canlı hata sayısı azaldı mı? Teknik borç görünür hale geldi mi? Ekipler riskleri daha erken paylaşıyor mu? Toplantılar savunma yerine karar üretmeye başladı mı? Bu sorulara verilen cevaplar, bir sonraki iyileştirme adımını belirler.
 
@@ -355,6 +386,8 @@ Doğru sistem kurulduğunda insanlar otomatik olarak kusursuz davranmaz. Ancak d
 6. Reinertsen, D. G. (2009). The Principles of Product Development Flow.
 7. Humble, J., & Farley, D. (2010). Continuous Delivery.
 8. Senge, P. (2006). The Fifth Discipline.
+9. Brynjolfsson, E., Chandar, B., Chen, R. (2025). Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence. Stanford Digital Economy Lab.
+10. Acemoglu, D., Restrepo, P. (2019). Automation and New Tasks: How Technology Displaces and Reinstates Labor. Journal of Economic Perspectives, 33(2).
 
 ---
 

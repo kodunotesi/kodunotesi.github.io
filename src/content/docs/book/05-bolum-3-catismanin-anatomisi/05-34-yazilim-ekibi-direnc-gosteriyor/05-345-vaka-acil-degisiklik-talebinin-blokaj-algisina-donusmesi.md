@@ -4,7 +4,7 @@ sidebar:
   hidden: true
 ---
 
-Canlı sipariş akışında kritik bir hata görüldü ve operasyon ekibi aynı gün içinde kural değişikliği yapılmasını talep etti. Çünkü hata doğrudan müşteri işlemlerini etkiliyor, çağrı merkezi yükü artıyor ve operasyon baskısı hızla büyüyordu.
+Bir e-ticaret platformunun canlı sipariş akışında kritik bir hata görüldü ve operasyon ekibi aynı gün içinde kural değişikliği yapılmasını talep etti. Çünkü hata doğrudan müşteri işlemlerini etkiliyor ve operasyon baskısı hızla büyüyordu.
 
 Sabah yapılan ilk toplantıda operasyon tarafı değişikliğin "küçük bir kural güncellemesi" olduğunu ifade etti. Teknik ekip ise ilgili modülün geçmişte benzer değişikliklerden etkilendiğini ve canlı veri akışı altında beklenmedik yan etkiler üretebildiğini belirtti.
 

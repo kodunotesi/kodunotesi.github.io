@@ -14,7 +14,7 @@ Bu nedenle kaliteyi azaltmak çoğu zaman hızlanmak değil, gelecekteki gelişt
 
 DeMarco ve Lister bu dinamiği çalışmalarında ayrıntılı biçimde inceler: kaliteyi düşürmek kısa vadede hız kazandırır gibi görünse de orta vadede ekipleri daha yavaş, daha kırılgan ve daha az öngörülebilir hale getirir <span class="bkz-ref" title="3. Taleb, N. N. (2007). The Black Swan.">(Bkz: 3)</span>. Öte yandan yüksek kaliteli yazılım geliştiren ekiplerin uzun vadede daha hızlı teslimat yaptığı; çünkü değişiklik maliyetlerinin, hata düzeltme sürelerinin ve koordinasyon yükünün düşük kaldığı görülmektedir.
 
-**Örnek:** Bir üretim yönetim yazılımı geliştiren ekip, yatırımcı sunumu öncesinde teslim tarihine yetişebilmek için otomatik testlerin önemli bir kısmını devre dışı bırakarak sistemi yayına aldı. İlk sürüm planlanandan iki hafta önce teslim edildi ve kısa vadede süreç başarılı görünüyordu.
+**Örnek:** Bir e-ticaret platformu geliştiren ekip, büyük bir kampanya lansmanı öncesinde teslim tarihine yetişebilmek için otomatik testlerin önemli bir kısmını devre dışı bırakarak sistemi yayına aldı. İlk sürüm planlanandan iki hafta önce teslim edildi ve kısa vadede süreç başarılı görünüyordu.
 
 Ancak sonraki aylarda ekip her yeni sürüm öncesinde uzun manuel test süreçleri yürütmek zorunda kaldı. Daha önce dakikalar içinde doğrulanabilen değişiklikler artık günler süren kontroller gerektiriyordu. Küçük özellik eklemeleri bile beklenmedik yan etkilere neden oluyor, ekip her yayında yeni hataların ortaya çıkmasından çekiniyordu. Zamanla geliştirme hızı giderek düştü; çünkü ekip yeni özellik geliştirmekten çok, sistemin mevcut davranışını korumaya çalışıyordu.
 

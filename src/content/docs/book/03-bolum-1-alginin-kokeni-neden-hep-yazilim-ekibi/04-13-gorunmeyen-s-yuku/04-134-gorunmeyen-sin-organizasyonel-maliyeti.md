@@ -15,10 +15,4 @@ Görünmez iş yükünün uzun vadeli maliyeti yalnızca teknik değildir; organ
 
 **Örnek:** Hızlı büyüyen bir girişimde yazılım ekibi iki yıl boyunca yeni özellik geliştirmeye odaklandı. Refactoring talepleri "şimdi değil, ilerleyen sprintlerde" kararıyla ertelendi. İki yılın sonunda ekip her sprint daha az iş çıkarır hale geldi. Yönetim çözüm olarak iki yeni geliştirici işe aldı. Yeni geliştiriciler sistemi anlamakta güçlük çekti; mevcut ekip bu geliştiricilere destek vermek için zamanlarının önemli bir bölümünü harcadı. Sprint hızı gerilemeye devam etti.
 
----
-title: "1.3.4 Görünmeyen İşin Organizasyonel Maliyeti"
-sidebar:
-  hidden: true
----
-
 

@@ -12,6 +12,4 @@ sidebar:
 
 **Daha sağlıklı soru:** Bu problemi tekrar üreten süreç, karar veya görünürlük eksikliği nedir?
 
----
-
 

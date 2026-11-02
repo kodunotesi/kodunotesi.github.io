@@ -10,11 +10,11 @@ Bu etki, değişiklik kararlarını karmaşık hale getirir. Bir bileşeni deği
 
 Yazılım ekiplerinin bazı değişiklik taleplerine "bu basit değil" yanıtını vermesinin temel nedeni bu dinamiktir. Değiştirilen şeyin kendisi basit olabilir; ama değişikliğin etki alanını güvenli biçimde yönetmek basit değildir.
 
-**Örnek:** Bir üretim tesisinde kullanılan MES sisteminde, operatörlerin üretim başlangıcında seçtiği "vardiya tipi" alanına yeni bir seçenek eklendi. Değişiklik yalnızca operatör ekranındaki bir açılır listeyi ilgilendiriyor gibi görünüyordu. Arayüz güncellendi, test edildi ve canlı ortama alındı.
+**Örnek:** Bir perakende şirketinin satış sisteminde, kasiyerlerin işlem sırasında seçtiği "ödeme tipi" alanına yeni bir seçenek eklendi. Değişiklik yalnızca kasa ekranındaki bir açılır listeyi ilgilendiriyor gibi görünüyordu. Arayüz güncellendi, test edildi ve canlı ortama alındı.
 
-Bir hafta sonra, bazı üretim raporlarında toplam üretim miktarlarının eksik hesaplandığı fark edildi. İncelemede, raporlama servisinin vardiya tiplerini sabit bir liste üzerinden değerlendirdiği ve yeni eklenen seçeneği tanımadığı ortaya çıktı. Bu nedenle ilgili kayıtlar raporlara dahil edilmemişti. Daha sonra, aynı veriyi kullanan performans analiz ekranlarında da hatalı OEE hesaplamaları oluştuğu görüldü.
+Bir hafta sonra, bazı satış raporlarında günlük ciro toplamlarının eksik hesaplandığı fark edildi. İncelemede, raporlama servisinin ödeme tiplerini sabit bir liste üzerinden değerlendirdiği ve yeni eklenen seçeneği tanımadığı ortaya çıktı. Bu nedenle ilgili kayıtlar raporlara dahil edilmemişti. Daha sonra, aynı veriyi kullanan finansal mutabakat ekranlarında da hatalı sonuçlar oluştuğu görüldü.
 
-Başlangıçta yalnızca kullanıcı arayüzünde küçük bir alan güncellemesi gibi görünen değişiklik, üretim raporlama ve performans analiz süreçlerine kadar yayılan bir dalgalanma etkisi oluşturdu.
+Başlangıçta yalnızca kullanıcı arayüzünde küçük bir alan güncellemesi gibi görünen değişiklik, satış raporlama ve finansal mutabakat süreçlerine kadar yayılan bir dalgalanma etkisi oluşturdu.
 
 ---
 

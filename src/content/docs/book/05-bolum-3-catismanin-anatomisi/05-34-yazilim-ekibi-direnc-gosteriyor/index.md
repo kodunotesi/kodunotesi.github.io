@@ -40,7 +40,7 @@ Yazılım ekiplerinin temkinli davranışı çoğu zaman geçmiş arıza deneyim
 
 Bu refleks dışarıdan bakıldığında gereksiz hassasiyet gibi görünebilir. Ancak teknik ekip için bu davranış geçmişte yaşanmış operasyonel maliyetlerin sonucudur.
 
-Örneğin bir ekip daha önce hızlı biçimde canlıya alınan küçük bir değişiklik nedeniyle sipariş akışının durduğunu, müşterilerin işlem yapamadığını ve operasyon ekiplerinin gece boyunca manuel müdahaleyle sistemi ayakta tuttuğunu yaşamış olabilir.
+Örneğin bir ekip daha önce hızlı biçimde canlıya alınan küçük bir değişiklik nedeniyle ciddi bir kesinti yaşamış ve sistemi uzun süre manuel müdahaleyle ayakta tutmak zorunda kalmış olabilir.
 
 Bu tür deneyimler ekiplerin risk algısını kalıcı biçimde değiştirir.
 
@@ -85,7 +85,7 @@ Bu maliyetler genellikle geleceğe dönüktür, olasılıklar üzerinden ele al�
 
 Buradaki kritik problem, organizasyonların çoğunda bu iki risk türünün aynı karar çerçevesinde değerlendirilmemesidir.
 
-İş tarafı teknik ekibi gereğinden fazla temkinli bulabilir.Teknik ekip ise iş tarafını riskleri küçümsemekle suçlayabilir. Oysa çoğu durumda iki taraf da kendi görünür maliyet alanına göre rasyonel davranmaktadır.
+İş tarafı teknik ekibi gereğinden fazla temkinli bulabilir. Teknik ekip ise iş tarafını riskleri küçümsemekle suçlayabilir. Oysa çoğu durumda iki taraf da kendi görünür maliyet alanına göre rasyonel davranmaktadır.
 
 Çatışmanın özü genellikle teknik bilgi eksikliğinden çok, asimetrik risk görünürlüğüdür.
 
@@ -121,7 +121,7 @@ Bu aşamaya gelmiş organizasyonlarda teknik doğruluk tek başına çatışmay�
 
 ### 3.4.5 Vaka: Acil Değişiklik Talebinin Blokaj Algısına Dönüşmesi
 
-Canlı sipariş akışında kritik bir hata görüldü ve operasyon ekibi aynı gün içinde kural değişikliği yapılmasını talep etti. Çünkü hata doğrudan müşteri işlemlerini etkiliyor, çağrı merkezi yükü artıyor ve operasyon baskısı hızla büyüyordu.
+Bir e-ticaret platformunun canlı sipariş akışında kritik bir hata görüldü ve operasyon ekibi aynı gün içinde kural değişikliği yapılmasını talep etti. Çünkü hata doğrudan müşteri işlemlerini etkiliyor ve operasyon baskısı hızla büyüyordu.
 
 Sabah yapılan ilk toplantıda operasyon tarafı değişikliğin "küçük bir kural güncellemesi" olduğunu ifade etti. Teknik ekip ise ilgili modülün geçmişte benzer değişikliklerden etkilendiğini ve canlı veri akışı altında beklenmedik yan etkiler üretebildiğini belirtti.
 

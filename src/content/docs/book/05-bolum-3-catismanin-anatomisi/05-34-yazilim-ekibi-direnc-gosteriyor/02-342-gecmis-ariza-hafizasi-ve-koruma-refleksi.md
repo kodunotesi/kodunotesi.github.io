@@ -8,7 +8,7 @@ Yazılım ekiplerinin temkinli davranışı çoğu zaman geçmiş arıza deneyim
 
 Bu refleks dışarıdan bakıldığında gereksiz hassasiyet gibi görünebilir. Ancak teknik ekip için bu davranış geçmişte yaşanmış operasyonel maliyetlerin sonucudur.
 
-Örneğin bir ekip daha önce hızlı biçimde canlıya alınan küçük bir değişiklik nedeniyle sipariş akışının durduğunu, müşterilerin işlem yapamadığını ve operasyon ekiplerinin gece boyunca manuel müdahaleyle sistemi ayakta tuttuğunu yaşamış olabilir.
+Örneğin bir ekip daha önce hızlı biçimde canlıya alınan küçük bir değişiklik nedeniyle ciddi bir kesinti yaşamış ve sistemi uzun süre manuel müdahaleyle ayakta tutmak zorunda kalmış olabilir.
 
 Bu tür deneyimler ekiplerin risk algısını kalıcı biçimde değiştirir.
 

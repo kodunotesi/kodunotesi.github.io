@@ -18,7 +18,7 @@ Bu nedenle kaliteyi azaltmak çoğu zaman hızlanmak değil, gelecekteki gelişt
 
 DeMarco ve Lister bu dinamiği çalışmalarında ayrıntılı biçimde inceler: kaliteyi düşürmek kısa vadede hız kazandırır gibi görünse de orta vadede ekipleri daha yavaş, daha kırılgan ve daha az öngörülebilir hale getirir <span class="bkz-ref" title="3. Taleb, N. N. (2007). The Black Swan.">(Bkz: 3)</span>. Öte yandan yüksek kaliteli yazılım geliştiren ekiplerin uzun vadede daha hızlı teslimat yaptığı; çünkü değişiklik maliyetlerinin, hata düzeltme sürelerinin ve koordinasyon yükünün düşük kaldığı görülmektedir.
 
-**Örnek:** Bir üretim yönetim yazılımı geliştiren ekip, yatırımcı sunumu öncesinde teslim tarihine yetişebilmek için otomatik testlerin önemli bir kısmını devre dışı bırakarak sistemi yayına aldı. İlk sürüm planlanandan iki hafta önce teslim edildi ve kısa vadede süreç başarılı görünüyordu.
+**Örnek:** Bir e-ticaret platformu geliştiren ekip, büyük bir kampanya lansmanı öncesinde teslim tarihine yetişebilmek için otomatik testlerin önemli bir kısmını devre dışı bırakarak sistemi yayına aldı. İlk sürüm planlanandan iki hafta önce teslim edildi ve kısa vadede süreç başarılı görünüyordu.
 
 Ancak sonraki aylarda ekip her yeni sürüm öncesinde uzun manuel test süreçleri yürütmek zorunda kaldı. Daha önce dakikalar içinde doğrulanabilen değişiklikler artık günler süren kontroller gerektiriyordu. Küçük özellik eklemeleri bile beklenmedik yan etkilere neden oluyor, ekip her yayında yeni hataların ortaya çıkmasından çekiniyordu. Zamanla geliştirme hızı giderek düştü; çünkü ekip yeni özellik geliştirmekten çok, sistemin mevcut davranışını korumaya çalışıyordu.
 
@@ -108,6 +108,16 @@ Bir süre sonra refactoring görevleri neredeyse hiç açılmaz hale geldi. Ekip
 İki yılın sonunda teknik borç, organizasyonun yeni geliştirme kapasitesini ciddi biçimde azaltmıştı. Hiç kimse bilinçli olarak kaliteyi sabote etmemişti; ancak ölçüm sistemi insanları sürekli kısa vadeli optimizasyonlara yönlendirmişti.
 
 Kalite, yazılım geliştirmede opsiyonel bir özellik değil, sistemin sürdürülebilirliği için yapısal bir zorunluluktur. Kaliteye yapılan yatırımın etkisi çoğu zaman anlık teslim hızında değil, sistemin zaman içindeki değiştirilebilirliğinde ortaya çıkar. Bu nedenle kalite maliyeti kısa vadede görünürken, getirisi uzun vadeli geliştirme kapasitesi, öngörülebilirlik ve organizasyonel sürdürülebilirlik olarak geri döner.
+
+### 2.3.6 Kod Tamamlandı, Hazır Değil: Yapay Zekâ Çağında Doğrulama ve Geçerleme
+
+YZ destekli geliştirmede "kod tamamlandı" ile "üretime hazır" arasındaki mesafe açılır. YZ kısa sürede derlenen, çalışan ve ilk bakışta doğru görünen kod üretebilir. Ancak bu kodun mevcut iş kurallarıyla tutarlı olup olmadığı, sınır durumlarda nasıl davrandığı, güvenlik ve performans gereksinimlerini karşılayıp karşılamadığı ayrı birer sorudur. Kodun hızla üretilmesi bu soruların yanıtlanma maliyetini düşürmez; tam tersine yanıtlanması gereken soru sayısını artırır.
+
+Yazılım mühendisliğinde bu ayrım iki kavramla ifade edilir: doğrulama (verification) sistemin doğru biçimde inşa edilip edilmediğini, geçerleme (validation) ise doğru sistemin inşa edilip edilmediğini sorgular <span class="bkz-ref" title="15. Boehm, B. W. (1984). Verifying and Validating Software Requirements and Design Specifications. IEEE Software, 1(1).">(Bkz: 15)</span>. YZ çağında her iki soru da önem kazanır. Testlerden geçen, sürekli entegrasyon hattında yeşil görünen bir sistem, yanlış anlaşılmış bir gereksinimi kusursuz biçimde gerçekleştirmiş olabilir. Uygulama ucuzladıkça, yanlış şeyi hızla inşa etmek de ucuzlar.
+
+Bu nedenle sağlıklı ekipler YZ'nin ürettiği çıktıya güvenmek yerine, o çıktıyı doğrulayan sisteme güvenir. İlke basittir: üretim olasılıksal olabilir; kabul deterministik olmalıdır. Kodun nasıl üretildiğinden bağımsız olarak kabul ölçütleri önceden tanımlanmış; otomatik testlerle ve açık davranış beklentileriyle doğrulanabilir olmalıdır. Bu yaklaşımda testler ve spesifikasyonlar YZ çağında daha az değil, daha fazla önem taşır; çünkü üretilen kodun ne yapması gerektiğini tanımlayan güvenilir kaynak onlardır.
+
+**Örnek:** Bir e-ticaret şirketinde geliştirici, indirim hesaplama modülüne yeni bir kampanya türünü YZ destekli bir araçla birkaç saat içinde ekledi. Kod derlendi, mevcut birim testlerinden geçti ve kod incelemesinde temiz göründü. Canlıya çıkıştan sonra, aynı sepette birden fazla kampanyanın birleştiği durumlarda indirimlerin üst üste uygulandığı fark edildi. Mevcut testler bu birleşimi hiç tanımlamamıştı; YZ de iş kuralını bilmediği için en olası davranışı üretmişti. Sorun kodun kalitesinde değil, kabul ölçütlerinin tanımlanmamış olmasındaydı.
 
 ---
 

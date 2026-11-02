@@ -4,7 +4,7 @@ sidebar:
   hidden: true
 ---
 
-Üretim operasyonu yöneten bir platformda iş tarafı, akışa yeni bir adım eklenmesini istedi. Talep başlangıçta küçük süreç iyileştirmesi olarak değerlendirildi.
+Bir bankanın kredi başvuru sürecini yöneten platformda iş tarafı, onay akışına yeni bir adım eklenmesini istedi. Talep başlangıçta küçük süreç iyileştirmesi olarak değerlendirildi.
 
 Teknik inceleme derinleştikçe sistemin sabit akış varsayımıyla tasarlandığı ve dinamik adım desteği için çekirdek yürütme motorunda değişiklik gerektiği ortaya çıktı. Bu durum, talebi özellik işinden mimari dönüşüm işine çevirdi.
 

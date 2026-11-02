@@ -22,7 +22,5 @@ Bir süre sonra refactoring görevleri neredeyse hiç açılmaz hale geldi. Ekip
 
 Kalite, yazılım geliştirmede opsiyonel bir özellik değil, sistemin sürdürülebilirliği için yapısal bir zorunluluktur. Kaliteye yapılan yatırımın etkisi çoğu zaman anlık teslim hızında değil, sistemin zaman içindeki değiştirilebilirliğinde ortaya çıkar. Bu nedenle kalite maliyeti kısa vadede görünürken, getirisi uzun vadeli geliştirme kapasitesi, öngörülebilirlik ve organizasyonel sürdürülebilirlik olarak geri döner.
 
----
-
 
 

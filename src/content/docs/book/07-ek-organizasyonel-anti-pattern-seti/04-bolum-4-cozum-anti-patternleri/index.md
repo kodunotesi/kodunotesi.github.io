@@ -82,5 +82,45 @@ title: "Bölüm 4: Çözüm Anti-Pattern'leri"
 
 **Daha sağlıklı soru:** Beklediğimiz yeni sonucu hangi yeni sistem davranışı üretecek?
 
+### Yapay Zekâ Eklemek Süreci Düzeltir
+
+**Belirti:** Teslimat sorunlarına çözüm olarak YZ araçları satın alınır; süreç, onay ve koordinasyon yapısı değişmeden kalır.
+
+**Neden sorun?** Tanımsız bir süreci hızlandırmak kaosu da hızlandırır. Darboğaz kod yazmada değilse kazanç görünmez.
+
+**Örnek:** YZ araçları yaygınlaştı ve tamamlanan görev sayısı arttı; ancak değişiklikler onay ve test kuyruğunda beklemeye devam etti.
+
+**Daha sağlıklı soru:** Darboğazımız nerede ve YZ'yi o darboğazı giderecek biçimde mi kullanıyoruz?
+
+### Yapay Zekâ Kullanım Oranı Başarı Ölçütüdür
+
+**Belirti:** Kodun yüzde kaçının YZ ile yazıldığı ya da açılan değişiklik sayısı gibi çıktı metrikleri hedef haline getirilir.
+
+**Neden sorun?** Bu metrikler kolayca şişirilebilir; değerle, kararlılıkla ve değişiklik maliyetiyle ilişkileri zayıftır.
+
+**Örnek:** YZ kullanım hedefi konan ekiplerde değişiklik sayısı arttı; geri alınan değişikliklerin oranı da arttı.
+
+**Daha sağlıklı soru:** Hangi değişiklikler kabul edildi, canlıya ulaştı ve beklenen değeri üretti?
+
+### Yapay Zekâ ile Küçülmek Verimliliktir
+
+**Belirti:** YZ kazanımı yalnızca kişi sayısını azaltma fırsatı olarak görülür.
+
+**Neden sorun?** Maliyet azalırken alan bilgisi, kurumsal hafıza ve yeni başlayanların yetişme hattı da kaybolur.
+
+**Örnek:** Yeni başlayan alımlarını durduran bir organizasyon, iki yıl sonra kritik modülleri devralacak kimseyi bulamadı.
+
+**Daha sağlıklı soru:** YZ'den elde edilen kapasiteyi neye ayırıyoruz?
+
+### Her Fikir Hemen Yapılabilir
+
+**Belirti:** Kod ucuzladığı için her talep ve her fikir hemen geliştirmeye alınır.
+
+**Neden sorun?** Ucuz üretim talebi artırır; önceliklendirme ve karar yükü büyür, ürün dağılır.
+
+**Örnek:** YZ ile geliştirme hızlanınca yol haritasına giren madde sayısı ikiye katlandı; hiçbiri derinlemesine tamamlanamadı.
+
+**Daha sağlıklı soru:** Bunu yapabildiğimiz için mi yapıyoruz, yoksa gerçekten gerekli olduğu için mi?
+
 ---
 

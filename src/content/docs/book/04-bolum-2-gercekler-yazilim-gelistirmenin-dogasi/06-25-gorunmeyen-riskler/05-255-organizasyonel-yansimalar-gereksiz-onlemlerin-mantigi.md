@@ -12,7 +12,5 @@ Forsgren, Humble ve Kim'in araştırması, yüksek performanslı yazılım ekipl
 
 **Örnek:** Bir fintech şirketinin altyapı ekibi, her büyük canlıya çıkış öncesinde iki günlük bir stabilite penceresi uyguluyordu. Bu dönemde sistem olağan yükün üzerinde test ediliyor, güvenlik kontrollerinden geçiriliyor ve olası başarısızlık noktaları gözlemleniyordu. Ürün ve iş geliştirme ekipleri zaman zaman bu süreci teslimatı yavaşlatan bir engel olarak değerlendirdi. Ancak bir yayın döngüsünde stabilite testleri sırasında, yalnızca yüksek eş zamanlı yük altında tetiklenen bir veri tutarsızlığı senaryosu tespit edildi. Sorunun canlı ortamda ortaya çıkmış olması, hem veri bütünlüğü hem de müşteri güveni açısından ciddi bir krize dönüşebilirdi. Görünüşte teslimatı yavaşlatan bu süreç, aslında görünmez bir riski üretim öncesinde görünür kılmıştı.
 
----
-
 
 

@@ -62,5 +62,25 @@ title: "Bölüm 3: Çatışma Anti-Pattern'leri"
 
 **Daha sağlıklı soru:** Bu problemi tekrar üreten süreç, karar veya görünürlük eksikliği nedir?
 
+### Sorumluluk Yapay Zekâya Devredilir
+
+**Belirti:** Hata sonrasında "YZ böyle üretmiş" açıklaması kabul görür; değişikliğin insan sahibi belirsizdir.
+
+**Neden sorun?** YZ hesap veremez. Sahipsiz değişiklik, suçlama döngüsünü yeni bir aktörle sürdürür.
+
+**Örnek:** Canlı ortamdaki bir hatanın değerlendirmesinde, değişikliğin kim tarafından incelendiği ve onaylandığı tespit edilemedi.
+
+**Daha sağlıklı soru:** Bu değişikliği kim anladı, kim onayladı ve kabul ölçütlerini kim tanımladı?
+
+### Onay İnceleme Demektir
+
+**Belirti:** Değişikliklerin "insan onayından geçmiş" olması yeterli güvence sayılır.
+
+**Neden sorun?** Hacim arttıkça onay bir ritüele dönüşür; insan döngüde görünür, ancak gerçek bir inceleme yapılmaz.
+
+**Örnek:** Günde onlarca YZ önerisini onaylayan bir ekipte, kritik bir hata üç ayrı onaydan geçerek canlıya çıktı.
+
+**Daha sağlıklı soru:** Bu onay neyi doğruladı?
+
 ---
 

@@ -44,7 +44,7 @@ Yapısal sorun şudur: yazılım ekibi "hayır" dediğinde, bu cevabın arkasın
 
 **"Sahaya inmek istemezler"**
 
-Müşterilerine anahtar teslim proje yapan şirketlerde çokça rastlanan bu klişe, özellikle proje sayısının fazla olduğu kurumlarda belirginleşir. Yazılım geliştirme ekiplerinin sürekli sahada olması isteği; diğer ekiplerin sağlanan çözüme güvenlerinin olmaması, sahaya konumlanan yazılımlarda hataların bulunması ve implementasyon ekibinin domain bilgisi eksikliği gibi nedenlerden kaynaklanır.
+Müşterilerine anahtar teslim proje yapan şirketlerde çokça rastlanan bu klişe, özellikle proje sayısının fazla olduğu kurumlarda belirginleşir. Yazılım geliştirme ekiplerinin sürekli sahada olması isteği; diğer ekiplerin sağlanan çözüme yeterince güvenememesi, sahada beklenmeyen sistem davranışlarıyla karşılaşılması ve domain bilgisinin ekipler arasında yeterince paylaşılmaması gibi nedenlerden kaynaklanır.
 
 Sahaya inmemenin arka planında da yapısal bir neden vardır: yazılım geliştirme derin konsantrasyon gerektiren bir iştir. Araştırmalar, bir geliştiricinin yoğun çalışma akışına girmesinin ortalama 15-20 dakika aldığını ve her kesintinin bu akışı sıfırladığını gösterir. Saha ziyaretleri ise genellikle tam gün süren, önceden planlanamayan ve bağlam değiştirme maliyeti yüksek aktivitelerdir. Birden fazla projenin eş zamanlı yürütüldüğü organizasyonlarda bu durum, zaten dar olan kapasiteyi daha da daraltır.
 
@@ -58,7 +58,7 @@ Sahaya inmeme klişesiyle yapısal olarak benzerdir. Özellikle müşteri ile ü
 
 Bu talebin arkasında meşru bir ihtiyaç vardır: müşteri isteklerinin teknik açıdan değerlendirilmesi gerekir. Ancak bu değerlendirmenin toplantı sırasında, hazırlıksız ve doğaçlama yapılması yazılım ekibi için yüksek belirsizlik ve hata riski taşır. "Yapılabilir mi?" sorusuna anında cevap vermek çoğu zaman ya gerçekçi olmayan taahhütlere ya da "hayır" cevabının yanlış yorumlanmasına yol açar. Gereksinim analizi ayrı bir beceri ve rol gerektirir. Bu rol yoksa, yazılım ekibi aynı anda geliştirici, analist ve müşteri toplantısı katılımcısı olmaya zorlanır.
 
-**Örnek:** Bir üretim takip sistemi geliştiren firmada, müşteri toplantılarına yazılım ekibinden kıdemli bir geliştirici düzenli olarak dahil edildi. Toplantılar ortalama üç saat sürüyor, geliştirici kararları gerçek zamanlı olarak not alıyordu. Bir süre sonra bu geliştiricinin sprint hızı diğerlerinin yarısına düştü. Ekip içinde "o artık geliştirici değil, analist" yorumu yapılmaya başlandı. Organizasyon bir geliştiriciyi kaybetmeden bir analist kazanmıştı. Ancak, bunu fark etmemişti.
+**Örnek:** Kurumsal bir CRM ürünü geliştiren firmada, müşteri toplantılarına yazılım ekibinden kıdemli bir geliştirici düzenli olarak dahil edildi. Toplantılar ortalama üç saat sürüyor, geliştirici kararları gerçek zamanlı olarak not alıyordu. Bir süre sonra bu geliştiricinin sprint hızı diğerlerinin yarısına düştü. Ekip içinde "o artık geliştirici değil, analist" yorumu yapılmaya başlandı. Organizasyon bir analist kazanırken bir geliştirici kaybetmişti. Ancak bunu fark etmemişti.
 
 ---
 
@@ -82,9 +82,17 @@ Bu dinamiğin altında da yapısal bir neden vardır: yazılım ekibi, eksik vey
 
 **Örnek:** Bir kamu yazılım projesinde iş analisti, gereksinimler dokümanını teslim etti. Yazılım ekibi beş kritik belirsizlik tespit etti ve bunları yazılı olarak iletti. İş analisti "bunları toplantıda konuşalım" dedi. Toplantıda yazılım ekibi lideri her maddeyi tek tek açıkladı. Toplantıdan çıkıldığında iş analisti ekibine "yazılım ekibi her şeyi sorguluyor, hiç kolaylaştırmıyorlar" yorumunu yaptı. Yazılım ekibi ise "gereksinimler hâlâ net değil" diye kendi içinde konuştu. İki ekip de aynı toplantıdan çıkmış, ama bambaşka deneyimler yaşamıştı.
 
+**"Yapay zekâ varken bu kadar sürmemeli"**
+
+Yapay zekâ (YZ) destekli kodlama araçlarının yaygınlaşmasıyla "yavaşlar" klişesi yeni bir biçim kazandı. Bir ekranın, bir fonksiyonun, hatta küçük bir uygulamanın dakikalar içinde üretilebildiğini gören organizasyon, yazılım ekibinin süre tahminlerini eskisinden de şüpheli karşılar: "Bunu YZ ile bir saatte yaparsınız."
+
+Bu klişenin arkasındaki gözlem doğrudur: kod üretmenin görünen kısmı gerçekten ucuzladı. Ancak işin görünmeyen kısmı (gereksinimi netleştirmek, üretilen kodu mevcut sistemle bütünleştirmek, doğrulamak, güvenliğini sağlamak ve canlıda sahiplenmek) aynı oranda ucuzlamadı. Kod üretme hızı arttıkça bu görünmeyen işin hacmi de artar. Algı ile ölçülen gerçeklik arasındaki fark burada da kendini gösterir: deneyimli geliştiricilerle yapılan kontrollü bir çalışmada katılımcılar YZ araçlarıyla yüzde 20 daha hızlı çalıştıklarını düşünürken, ölçülen tamamlanma süreleri yüzde 19 daha uzun çıkmıştır <span class="bkz-ref" title="6. Becker, J., Rush, N., Barnes, E., Rein, D. (2025). Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. METR.">(Bkz: 6)</span>. Bu bulgu YZ'nin değersiz olduğunu değil, hız algısının güvenilir bir ölçüt olmadığını gösterir.
+
+**Örnek:** Bir B2B SaaS şirketinde yönetim, YZ kodlama araçlarına yatırım yaptıktan sonra teslimat kapasitesinin belirgin biçimde artmasını bekledi. İlk iki sprintte açılan değişiklik talebi sayısı gerçekten arttı. Ancak canlıya çıkan özellik sayısı neredeyse aynı kaldı; artan kod hacmi kod incelemesi, test ve entegrasyon aşamalarında birikiyordu. Yönetimin sorusu "araçları kullanmıyorlar mı?" oldu; yazılım ekibinin cevabı ise "darboğaz hiçbir zaman kod yazmak değildi" idi.
+
 ---
 
-Bu yedi klişenin ortak noktası yalnızca yazılım geliştirmenin doğasının yeterince anlaşılmaması değildir <span class="bkz-ref" title="1. Brooks, F. P. (1995). The Mythical Man-Month.">(Bkz: 1)</span>. Daha derin bir sorun vardır: bu klişelerin her biri, organizasyonun işleyiş biçiminin doğal bir çıktısıdır. Bağlam olmadan yapılan gözlemler etikete dönüşür; etiketler zaman içinde gerçekmiş gibi muamele görür. Bu döngü kırılmadan, ekipler arasındaki gerilim yönetilemez.
+Bu sekiz klişenin ortak noktası yalnızca yazılım geliştirmenin doğasının yeterince anlaşılmaması değildir <span class="bkz-ref" title="1. Brooks, F. P. (1995). The Mythical Man-Month.">(Bkz: 1)</span>. Daha derin bir sorun vardır: bu klişelerin her biri, organizasyonun işleyiş biçiminin doğal bir çıktısıdır. Bağlam olmadan yapılan gözlemler etikete dönüşür; etiketler zaman içinde gerçekmiş gibi muamele görür. Bu döngü kırılmadan, ekipler arasındaki gerilim yönetilemez.
 
 Bu klişelerin nasıl beslendiğini anlamak için bir adım daha atmak gerekir: her ekibin başarıyı farklı tanımladığı ve bu tanımların yapısal olarak çatıştığı gerçeğini görmek. Bu konu, bir sonraki bölümün konusudur.
 

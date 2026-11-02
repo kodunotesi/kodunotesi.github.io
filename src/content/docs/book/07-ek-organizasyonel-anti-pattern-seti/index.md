@@ -66,6 +66,16 @@ Her anti-pattern için üç soru sorulabilir:
 
 **Daha sağlıklı soru:** Teslimatı mümkün kılan ama çıktı olarak görünmeyen işler hangileri?
 
+### Yapay Zekâ Varken Her Şey Hızlı Olmalıdır
+
+**Belirti:** Yapay zekâ (YZ) araçları kullanıldığı için her işin kısa sürmesi beklenir; süre tahminleri şüpheyle karşılanır.
+
+**Neden sorun?** YZ kod yazımını hızlandırır; ancak gereksinimi netleştirme, doğrulama, entegrasyon ve sahiplenme süresini aynı ölçüde kısaltmaz.
+
+**Örnek:** YZ araçlarına geçildikten sonra yönetim teslimat kapasitesinin belirgin biçimde artmasını bekledi; değişiklikler ise inceleme ve test aşamasında birikti.
+
+**Daha sağlıklı soru:** Bu işte zamanın çoğu nereye gidiyor ve YZ o kısmı gerçekten hızlandırıyor mu?
+
 ---
 
 ## Bölüm 2: Gerçeklik Anti-Pattern'leri
@@ -130,6 +140,46 @@ Her anti-pattern için üç soru sorulabilir:
 
 **Daha sağlıklı soru:** Bu işin başarısı hangi sistemlere, kararlara ve ekiplerin zamanında hareket etmesine bağlı?
 
+### Çalışan Kod Hazır Koddur
+
+**Belirti:** Derlenen, testlerden geçen ya da demoda çalışan kod üretime hazır kabul edilir.
+
+**Neden sorun?** Çalışmak hazır olmak değildir. Yetkilendirme, sınır durumlar, entegrasyon, güvenlik ve anlaşılabilirlik ayrı sorulardır.
+
+**Örnek:** İki günde hazırlanan bir YZ prototipi müşteriye "neredeyse bitti" olarak sunuldu; ürünleştirme üç ay sürdü.
+
+**Daha sağlıklı soru:** Bu kodun kabul ölçütleri neler ve ekipte bu kodu kim açıklayabilir?
+
+### Anlaşılmayan Kod Sorun Değildir
+
+**Belirti:** Testlerden geçen kod, ekipte kimse nasıl çalıştığını açıklayamasa bile sorunsuz kabul edilir.
+
+**Neden sorun?** Anlama borcu, ilk ciddi değişiklikte ya da ilk arızada faiziyle geri döner.
+
+**Örnek:** YZ ile yeniden yazılan bir modülde, bir yıl sonra kimse hesaplama mantığının gerekçesini bilmiyordu.
+
+**Daha sağlıklı soru:** Bu değişikliği ekipte kim açıklayabilir?
+
+### Geçici Uygulama Geçici Kalır
+
+**Belirti:** YZ ile hızlıca üretilen "geçici" araçlar sahipsiz bırakılır.
+
+**Neden sorun?** Geçici araçlar zamanla iş süreçlerine bağlanır ve kimsenin üstlenmediği kalıcı sistemlere dönüşür.
+
+**Örnek:** Bir ekibin hafta sonu hazırladığı raporlama aracı, iki yıl sonra finans sürecinin kritik bir parçası haline gelmişti.
+
+**Daha sağlıklı soru:** Bu uygulama ne zaman ve kim tarafından kullanımdan kaldırılacak?
+
+### İstem Bir Güvenlik Sınırıdır
+
+**Belirti:** YZ ajanlarının güvenliği yalnızca istemdeki (prompt) "şunu yapma" talimatlarıyla sağlanmaya çalışılır.
+
+**Neden sorun?** Dışarıdan gelen içerik modeli yönlendirebilir. Güvenliği istem değil, yetki sınırları sağlar.
+
+**Örnek:** Bir destek ajanı, talep metnine gizlenmiş bir talimatla başka bir müşterinin kayıtlarına erişebildi.
+
+**Daha sağlıklı soru:** Bu ajan en kötü durumda neye erişebilir ve ne yapabilir?
+
 ---
 
 ## Bölüm 3: Çatışma Anti-Pattern'leri
@@ -193,6 +243,26 @@ Her anti-pattern için üç soru sorulabilir:
 **Örnek:** Aynı tür gecikme üç farklı proje yöneticisiyle tekrarlandı; buna rağmen sorun kişisel takip eksikliği olarak ele alındı.
 
 **Daha sağlıklı soru:** Bu problemi tekrar üreten süreç, karar veya görünürlük eksikliği nedir?
+
+### Sorumluluk Yapay Zekâya Devredilir
+
+**Belirti:** Hata sonrasında "YZ böyle üretmiş" açıklaması kabul görür; değişikliğin insan sahibi belirsizdir.
+
+**Neden sorun?** YZ hesap veremez. Sahipsiz değişiklik, suçlama döngüsünü yeni bir aktörle sürdürür.
+
+**Örnek:** Canlı ortamdaki bir hatanın değerlendirmesinde, değişikliğin kim tarafından incelendiği ve onaylandığı tespit edilemedi.
+
+**Daha sağlıklı soru:** Bu değişikliği kim anladı, kim onayladı ve kabul ölçütlerini kim tanımladı?
+
+### Onay İnceleme Demektir
+
+**Belirti:** Değişikliklerin "insan onayından geçmiş" olması yeterli güvence sayılır.
+
+**Neden sorun?** Hacim arttıkça onay bir ritüele dönüşür; insan döngüde görünür, ancak gerçek bir inceleme yapılmaz.
+
+**Örnek:** Günde onlarca YZ önerisini onaylayan bir ekipte, kritik bir hata üç ayrı onaydan geçerek canlıya çıktı.
+
+**Daha sağlıklı soru:** Bu onay neyi doğruladı?
 
 ---
 
@@ -277,6 +347,46 @@ Her anti-pattern için üç soru sorulabilir:
 **Örnek:** Süreç değişmeden yalnızca daha hızlı teslimat hedefi kondu; sonuç daha fazla stres, daha fazla hata ve daha fazla gecikme oldu.
 
 **Daha sağlıklı soru:** Beklediğimiz yeni sonucu hangi yeni sistem davranışı üretecek?
+
+### Yapay Zekâ Eklemek Süreci Düzeltir
+
+**Belirti:** Teslimat sorunlarına çözüm olarak YZ araçları satın alınır; süreç, onay ve koordinasyon yapısı değişmeden kalır.
+
+**Neden sorun?** Tanımsız bir süreci hızlandırmak kaosu da hızlandırır. Darboğaz kod yazmada değilse kazanç görünmez.
+
+**Örnek:** YZ araçları yaygınlaştı ve tamamlanan görev sayısı arttı; ancak değişiklikler onay ve test kuyruğunda beklemeye devam etti.
+
+**Daha sağlıklı soru:** Darboğazımız nerede ve YZ'yi o darboğazı giderecek biçimde mi kullanıyoruz?
+
+### Yapay Zekâ Kullanım Oranı Başarı Ölçütüdür
+
+**Belirti:** Kodun yüzde kaçının YZ ile yazıldığı ya da açılan değişiklik sayısı gibi çıktı metrikleri hedef haline getirilir.
+
+**Neden sorun?** Bu metrikler kolayca şişirilebilir; değerle, kararlılıkla ve değişiklik maliyetiyle ilişkileri zayıftır.
+
+**Örnek:** YZ kullanım hedefi konan ekiplerde değişiklik sayısı arttı; geri alınan değişikliklerin oranı da arttı.
+
+**Daha sağlıklı soru:** Hangi değişiklikler kabul edildi, canlıya ulaştı ve beklenen değeri üretti?
+
+### Yapay Zekâ ile Küçülmek Verimliliktir
+
+**Belirti:** YZ kazanımı yalnızca kişi sayısını azaltma fırsatı olarak görülür.
+
+**Neden sorun?** Maliyet azalırken alan bilgisi, kurumsal hafıza ve yeni başlayanların yetişme hattı da kaybolur.
+
+**Örnek:** Yeni başlayan alımlarını durduran bir organizasyon, iki yıl sonra kritik modülleri devralacak kimseyi bulamadı.
+
+**Daha sağlıklı soru:** YZ'den elde edilen kapasiteyi neye ayırıyoruz?
+
+### Her Fikir Hemen Yapılabilir
+
+**Belirti:** Kod ucuzladığı için her talep ve her fikir hemen geliştirmeye alınır.
+
+**Neden sorun?** Ucuz üretim talebi artırır; önceliklendirme ve karar yükü büyür, ürün dağılır.
+
+**Örnek:** YZ ile geliştirme hızlanınca yol haritasına giren madde sayısı ikiye katlandı; hiçbiri derinlemesine tamamlanamadı.
+
+**Daha sağlıklı soru:** Bunu yapabildiğimiz için mi yapıyoruz, yoksa gerçekten gerekli olduğu için mi?
 
 ---
 

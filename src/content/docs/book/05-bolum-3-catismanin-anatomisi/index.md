@@ -71,6 +71,17 @@ Geliştirme sürecinde doğrulama ihtiyacı arttığında iş tarafı bunu hız 
 Bu vaka, "süre" tartışmasının çoğu durumda teknik zorluktan değil, yorum farkının yönetilememesinden krizleştiğini gösterir.
 
 ---
+### 3.1.6 "Yapay Zekâ Varken Neden Hâlâ Uzun Sürüyor?"
+
+Yapay zekâ (YZ) destekli araçların yaygınlaşması, "neden bu kadar uzun sürüyor?" sorusunu ortadan kaldırmaz; sorunun tonunu sertleştirir. Kod yazımının görünür biçimde hızlandığı bir ortamda, teslimat süresindeki her gecikme daha az anlaşılır hale gelir. İş birimleri için mantık basittir: kodu artık makine yazıyorsa, süre kısalmalıdır.
+
+Bu beklentinin gözden kaçırdığı nokta, YZ'nin işin hangi kısmını hızlandırdığıdır. YZ en çok, cevabı bilinen işi hızlandırır. Ancak bu bölümde ele alınan gecikmelerin önemli bir kısmı cevabı bilinmeyen işten kaynaklanır: belirsiz gereksinimler, beklenmeyen bağımlılıklar, yalnızca canlı ortamda ortaya çıkan davranışlar. Bu tür işlerde YZ makul görünen çözüm önerilerini çok hızlı üretebilir; fakat hangisinin doğru olduğunu anlamak yine ölçüm, deneme ve doğrulama gerektirir. YZ çağında hipotez ucuzlamıştır; ölçüm ise pahalı kalmıştır.
+
+Buna ek olarak YZ ile çalışmanın kendine özgü bir zaman dinamiği vardır. Her çıktı yeni bir küçük iyileştirme fırsatı yaratır; deneme döngüsü saniyelere indiği için doğal bir durma noktası kaybolabilir. Ekip sürekli ilerliyor gibi görünürken iş uzun süre "neredeyse bitti" durumunda kalabilir. Bu durum hem tahminlerin güvenilirliğini düşürür hem de 3.1.3'te ele alınan tahminin taahhüde dönüşmesi sorununu ağırlaştırır.
+
+**Örnek:** Bir geliştirici, bir veri akışı (streaming) özelliğini YZ destekli bir kodlama ajanıyla birkaç saat içinde geliştirdi. Ancak özellik canlı koşullarda belirli bir noktadan sonra beklenmedik biçimde duruyordu. Ajan art arda yedi farklı, makul görünen çözüm önerdi; her biri uygulandı, denendi ve sorunu çözmediği görüldü. Sorunun gerçek kaynağı ancak sistematik ölçümle bulunabildi: problem uygulamanın kendisinde değil, dış bir servisin veri gönderme biçimindeydi. Özelliği geliştirmek birkaç saat sürmüştü; çalışır hale getirmek ise bunun iki katından fazla. Dışarıdan bakan biri için bu, "YZ varken neden bu kadar sürdü?" sorusunu doğuruyordu.
+
+---
 
 ## 3.2 "Bu Küçük Bir İşti"
 
@@ -122,13 +133,24 @@ Aynı çalışmanın iki farklı adla anılması, çatışmanın kurumsallaşmas
 
 ### 3.2.5 Vaka: Alan Güncellemesinden Entegrasyon Arızasına
 
-Kurumsal bir ERP ürününde belirli bir alanın etiket ve değer formatı güncellendi. Talep, arayüz odaklı küçük bir değişiklik olarak planlandı ve kısa sürede tamamlandı.
+Bir sigorta şirketinin poliçe yönetim sisteminde belirli bir alanın etiket ve değer formatı güncellendi. Talep, arayüz odaklı küçük bir değişiklik olarak planlandı ve kısa sürede tamamlandı.
 
-Canlıya alımdan sonra dış entegrasyon servislerinden biri yeni formatı okuyamadı; sipariş akışında kesinti oluştu. İnceleme, değişikliğin entegrasyon sözleşmesine dolaylı etkisini ortaya çıkardı.
+Canlıya alımdan sonra dış entegrasyon servislerinden biri yeni formatı okuyamadı; acentelere poliçe aktarımında kesinti oluştu. İnceleme, değişikliğin entegrasyon sözleşmesine dolaylı etkisini ortaya çıkardı.
 
 Teknik ekip, bu riski baştan geniş kapsamlı değerlendirmek istediğini belirtti. İş tarafı ise ilk planın neden bu kadar dar kurulduğunu sorguladı. Tartışma hızla "kim yanlış plan yaptı" düzeyine taşındı.
 
 Bu vaka, küçüklük tartışmasının çoğu zaman kapsam bilgisinin eksik görünürlüğünden kaynaklandığını gösterir.
+
+---
+### 3.2.6 Demo ile Ürün Arasındaki Uçurum: Vibe Coding ve Prototip Yanılgısı
+
+YZ çağında "bu küçük bir işti" yargısının en güçlü yeni kaynağı çalışan prototiptir. Ürün yöneticileri, satış ekipleri, hatta yöneticiler artık YZ araçlarıyla, yazılım ekibine ihtiyaç duymadan çalışan bir demo üretebilir. Kodun ayrıntısıyla ilgilenmeden, yalnızca istenen sonucu tarif ederek ve ortaya çıkanı deneyerek ilerleyen bu yaklaşım "vibe coding" olarak adlandırılır <span class="bkz-ref" title="6. Karpathy, A. (2025). &quot;Vibe coding&quot; (X gönderisi, Şubat 2025).">(Bkz: 6)</span>. Keşif ve fikir doğrulama için son derece değerli bir yöntemdir.
+
+Sorun, prototipin ürün sanılmasıyla başlar. Bir demo yalnızca "mutlu yolu" gösterir: temiz veri, tek kullanıcı, öngörülen senaryo. Ürün ise yetkilendirmeyi, hatalı veriyi, eşzamanlı kullanımı, mevcut sistemlerle entegrasyonu, geriye dönük uyumluluğu, izlenebilirliği ve bakımı da kapsamak zorundadır. 3.2.4'te ele alınan gizli iş yükü prototipte hiç yer almaz; çünkü prototipin amacı tam da bu soruları ertelemektir.
+
+Bu nedenle çalışan bir demo, "geriye yalnızca canlıya almak kaldı" algısını güçlendirir. Prototipi iki günde gören organizasyon, ürünleştirme için verilen üç aylık tahmini bir direnç ya da verimsizlik işareti olarak okuyabilir. Sağlıklı bir yaklaşım için basit bir ilke yeterlidir: keşif için hızlı ve sezgisel üretim, ürün için mühendislik. Prototip bir soruyu yanıtlamak için yapılır; ürün ise sürdürülebilir bir taahhüt için.
+
+**Örnek:** Bir B2B yazılım şirketinde satış direktörü, büyük bir müşteri adayına göstermek üzere YZ destekli bir araçla iki gün içinde bir müşteri portalı demosu hazırladı. Toplantı başarılı geçti ve müşteri portalın bir ay içinde kullanıma açılmasını istedi. Yazılım ekibi demoyu incelediğinde uygulamanın sabit veriyle çalıştığını, kullanıcı yetkilendirmesi içermediğini ve mevcut müşteri sistemiyle hiçbir bağlantısı olmadığını gördü. Ekibin üç aylık tahmini, satış tarafında "iki günde yapılan işi neden üç ayda yapıyorsunuz?" sorusuyla karşılandı. Demo bir fikri doğrulamıştı; ancak ürün henüz başlamamıştı.
 
 ---
 
@@ -176,7 +198,7 @@ Bu döngü çatışmayı derinleştirir: iş tarafı "neden ilerlemiyoruz" derke
 
 ### 3.3.5 Vaka: Süreç Motoru Talebinin Mimari Dönüşüme Evrilmesi
 
-Üretim operasyonu yöneten bir platformda iş tarafı, akışa yeni bir adım eklenmesini istedi. Talep başlangıçta küçük süreç iyileştirmesi olarak değerlendirildi.
+Bir bankanın kredi başvuru sürecini yöneten platformda iş tarafı, onay akışına yeni bir adım eklenmesini istedi. Talep başlangıçta küçük süreç iyileştirmesi olarak değerlendirildi.
 
 Teknik inceleme derinleştikçe sistemin sabit akış varsayımıyla tasarlandığı ve dinamik adım desteği için çekirdek yürütme motorunda değişiklik gerektiği ortaya çıktı. Bu durum, talebi özellik işinden mimari dönüşüm işine çevirdi.
 
@@ -226,7 +248,7 @@ Yazılım ekiplerinin temkinli davranışı çoğu zaman geçmiş arıza deneyim
 
 Bu refleks dışarıdan bakıldığında gereksiz hassasiyet gibi görünebilir. Ancak teknik ekip için bu davranış geçmişte yaşanmış operasyonel maliyetlerin sonucudur.
 
-Örneğin bir ekip daha önce hızlı biçimde canlıya alınan küçük bir değişiklik nedeniyle sipariş akışının durduğunu, müşterilerin işlem yapamadığını ve operasyon ekiplerinin gece boyunca manuel müdahaleyle sistemi ayakta tuttuğunu yaşamış olabilir.
+Örneğin bir ekip daha önce hızlı biçimde canlıya alınan küçük bir değişiklik nedeniyle ciddi bir kesinti yaşamış ve sistemi uzun süre manuel müdahaleyle ayakta tutmak zorunda kalmış olabilir.
 
 Bu tür deneyimler ekiplerin risk algısını kalıcı biçimde değiştirir.
 
@@ -271,7 +293,7 @@ Bu maliyetler genellikle geleceğe dönüktür, olasılıklar üzerinden ele al�
 
 Buradaki kritik problem, organizasyonların çoğunda bu iki risk türünün aynı karar çerçevesinde değerlendirilmemesidir.
 
-İş tarafı teknik ekibi gereğinden fazla temkinli bulabilir.Teknik ekip ise iş tarafını riskleri küçümsemekle suçlayabilir. Oysa çoğu durumda iki taraf da kendi görünür maliyet alanına göre rasyonel davranmaktadır.
+İş tarafı teknik ekibi gereğinden fazla temkinli bulabilir. Teknik ekip ise iş tarafını riskleri küçümsemekle suçlayabilir. Oysa çoğu durumda iki taraf da kendi görünür maliyet alanına göre rasyonel davranmaktadır.
 
 Çatışmanın özü genellikle teknik bilgi eksikliğinden çok, asimetrik risk görünürlüğüdür.
 
@@ -307,7 +329,7 @@ Bu aşamaya gelmiş organizasyonlarda teknik doğruluk tek başına çatışmay�
 
 ### 3.4.5 Vaka: Acil Değişiklik Talebinin Blokaj Algısına Dönüşmesi
 
-Canlı sipariş akışında kritik bir hata görüldü ve operasyon ekibi aynı gün içinde kural değişikliği yapılmasını talep etti. Çünkü hata doğrudan müşteri işlemlerini etkiliyor, çağrı merkezi yükü artıyor ve operasyon baskısı hızla büyüyordu.
+Bir e-ticaret platformunun canlı sipariş akışında kritik bir hata görüldü ve operasyon ekibi aynı gün içinde kural değişikliği yapılmasını talep etti. Çünkü hata doğrudan müşteri işlemlerini etkiliyor ve operasyon baskısı hızla büyüyordu.
 
 Sabah yapılan ilk toplantıda operasyon tarafı değişikliğin "küçük bir kural güncellemesi" olduğunu ifade etti. Teknik ekip ise ilgili modülün geçmişte benzer değişikliklerden etkilendiğini ve canlı veri akışı altında beklenmedik yan etkiler üretebildiğini belirtti.
 
@@ -519,6 +541,7 @@ Bu nedenle çözüm tartışmasına geçmeden önce çatışmanın üretim mekan
 3. Bass, L., Clements, P., Kazman, R. (2012). Software Architecture in Practice.
 4. Kim, G., Behr, K., Spafford, G. (2013). The Phoenix Project.
 5. Senge, P. (2006). The Fifth Discipline.
+6. Karpathy, A. (2025). "Vibe coding" (X gönderisi, Şubat 2025).
 
 ---
 

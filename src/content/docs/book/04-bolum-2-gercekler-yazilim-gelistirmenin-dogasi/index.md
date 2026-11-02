@@ -76,7 +76,7 @@ Bu maliyet çoğu zaman görünmez kalır, çünkü kararların ötelenmesi değ
 
 Simon'ın sınırlı rasyonellik kavramı bu durumu iyi açıklar: karar alıcılar her zaman en iyi kararı vermez; mevcut bilgi ve zamana göre yeterince iyi olan kararı verirler <span class="bkz-ref" title="5. Simon, H. A. (1996). The Sciences of the Artificial.">(Bkz: 5)</span>. Yazılım ekipleri de bunu yapar. Fark şudur: bu ekipler eksik bilgiyle verilen kararın bedelini en ağır biçimde ödeyen taraftır.
 
-**Örnek:** Bir üretim firmasında geliştirilen kalite kontrol sistemi, ilk tasarım aşamasında mimari tartışmaya açıldı. Yazılım ekibi, veri akışının merkezileştirilmesi ya da dağıtık bırakılması konusunda iş gereksinimlerinin netleşmesini istedi. "Sonradan karar veririz, şimdi başlayalım" yanıtı geldi. Ekip merkezi mimari seçerek ilerledi. İki ay sonra, bazı üretim hatlarının ağ bağlantısının kısıtlı olduğu anlaşıldı ve dağıtık bir yapı zorunlu hale geldi. Mimari kısmen yeniden yazıldı. Bu yeniden yazım süreci altı hafta aldı ve projeyi planlanan tarihten geç bitirdi. Belirsizliğin maliyeti eninde sonunda ödendi, ancak ilave maliyetin ne olduğu ile kimse ilgilenmedi.
+**Örnek:** Bir hastane zinciri için geliştirilen laboratuvar sonuç sistemi, ilk tasarım aşamasında mimari tartışmaya açıldı. Yazılım ekibi, veri akışının merkezileştirilmesi ya da dağıtık bırakılması konusunda iş gereksinimlerinin netleşmesini istedi. "Sonradan karar veririz, şimdi başlayalım" yanıtı geldi. Ekip merkezi mimari seçerek ilerledi. İki ay sonra, bazı şubelerin ağ bağlantısının kısıtlı olduğu anlaşıldı ve dağıtık bir yapı zorunlu hale geldi. Mimari kısmen yeniden yazıldı. Bu yeniden yazım süreci altı hafta aldı ve projeyi planlanan tarihten geç bitirdi. Belirsizliğin maliyeti eninde sonunda ödendi; ancak bu ilave maliyet hiçbir zaman ölçülmedi.
 
 Belirsizlikle başa çıkmanın yolu onu yok saymak değil, onu yönetecek süreçleri, kararları ve organizasyonel kültürü inşa etmektir.
 
@@ -145,11 +145,11 @@ Bu etki, değişiklik kararlarını karmaşık hale getirir. Bir bileşeni deği
 
 Yazılım ekiplerinin bazı değişiklik taleplerine "bu basit değil" yanıtını vermesinin temel nedeni bu dinamiktir. Değiştirilen şeyin kendisi basit olabilir; ama değişikliğin etki alanını güvenli biçimde yönetmek basit değildir.
 
-**Örnek:** Bir üretim tesisinde kullanılan MES sisteminde, operatörlerin üretim başlangıcında seçtiği "vardiya tipi" alanına yeni bir seçenek eklendi. Değişiklik yalnızca operatör ekranındaki bir açılır listeyi ilgilendiriyor gibi görünüyordu. Arayüz güncellendi, test edildi ve canlı ortama alındı.
+**Örnek:** Bir perakende şirketinin satış sisteminde, kasiyerlerin işlem sırasında seçtiği "ödeme tipi" alanına yeni bir seçenek eklendi. Değişiklik yalnızca kasa ekranındaki bir açılır listeyi ilgilendiriyor gibi görünüyordu. Arayüz güncellendi, test edildi ve canlı ortama alındı.
 
-Bir hafta sonra, bazı üretim raporlarında toplam üretim miktarlarının eksik hesaplandığı fark edildi. İncelemede, raporlama servisinin vardiya tiplerini sabit bir liste üzerinden değerlendirdiği ve yeni eklenen seçeneği tanımadığı ortaya çıktı. Bu nedenle ilgili kayıtlar raporlara dahil edilmemişti. Daha sonra, aynı veriyi kullanan performans analiz ekranlarında da hatalı OEE hesaplamaları oluştuğu görüldü.
+Bir hafta sonra, bazı satış raporlarında günlük ciro toplamlarının eksik hesaplandığı fark edildi. İncelemede, raporlama servisinin ödeme tiplerini sabit bir liste üzerinden değerlendirdiği ve yeni eklenen seçeneği tanımadığı ortaya çıktı. Bu nedenle ilgili kayıtlar raporlara dahil edilmemişti. Daha sonra, aynı veriyi kullanan finansal mutabakat ekranlarında da hatalı sonuçlar oluştuğu görüldü.
 
-Başlangıçta yalnızca kullanıcı arayüzünde küçük bir alan güncellemesi gibi görünen değişiklik, üretim raporlama ve performans analiz süreçlerine kadar yayılan bir dalgalanma etkisi oluşturdu.
+Başlangıçta yalnızca kullanıcı arayüzünde küçük bir alan güncellemesi gibi görünen değişiklik, satış raporlama ve finansal mutabakat süreçlerine kadar yayılan bir dalgalanma etkisi oluşturdu.
 
 ---
 
@@ -164,6 +164,16 @@ Fowler'ın dile getirdiği gibi, karmaşıklığı azaltmak teknik bir tercih de
 **Örnek:** Bir lojistik teknoloji şirketinde kargo takip sistemi on yıl boyunca geliştirilmişti. Sistemin belirli bir çekirdeğini gerçek anlamda anlayan tek bir kıdemli geliştirici kalmıştı. O geliştirici görevden ayrıldığında, ekip kritik bir modülü değiştirme konusunda aylarca tereddüt etti. Değişikliği kimse üstlenemiyordu çünkü bağımlılık haritası hiçbir zaman dokümante edilmemişti. Sonunda dış danışman desteğiyle yapılan analizin maliyeti, o değişikliği yapmanın tahmini maliyetinin birkaç katına ulaştı. Karmaşıklık, organizasyonun hareket kabiliyetini bloke etmişti.
 
 Karmaşıklık arttıkça sistemin davranışını öngörmek zorlaşır; bu durum yazılım ekiplerinin temkinli hareket etmesine neden olur. Karmaşıklık, yazılım geliştirmede lineer olmayan bir maliyet artışı yaratır <span class="bkz-ref" title="1. Brooks, F. P. (1995). The Mythical Man-Month.">(Bkz: 1)</span>.
+
+### 2.2.6 Bireysel Hız, Sistem Hızı: Yapay Zekâ ve Verimlilik Paradoksu
+
+Yapay zekâ (YZ) destekli araçlar, tek bir geliştiricinin belirli bir görevi tamamlama hızını önemli ölçüde artırabilir. Ancak bireysel hızdaki artış, sistemin teslimat hızına doğrudan yansımaz. Bir değişikliğin müşteriye ulaşması için kod yazımının yanı sıra gereksinimin netleşmesi, kararların alınması, kod incelemesi, test, entegrasyon, onay ve canlıya geçiş adımlarının da tamamlanması gerekir. Darboğaz bu adımlardan birindeyse, kod yazımını hızlandırmak yalnızca darboğazın önündeki kuyruğu büyütür.
+
+Ekonomi tarihinde bu durumun iki tanıdık karşılığı vardır. Birincisi Jevons Paradoksu'dur: bir kaynağın kullanımı verimlileştikçe, o kaynağa olan toplam talep azalmak yerine artabilir <span class="bkz-ref" title="13. Jevons, W. S. (1865). The Coal Question.">(Bkz: 13)</span>. Kod üretmek ucuzladıkça organizasyon daha fazla özellik, daha fazla entegrasyon ve daha fazla deneme talep eder; her yeni kod parçası ise bu bölümde ele alınan bağımlılık ve karmaşıklık yükünü büyütür. İkincisi dinamo etkisidir: elektrik motorları fabrikalara girdiğinde verimlilik artışı hemen gelmemiş; kazanç, fabrikalar buhar makinesine göre değil elektriğin olanaklarına göre yeniden tasarlandığında ortaya çıkmıştır <span class="bkz-ref" title="14. David, P. A. (1990). The Dynamo and the Computer: An Historical Perspective on the Modern Productivity Paradox. American Economic Review, 80(2).">(Bkz: 14)</span>. YZ'yi mevcut süreçlerin üzerine bir eklenti olarak koyan organizasyonlar da beklenen sıçramayı göremez; çünkü onay, koordinasyon ve doğrulama süreçleri değişmeden kalmıştır.
+
+Bu iki gözlem, bu bölümün temel iddiasını güçlendirir: yazılım geliştirme doğrusal bir üretim hattı değildir. Üretim hattı varsayımıyla bakıldığında kod yazımını hızlandırmak tüm süreci hızlandırmalıdır. Oysa yazılım geliştirmede asıl maliyet, kodun kendisinden çok kodun sistemle, kararlarla ve diğer ekiplerle etkileşiminde ortaya çıkar.
+
+**Örnek:** Bir sigorta yazılımı şirketinde YZ kodlama araçlarının yaygınlaşmasının ardından ekiplerin tamamladığı geliştirme görevi sayısı belirgin biçimde arttı. Altı ay sonra yapılan değerlendirmede, değişikliklerin müşteriye ulaşma süresinin neredeyse hiç kısalmadığı görüldü. Değişiklikler artık kod yazımında değil; iş birimlerinin onayında, test ortamı kuyruğunda ve entegrasyon testlerinde bekliyordu. Organizasyon zaten darboğaz olmayan adımı hızlandırmış; asıl bekleme noktalarına dokunmamıştı.
 
 ---
 
@@ -185,7 +195,7 @@ Bu nedenle kaliteyi azaltmak çoğu zaman hızlanmak değil, gelecekteki gelişt
 
 DeMarco ve Lister bu dinamiği çalışmalarında ayrıntılı biçimde inceler: kaliteyi düşürmek kısa vadede hız kazandırır gibi görünse de orta vadede ekipleri daha yavaş, daha kırılgan ve daha az öngörülebilir hale getirir <span class="bkz-ref" title="3. Taleb, N. N. (2007). The Black Swan.">(Bkz: 3)</span>. Öte yandan yüksek kaliteli yazılım geliştiren ekiplerin uzun vadede daha hızlı teslimat yaptığı; çünkü değişiklik maliyetlerinin, hata düzeltme sürelerinin ve koordinasyon yükünün düşük kaldığı görülmektedir.
 
-**Örnek:** Bir üretim yönetim yazılımı geliştiren ekip, yatırımcı sunumu öncesinde teslim tarihine yetişebilmek için otomatik testlerin önemli bir kısmını devre dışı bırakarak sistemi yayına aldı. İlk sürüm planlanandan iki hafta önce teslim edildi ve kısa vadede süreç başarılı görünüyordu.
+**Örnek:** Bir e-ticaret platformu geliştiren ekip, büyük bir kampanya lansmanı öncesinde teslim tarihine yetişebilmek için otomatik testlerin önemli bir kısmını devre dışı bırakarak sistemi yayına aldı. İlk sürüm planlanandan iki hafta önce teslim edildi ve kısa vadede süreç başarılı görünüyordu.
 
 Ancak sonraki aylarda ekip her yeni sürüm öncesinde uzun manuel test süreçleri yürütmek zorunda kaldı. Daha önce dakikalar içinde doğrulanabilen değişiklikler artık günler süren kontroller gerektiriyordu. Küçük özellik eklemeleri bile beklenmedik yan etkilere neden oluyor, ekip her yayında yeni hataların ortaya çıkmasından çekiniyordu. Zamanla geliştirme hızı giderek düştü; çünkü ekip yeni özellik geliştirmekten çok, sistemin mevcut davranışını korumaya çalışıyordu.
 
@@ -276,6 +286,16 @@ Bir süre sonra refactoring görevleri neredeyse hiç açılmaz hale geldi. Ekip
 
 Kalite, yazılım geliştirmede opsiyonel bir özellik değil, sistemin sürdürülebilirliği için yapısal bir zorunluluktur. Kaliteye yapılan yatırımın etkisi çoğu zaman anlık teslim hızında değil, sistemin zaman içindeki değiştirilebilirliğinde ortaya çıkar. Bu nedenle kalite maliyeti kısa vadede görünürken, getirisi uzun vadeli geliştirme kapasitesi, öngörülebilirlik ve organizasyonel sürdürülebilirlik olarak geri döner.
 
+### 2.3.6 Kod Tamamlandı, Hazır Değil: Yapay Zekâ Çağında Doğrulama ve Geçerleme
+
+YZ destekli geliştirmede "kod tamamlandı" ile "üretime hazır" arasındaki mesafe açılır. YZ kısa sürede derlenen, çalışan ve ilk bakışta doğru görünen kod üretebilir. Ancak bu kodun mevcut iş kurallarıyla tutarlı olup olmadığı, sınır durumlarda nasıl davrandığı, güvenlik ve performans gereksinimlerini karşılayıp karşılamadığı ayrı birer sorudur. Kodun hızla üretilmesi bu soruların yanıtlanma maliyetini düşürmez; tam tersine yanıtlanması gereken soru sayısını artırır.
+
+Yazılım mühendisliğinde bu ayrım iki kavramla ifade edilir: doğrulama (verification) sistemin doğru biçimde inşa edilip edilmediğini, geçerleme (validation) ise doğru sistemin inşa edilip edilmediğini sorgular <span class="bkz-ref" title="15. Boehm, B. W. (1984). Verifying and Validating Software Requirements and Design Specifications. IEEE Software, 1(1).">(Bkz: 15)</span>. YZ çağında her iki soru da önem kazanır. Testlerden geçen, sürekli entegrasyon hattında yeşil görünen bir sistem, yanlış anlaşılmış bir gereksinimi kusursuz biçimde gerçekleştirmiş olabilir. Uygulama ucuzladıkça, yanlış şeyi hızla inşa etmek de ucuzlar.
+
+Bu nedenle sağlıklı ekipler YZ'nin ürettiği çıktıya güvenmek yerine, o çıktıyı doğrulayan sisteme güvenir. İlke basittir: üretim olasılıksal olabilir; kabul deterministik olmalıdır. Kodun nasıl üretildiğinden bağımsız olarak kabul ölçütleri önceden tanımlanmış; otomatik testlerle ve açık davranış beklentileriyle doğrulanabilir olmalıdır. Bu yaklaşımda testler ve spesifikasyonlar YZ çağında daha az değil, daha fazla önem taşır; çünkü üretilen kodun ne yapması gerektiğini tanımlayan güvenilir kaynak onlardır.
+
+**Örnek:** Bir e-ticaret şirketinde geliştirici, indirim hesaplama modülüne yeni bir kampanya türünü YZ destekli bir araçla birkaç saat içinde ekledi. Kod derlendi, mevcut birim testlerinden geçti ve kod incelemesinde temiz göründü. Canlıya çıkıştan sonra, aynı sepette birden fazla kampanyanın birleştiği durumlarda indirimlerin üst üste uygulandığı fark edildi. Mevcut testler bu birleşimi hiç tanımlamamıştı; YZ de iş kuralını bilmediği için en olası davranışı üretmişti. Sorun kodun kalitesinde değil, kabul ölçütlerinin tanımlanmamış olmasındaydı.
+
 ---
 
 ## 2.4 Teknik Borç ve Uzun Vadeli Maliyet
@@ -288,7 +308,7 @@ Yazılım geliştirmede teknik borç çoğu zaman yalnızca kod kalitesi problem
 
 Teknik borç, yazılım geliştirme sürecinde kısa vadeli teslimat hedefleri uğruna alınan ve gelecekte ek maliyet üreten kararların birikimidir. Bu tanımın önemli bir sonucu vardır: teknik borç yalnızca kod kalitesi değil, karar kalitesi problemidir. Kod, bu kararların yalnızca görünen yüzüdür.
 
-Kavramsal karışıklık genellikle burada başlar. Kurumlar teknik borcu yalnızca “kötü kod” veya “eski teknoloji” başlığına indirger. Oysa borç farklı katmanlarda oluşabilir:
+Kavramsal karışıklık genellikle burada başlar. Kurumlar teknik borcu yalnızca "kötü kod" veya "eski teknoloji" başlığına indirger. Oysa borç farklı katmanlarda oluşabilir:
 
 * Mimari borç: geçici tasarımın kalıcılaşması, sorumluluk sınırlarının bulanıklaşması.
 * Test borcu: kritik davranışların otomatik güvenceye bağlanmaması.
@@ -296,7 +316,7 @@ Kavramsal karışıklık genellikle burada başlar. Kurumlar teknik borcu yalnı
 * Operasyon borcu: gözlemlenebilirlik, alarm ve izleme eksikleri.
 * Bilgi borcu: dokümantasyon eksikliği ve kritik bilginin kişilerde kilitlenmesi.
 
-Bu türlerin ortak özelliği aynıdır: bugün görünmez olan risk, yarın değişiklik maliyeti olarak geri döner. Bu nedenle teknik borç “hata” üretmeden de birikebilir. Sistem çalışıyor olabilir; ancak değiştirilebilirlik kapasitesi sessizce azalıyor olabilir <span class="bkz-ref" title="7. Cunningham, W. (1992). The WyCash Portfolio Management System. | 8. Fowler, M. (2018). Technical Debt Quadrant.">(Bkz: 7, 8)</span>.
+Bu türlerin ortak özelliği aynıdır: bugün görünmez olan risk, yarın değişiklik maliyeti olarak geri döner. Bu nedenle teknik borç "hata" üretmeden de birikebilir. Sistem çalışıyor olabilir; ancak değiştirilebilirlik kapasitesi sessizce azalıyor olabilir <span class="bkz-ref" title="7. Cunningham, W. (1992). The WyCash Portfolio Management System. | 8. Fowler, M. (2018). Technical Debt Quadrant.">(Bkz: 7, 8)</span>.
 
 Buradaki önemli ayrımlardan biri, her teknik borcun kötü niyetli veya irrasyonel bir karar sonucu oluşmamasıdır. Bazı durumlarda organizasyonlar bilinçli olarak kısa vadeli hız kazanımı için teknik borç alabilir. Özellikle erken aşama ürünlerde, kritik teslim tarihlerinde veya belirsiz iş ihtiyaçlarında bu tercih stratejik olabilir. Sorun çoğu zaman borcun varlığından değil; görünmez hale gelmesinden, sürekli ertelenmesinden ve geri ödeme kapasitesinin kaybedilmesinden doğar.
 
@@ -341,7 +361,7 @@ Buradaki kritik ayrım şudur: bu tablo çoğu zaman ekip disiplininin zayıflı
 
 Teknik borç yalnızca sistemi değil, ekiplerin zihinsel çalışma biçimini de etkiler. Her değişiklik öncesinde büyüyen etki analizi ihtiyacı, geliştiricilerin dikkat kapasitesini rutin bakım faaliyetlerine tüketmeye başlar. Zamanla ekipler yeni özellik geliştirmekten çok, mevcut davranışı güvenli biçimde korumaya odaklanır.
 
-**Örnek:** Üretim planlama yazılımı geliştiren bir ekip üç ardışık döngüde teslim hedefini kaçırdı. İlk yorum planlama hatasıydı. İnceleme derinleştirildiğinde, gecikmelerin ortak nedeninin eski planlama çekirdeğine yapılan küçük değişikliklerin beklenmedik yan etkiler üretmesi olduğu görüldü. Ekip zamanı, yeni fonksiyon geliştirmekten çok mevcut davranışı doğrulamaya ve risk analizine gidiyordu. Operasyonel belirtiler, teknik borcun birikmiş etkisini görünür hale getirmişti.
+**Örnek:** Rota planlama yazılımı geliştiren bir lojistik ekibi art arda birkaç döngüde teslim hedefini kaçırdı. İlk yorum planlama hatasıydı. İnceleme derinleştirildiğinde, gecikmelerin ortak nedeninin eski rota planlama çekirdeğine yapılan küçük değişikliklerin beklenmedik yan etkiler üretmesi olduğu görüldü. Ekip zamanı, yeni fonksiyon geliştirmekten çok mevcut davranışı doğrulamaya ve risk analizine gidiyordu. Operasyonel belirtiler, teknik borcun birikmiş etkisini görünür hale getirmişti.
 
 ---
 
@@ -356,7 +376,7 @@ Geç fark edilmenin başlıca nedenleri şunlardır:
 * Başarı yanılsaması: erken dönem teslim başarısı, yapısal riski görünmez kılar.
 * Yerel optimizasyon: ekipler kendi hedeflerini tuttururken sistem düzeyinde verim düşebilir.
 
-Bu nedenle teknik borç çoğu kurumda “aniden ortaya çıkan” bir sorun gibi algılanır. Oysa çoğu durumda sorun ani değildir; yalnızca birikim görünür eşiği geçmiştir. Eşik aşıldığında maliyet artışı hızlanır ve geri dönüş daha zor hale gelir <span class="bkz-ref" title="8. Fowler, M. (2018). Technical Debt Quadrant. | 9. Forsgren, N., Humble, J., &amp; Kim, G. (2018). Accelerate.">(Bkz: 8, 9)</span>.
+Bu nedenle teknik borç çoğu kurumda "aniden ortaya çıkan" bir sorun gibi algılanır. Oysa çoğu durumda sorun ani değildir; yalnızca birikim görünür eşiği geçmiştir. Eşik aşıldığında maliyet artışı hızlanır ve geri dönüş daha zor hale gelir <span class="bkz-ref" title="8. Fowler, M. (2018). Technical Debt Quadrant. | 9. Forsgren, N., Humble, J., &amp; Kim, G. (2018). Accelerate.">(Bkz: 8, 9)</span>.
 
 **Örnek:** Kurumsal insan kaynakları yazılımının ürün yöneticisi, Jira dashboard’unda aylık teslim edilen özellik sayısını izliyordu. İlk dönemde metrikler olumlu görünüyordu. Ancak zamanla müşteri taleplerine yanıt süresi uzamaya, sprint içi belirsizlik büyümeye ve acil düzeltme oranı artmaya başladı. İlk yorum talep yoğunluğu oldu. Daha sonra yapılan analiz, asıl sapmanın teknik borç kaynaklı değişiklik maliyeti artışından geldiğini gösterdi. Görünür teslim metrikleri güçlü kaldığı için problem uzun süre fark edilmemişti.
 
@@ -364,6 +384,16 @@ Teknik borcun geç fark edilmesi, onu yalnızca teknik bir konu olmaktan çıkar
 
 
 ---
+### 2.4.5 Anlama Borcu: Çalışan Ama Anlaşılmayan Kod
+
+Teknik borç, bilinçli ya da bilinçsiz alınan tasarım kararlarının gelecekteki değişiklik maliyetine yansımasıdır. YZ destekli geliştirme, bunun yanına daha sessiz bir borç türü ekler: anlama borcu. Anlama borcu; sistemde çalışan, testlerden geçen, hatta temiz görünen, ancak ekipte hiç kimsenin neden o biçimde yazıldığını, hangi varsayımlara dayandığını ve değiştirildiğinde neyi etkileyeceğini gerçek anlamda bilmediği kodun birikmesidir. Bazı kaynaklarda bilgi borcu olarak da adlandırılır.
+
+Peter Naur, programlamayı bir "teori inşası" olarak tanımlar: bir yazılım sisteminin asıl değeri kodun kendisinde değil, onu geliştiren ekibin zihnindeki ortak anlayıştadır. Kodun neden böyle olduğunu, hangi gerçek dünya ihtiyacına karşılık geldiğini ve nasıl değişebileceğini bilen bu anlayış kaybolduğunda, kod yerinde dursa bile sistem fiilen ölmeye başlar <span class="bkz-ref" title="16. Naur, P. (1985). Programming as Theory Building. Microprocessing and Microprogramming, 15(5).">(Bkz: 16)</span>. Geleneksel geliştirmede bu teori, kodu yazma sürecinde kendiliğinden oluşur. YZ kodu ürettiğinde ise yazma süreci kısalır ve teori oluşmadan kod sisteme girebilir.
+
+Anlama borcu, teknik borçla aynı faiz mekanizmasıyla çalışır; ancak daha geç fark edilir. Kod kalitesi metrikleri iyi görünebilir, hatalar azalmış bile olabilir. Borç; ilk ciddi değişiklik talebinde, ilk beklenmedik arızada ya da sistemi bilen tek kişinin ayrılmasında görünür hale gelir. O noktada ekip, kendi sistemini yeniden keşfetmek zorunda kalır. Bu nedenle YZ çağında sağlıklı bir kural şudur: açıklanamayan bir değişiklik, testlerden geçse bile hazır değildir.
+
+**Örnek:** Bir SaaS şirketinde bir ekip, raporlama altyapısını YZ destekli araçlarla birkaç hafta içinde yeniden yazdı. Yeni yapı daha hızlıydı ve testlerden sorunsuz geçti. Bir yıl sonra büyük bir müşterinin özel raporlama ihtiyacı geldiğinde ekip, hesaplama mantığının bazı kısımlarının neden o biçimde kurulduğunu açıklayamadı. Altyapıyı yeniden yazan geliştiriciler başka projelere geçmişti; geride bıraktıkları kod okunaklıydı, ama kararların gerekçesi hiçbir yerde yoktu. Ekip, iki haftalık bir değişiklik için önce bir aylık bir keşif çalışması yapmak zorunda kaldı.
+
 ## 2.5 Görünmeyen Riskler
 
 Yazılım sistemlerinde risklerin önemli bir kısmı, rutin çalışma koşullarında kendini göstermez. Bu riskler; belirli bir yük eşiği aşıldığında, bir güvenlik açığı istismar edildiğinde veya sistem beklenmedik bir kullanım biçimiyle karşılaştığında görünür hale gelir. Ancak bu görünürlük çoğu zaman gecikmeli ve yüksek maliyetli olur. Bu bölüm, yazılım geliştirme sürecinde sıklıkla göz ardı edilen bu risklerin nasıl biriktiğini, neden geç fark edildiğini ve organizasyonlar açısından ne anlam taşıdığını ele almaktadır.
@@ -386,7 +416,7 @@ Simon'ın tasarım pratiği üzerine geliştirdiği çerçeve bu konuda bir çı
 
 Performans sorunları, yazılım geliştirme sürecinde en sistemli biçimde göz ardı edilen risk kategorilerinden biridir. Geliştirme ortamlarında çalışan sistemler, gerçek kullanım koşullarının küçük bir kesitini simüle eder: veri hacmi sınırlıdır, eş zamanlı kullanıcı sayısı düşüktür ve ağ gecikmeleri genellikle göz ardı edilebilir düzeydedir. Bu koşullarda sorunsuz çalışan bir sistem, canlı ortamda tamamen farklı bir davranış sergileyebilir.
 
-Performans sorunlarının karakteristik özelliği, doğrusal olmayan biçimde ortaya çıkmalarıdır. Bir veritabanı sorgusu, on binlerce kayıt içinden arama yaparken milisaniyeler içinde sonuç döndürebilir. Aynı sorgu, yüz milyonlarca kayıt arasında çalışırken dakikalar alabilir. Bu geçiş ani değildir; belirli bir veri eşiğine ulaşıldığında sistem davranışı dramatik biçimde değişir. Geliştirme ortamında bu eşiğe hiç ulaşılmadıysa sorun görünmez kalır.
+Performans sorunlarının karakteristik özelliği, doğrusal olmayan biçimde ortaya çıkmalarıdır. Bir veritabanı sorgusu on binlerce kayıt içinde milisaniyeler içinde sonuç döndürebilirken, yüz milyonlarca kayıt arasında dakikalar alabilir. Belirli bir veri eşiğine ulaşıldığında sistem davranışı dramatik biçimde değişir. Geliştirme ortamında bu eşiğe hiç ulaşılmadıysa sorun görünmez kalır.
 
 McConnell, bu bağlamda savunmacı programlama pratiğinin (defensive programming) önemine dikkat çeker: geliştiricilerin beklenmedik girdi büyüklüklerini, sınır koşullarını ve uç senaryoları sistematik biçimde ele alması gerektiğini vurgular <span class="bkz-ref" title="11. McConnell, S. (2004). Code Complete (2nd ed.).">(Bkz: 11)</span>. Savunmacı programlama yalnızca hata yönetimini değil, sistemin olası kullanım koşullarına hazır olmasını da kapsar.
 
@@ -428,6 +458,16 @@ Forsgren, Humble ve Kim'in araştırması, yüksek performanslı yazılım ekipl
 
 **Örnek:** Bir fintech şirketinin altyapı ekibi, her büyük canlıya çıkış öncesinde iki günlük bir stabilite penceresi uyguluyordu. Bu dönemde sistem olağan yükün üzerinde test ediliyor, güvenlik kontrollerinden geçiriliyor ve olası başarısızlık noktaları gözlemleniyordu. Ürün ve iş geliştirme ekipleri zaman zaman bu süreci teslimatı yavaşlatan bir engel olarak değerlendirdi. Ancak bir yayın döngüsünde stabilite testleri sırasında, yalnızca yüksek eş zamanlı yük altında tetiklenen bir veri tutarsızlığı senaryosu tespit edildi. Sorunun canlı ortamda ortaya çıkmış olması, hem veri bütünlüğü hem de müşteri güveni açısından ciddi bir krize dönüşebilirdi. Görünüşte teslimatı yavaşlatan bu süreç, aslında görünmez bir riski üretim öncesinde görünür kılmıştı.
 
+### 2.5.6 Yapay Zekâyla Gelen Yeni Risk Yüzeyi
+
+YZ destekli geliştirme, görünmeyen risklerin listesine yeni maddeler ekler. Bunların ilki, üretilen kodun kendisidir. Güvenlikle ilgili senaryolarda YZ kod asistanlarının ürettiği programları inceleyen akademik bir çalışmada, üretilen programların yaklaşık yüzde 40'ında güvenlik açığı tespit edilmiştir <span class="bkz-ref" title="17. Pearce, H., Ahmad, B., Tan, B., Dolan-Gavitt, B., Karri, R. (2022). Asleep at the Keyboard? Assessing the Security of GitHub Copilot&#x27;s Code Contributions. IEEE Symposium on Security and Privacy.">(Bkz: 17)</span>. YZ, eğitildiği kodun yaygın kalıplarını tekrar eder; bu kalıpların bir kısmı ise güvensizdir. Üstelik üretilen kod okunaklı ve kendinden emin göründüğü için, açıklar inceleme sırasında daha kolay gözden kaçabilir.
+
+İkinci risk, YZ'nin ürünün veya geliştirme sürecinin içine bir aktör olarak yerleşmesidir. YZ ajanları dosya okuyabilir, komut çalıştırabilir, harici sistemlere erişebilir. Bu durumda dışarıdan gelen bir metin, bir doküman ya da bir web sayfası modele gizli talimatlar taşıyabilir. Bu tür saldırılar "prompt injection" olarak adlandırılır ve YZ uygulamaları için en kritik risklerin başında gösterilir <span class="bkz-ref" title="18. OWASP (2025). OWASP Top 10 for Large Language Model Applications.">(Bkz: 18)</span>. Buradan çıkan ilke açıktır: bir istem (prompt) güvenlik sınırı değildir. Güvenlik; yetkilerin en aza indirilmesi, kritik işlemlerin denetlenebilir ve geri alınabilir olması ve YZ'nin etki alanının (blast radius) bilinçli biçimde sınırlandırılmasıyla sağlanır.
+
+Üçüncü risk insan tarafındadır. YZ'nin önerdiği değişiklikleri onaylama yükü arttıkça, onay mekanizması zamanla bir alışkanlığa dönüşebilir. İnsan döngüde görünür, ancak gerçek bir inceleme yapılmamaktadır. Bu "onay yorgunluğu", güvenliği kâğıt üzerinde sağlayıp pratikte ortadan kaldırır. Bu nedenle yazılım ekiplerinin YZ araçlarına yetki verirken temkinli davranması, bu bölümde ele alınan "gereksiz" önlemlerin YZ çağındaki karşılığıdır: görünmeyen bir riski, görünür hale gelmeden yönetme çabası.
+
+**Örnek:** Bir müşteri destek platformunda, gelen talepleri özetleyip ilgili ekibe yönlendiren bir YZ ajanı devreye alındı. Ajanın işini yapabilmesi için müşteri kayıtlarına okuma ve yazma yetkisi verilmişti. Bir güvenlik testinde, destek talebinin metnine gizlenmiş bir talimatın ajanı başka bir müşterinin kayıtlarını özetlemeye yönlendirebildiği görüldü. Sorun modelin "kötü niyetli" olması değildi; ajana, yaptığı iş için gerekenden çok daha geniş bir yetki verilmişti.
+
 ---
 
 ## Sonuç
@@ -454,6 +494,13 @@ Bu bölüm, bir sonraki bölüm için kritik bir eşik niteliğindedir: Teknik g
 9. Forsgren, N., Humble, J., & Kim, G. (2018). Accelerate.
 10. Lehman, M. M. (1980). Programs, Life Cycles, and Laws of Software Evolution.
 11. McConnell, S. (2004). Code Complete (2nd ed.).
+12. Conway, M. E. (1968). How Do Committees Invent? Datamation.
+13. Jevons, W. S. (1865). The Coal Question.
+14. David, P. A. (1990). The Dynamo and the Computer: An Historical Perspective on the Modern Productivity Paradox. American Economic Review, 80(2).
+15. Boehm, B. W. (1984). Verifying and Validating Software Requirements and Design Specifications. IEEE Software, 1(1).
+16. Naur, P. (1985). Programming as Theory Building. Microprocessing and Microprogramming, 15(5).
+17. Pearce, H., Ahmad, B., Tan, B., Dolan-Gavitt, B., Karri, R. (2022). Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions. IEEE Symposium on Security and Privacy.
+18. OWASP (2025). OWASP Top 10 for Large Language Model Applications.
 
 ---
 

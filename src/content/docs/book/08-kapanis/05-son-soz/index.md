@@ -4,6 +4,8 @@ title: "Son Söz"
 
 Yazılım geliştirme koddan ibaret değildir. Kod, organizasyonel kararların teknik biçim almış halidir.
 
+Yapay zekâ çağında bu cümle daha da önem kazanıyor. Kodu artık makineler de yazabiliyor; ancak hangi kodun yazılması gerektiğine, neyin yeterince doğrulandığına ve sonuçların sahipliğini kimin üstlendiğine yine organizasyonlar karar veriyor. Yapay zekâ kodu ucuzlattı; anlaşmayı, güveni ve sahipliği ucuzlatmadı.
+
 Bir sistemin mimarisi, çoğu zaman organizasyonun iletişim biçimini yansıtır. Bir ürünün karmaşıklığı, çoğu zaman yıllar boyunca verilen küçük istisna kararlarının toplamıdır. Bir ekibin temkinli davranışı, çoğu zaman geçmişte ödenmiş operasyonel bedellerin hafızasıdır. Bir gecikme, çoğu zaman yalnızca efor eksikliği değil, görünmeyen bağımlılıkların ve geç fark edilen varsayımların sonucudur.
 
 Bu gerçekliği görmek, kimseyi tamamen haklı ya da tamamen haksız yapmaz. Tam tersine, daha olgun bir noktaya davet eder: problemi taraflarda değil, tarafların içinde çalıştığı sistemde aramak.

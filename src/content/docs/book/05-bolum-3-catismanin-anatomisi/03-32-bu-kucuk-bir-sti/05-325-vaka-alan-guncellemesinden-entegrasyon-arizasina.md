@@ -5,9 +5,9 @@ sidebar:
   hidden: true
 ---
 
-Kurumsal bir ERP ürününde belirli bir alanın etiket ve değer formatı güncellendi. Talep, arayüz odaklı küçük bir değişiklik olarak planlandı ve kısa sürede tamamlandı.
+Bir sigorta şirketinin poliçe yönetim sisteminde belirli bir alanın etiket ve değer formatı güncellendi. Talep, arayüz odaklı küçük bir değişiklik olarak planlandı ve kısa sürede tamamlandı.
 
-Canlıya alımdan sonra dış entegrasyon servislerinden biri yeni formatı okuyamadı; sipariş akışında kesinti oluştu. İnceleme, değişikliğin entegrasyon sözleşmesine dolaylı etkisini ortaya çıkardı.
+Canlıya alımdan sonra dış entegrasyon servislerinden biri yeni formatı okuyamadı; acentelere poliçe aktarımında kesinti oluştu. İnceleme, değişikliğin entegrasyon sözleşmesine dolaylı etkisini ortaya çıkardı.
 
 Teknik ekip, bu riski baştan geniş kapsamlı değerlendirmek istediğini belirtti. İş tarafı ise ilk planın neden bu kadar dar kurulduğunu sorguladı. Tartışma hızla "kim yanlış plan yaptı" düzeyine taşındı.
 

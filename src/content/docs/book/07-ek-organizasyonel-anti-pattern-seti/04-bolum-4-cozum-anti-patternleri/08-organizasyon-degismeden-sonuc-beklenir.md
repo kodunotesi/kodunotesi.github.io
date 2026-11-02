@@ -12,6 +12,4 @@ sidebar:
 
 **Daha sağlıklı soru:** Beklediğimiz yeni sonucu hangi yeni sistem davranışı üretecek?
 
----
-
 
